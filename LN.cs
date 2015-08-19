@@ -5,6 +5,7 @@ public class LN
 	// 중간에 들어간 text 같은 것은 프로그램에서 쓰는거라 번역안하셔도 됩니다.
 	// 명사가 들어간다고 생각해주시면 될듯.
 	// 
+	// 따옴표 안쪽부분만 번역하세유
 	
 	public static string KrTailString(string name)
 	{
