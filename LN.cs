@@ -5639,19 +5639,19 @@ public class LN
 			case 2755:
 				return "Living Ultrabright Fire Block";
 			case 2756:
-				return "Gender Change Potion";
+				return "성전환 물약";
 			case 2757:
-				return "Vortex Helmet";
+				return "Vortex 투구";
 			case 2758:
-				return "Vortex Breastplate";
+				return "Vortex 흉갑";
 			case 2759:
-				return "Vortex Leggings";
+				return "Vortex 각반";
 			case 2760:
-				return "Nebula Helmet";
+				return "성운 투구";
 			case 2761:
-				return "Nebula Breastplate";
+				return "성운 흉갑";
 			case 2762:
-				return "Nebula Leggings";
+				return "성운 각반";
 			case 2763:
 				return "Solar Flare Helmet";
 			case 2764:
@@ -5905,19 +5905,19 @@ public class LN
 			case 2888:
 				return "The Bee's Knees";
 			case 2889:
-				return "Gold Bird";
+				return "황금 새";
 			case 2890:
-				return "Gold Bunny";
+				return "황금 토끼";
 			case 2891:
-				return "Gold Butterfly";
+				return "황금 나비";
 			case 2892:
-				return "Gold Frog";
+				return "황금 개구리";
 			case 2893:
-				return "Gold Grasshopper";
+				return "황금 메뚜기";
 			case 2894:
-				return "Gold Mouse";
+				return "황금 쥐";
 			case 2895:
-				return "Gold Worm";
+				return "황금 벌레";
 			case 2896:
 				return "Sticky Dynamite";
 			case 2897:
@@ -6127,7 +6127,7 @@ public class LN
 			case 2999:
 				return "Bewitching Table";
 			case 3000:
-				return "Alchemy Table";
+				return "연금술 테이블";
 			#endregion
 			#region 3001 ~ xxxx (1.3~)
 			case 3001:
@@ -6135,9 +6135,9 @@ public class LN
 			case 3002:
 				return "Spelunker Glowstick";
 			case 3003:
-				return "Bone Arrow";
+				return "뼈 화살";
 			case 3004:
-				return "Bone Torch";
+				return "뼈 횃불";
 			case 3005:
 				return "Vine Rope Coil";
 			case 3006:
@@ -6219,7 +6219,7 @@ public class LN
 			case 3044:
 				return "Music Box (Lunar Boss)";
 			case 3045:
-				return "Rainbow Torch";
+				return "무지개 횃불";
 			case 3046:
 				return "Cursed Campfire";
 			case 3047:
