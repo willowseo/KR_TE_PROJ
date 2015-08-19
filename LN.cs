@@ -15723,5 +15723,854 @@ public class LN
 			return "'Tossing may be difficult.'";
 			IL_3341:
 			return "'Great for impersonating devs!'";
+		}
+	}
+	
+	public static string toolTip2(int l)
+	{
+		
+		if (l <= 1613)
+		{
+			if (l <= 953)
+			{
+				if (l <= 559)
+				{
+					if (l <= 230)
+					{
+						if (l <= 98)
+						{
+							if (l == 65)
+							{
+								return "'Forged with the fury of heaven'";
+							}
+							if (l == 98)
+							{
+								return "'Half shark, half gun, completely awesome.'";
+							}
+						}
+						else
+						{
+							if (l == 213)
+							{
+								return "Increases alchemy plant collection when used to gather";
+							}
+							switch (l)
+							{
+							case 228:
+								return "4% increased magic critical strike chance";
+							case 229:
+								return "4% increased magic critical strike chance";
+							case 230:
+								return "4% increased magic critical strike chance";
+							}
+						}
+					}
+					else if (l <= 434)
+					{
+						switch (l)
+						{
+						case 371:
+							return "9% increased magic critical strike chance";
+						case 372:
+							return "12% increased melee speed";
+						case 373:
+							return "6% increased ranged critical strike chance";
+						case 374:
+							return "3% increased critical strike chance";
+						case 375:
+							return "10% increased movement speed";
+						case 376:
+							return "15% increased magic damage";
+						case 377:
+							return "10% increased melee damage";
+						case 378:
+							return "7% increased ranged critical strike chance";
+						case 379:
+							return "5% increased damage";
+						case 380:
+							return "3% increased critical strike chance";
+						case 381:
+						case 382:
+						case 383:
+						case 384:
+						case 385:
+						case 386:
+						case 387:
+						case 388:
+						case 390:
+						case 391:
+						case 392:
+						case 393:
+						case 398:
+						case 403:
+							break;
+						case 389:
+							return "'Find your inner pieces'";
+						case 394:
+							return "Greatly extends underwater breathing";
+						case 395:
+							return "Tells the time";
+						case 396:
+							return "Grants immunity to fire blocks";
+						case 397:
+							return "Grants immunity to fire blocks";
+						case 399:
+							return "Increases jump height";
+						case 400:
+							return "11% increased magic damage and critical strike chance";
+						case 401:
+							return "14% increased melee damage";
+						case 402:
+							return "8% increased ranged critical strike chance";
+						case 404:
+							return "5% increased movement speed";
+						case 405:
+							return "The wearer can run super fast";
+						default:
+							if (l == 434)
+							{
+								return "Only the first shot consumes ammo";
+							}
+							break;
+						}
+					}
+					else
+					{
+						if (l == 533)
+						{
+							return "'Minishark's older brother'";
+						}
+						switch (l)
+						{
+						case 552:
+							return "8% increased movement speed";
+						case 553:
+							return "8% increased ranged critical strike chance";
+						case 555:
+							return "Automatically use mana potions when needed";
+						case 558:
+							return "12% increased magic damage and critical strike chance";
+						case 559:
+							return "10% increased melee haste";
+						}
+					}
+				}
+				else if (l <= 898)
+				{
+					if (l <= 748)
+					{
+						if (l == 686)
+						{
+							return "7% increased melee attack speed";
+						}
+						if (l == 748)
+						{
+							return "Hold UP to rocket faster";
+						}
+					}
+					else
+					{
+						switch (l)
+						{
+						case 771:
+							return "Small blast radius. Will not destroy tiles";
+						case 772:
+							return "Small blast radius. Will destroy tiles";
+						case 773:
+							return "Large blast radius. Will not destroy tiles";
+						case 774:
+							return "Large blast radius. Will destroy tiles";
+						case 775:
+							return "Increases running speed";
+						case 776:
+							return "Can mine Mythril and Orichalcum";
+						case 777:
+							return "Can mine Adamantite and Titanium";
+						case 778:
+							break;
+						case 779:
+							return "Uses colored solution";
+						case 780:
+							return "Spreads the Purity";
+						case 781:
+							return "Spreads the Hallow";
+						case 782:
+							return "Spreads the Corruption";
+						case 783:
+							return "Spreads Glowing Mushrooms";
+						case 784:
+							return "Spreads the Crimson";
+						default:
+							switch (l)
+							{
+							case 897:
+								return "12% increased melee speed";
+							case 898:
+								return "The wearer can run incredibly fast";
+							}
+							break;
+						}
+					}
+				}
+				else if (l <= 929)
+				{
+					switch (l)
+					{
+					case 905:
+						return "Higher valued coins do more damage";
+					case 906:
+						break;
+					case 907:
+						return "Grants immunity to fire blocks";
+					case 908:
+						return "Grants immunity to fire blocks and 7 seconds of immunity to lava";
+					default:
+						if (l == 929)
+						{
+							return "For use with cannon";
+						}
+						break;
+					}
+				}
+				else
+				{
+					switch (l)
+					{
+					case 936:
+						return "12% increased damage and melee speed";
+					case 937:
+						break;
+					case 938:
+						return "Only active above 25% life";
+					default:
+						if (l == 950)
+						{
+							return "Ice will not break when you fall on it";
+						}
+						if (l == 953)
+						{
+							return "Improved ability if combined with Shoe Spikes";
+						}
+						break;
+					}
+				}
+			}
+			else if (l <= 1254)
+			{
+				if (l <= 1005)
+				{
+					if (l <= 977)
+					{
+						switch (l)
+						{
+						case 960:
+							return "4% increased magic critical strike chance";
+						case 961:
+							return "4% increased magic critical strike chance";
+						case 962:
+							return "4% increased magic critical strike chance";
+						default:
+							switch (l)
+							{
+							case 975:
+								return "Improved ability if combined with Climbing Claws";
+							case 977:
+								return "Double tap a direction";
+							}
+							break;
+						}
+					}
+					else
+					{
+						switch (l)
+						{
+						case 982:
+							return "Increases mana regeneration rate";
+						case 983:
+							return "Increases jump height";
+						case 984:
+							return "Gives a chance to dodge attacks";
+						default:
+							switch (l)
+							{
+							case 997:
+								return "'To use: Place silt/slush/fossils in the extractinator'";
+							case 1001:
+								return "6% increased melee critical strike chance";
+							case 1002:
+								return "20% chance to not consume ammo";
+							case 1003:
+								return "16% increased magic damage";
+							case 1004:
+								return "7% increased critical strike chance";
+							case 1005:
+								return "5% increased movement speed";
+							}
+							break;
+						}
+					}
+				}
+				else if (l <= 1131)
+				{
+					if (l == 1123)
+					{
+						return "Small chance to cause confusion";
+					}
+					if (l == 1131)
+					{
+						return "Press UP to change gravity";
+					}
+				}
+				else
+				{
+					switch (l)
+					{
+					case 1159:
+						return "Increases minion damage by 10%";
+					case 1160:
+						return "Increases minion damage by 10%";
+					case 1161:
+						return "Increases minion damage by 10%";
+					case 1162:
+					case 1165:
+					case 1166:
+						break;
+					case 1163:
+						return "Increases jump height";
+					case 1164:
+						return "Increases jump height";
+					case 1167:
+						return "Increases the knockback of your minions";
+					default:
+						switch (l)
+						{
+						case 1205:
+							return "12% increased melee speed";
+						case 1206:
+							return "9% increased ranged critical strike chance";
+						case 1207:
+							return "Increases maximum mana by 60";
+						case 1208:
+							return "2% increased critical strike chance";
+						case 1209:
+							return "1% increased critical strike chance";
+						case 1210:
+							return "7% increased movement and melee speed";
+						case 1211:
+							return "8% increased movement speed";
+						case 1212:
+							return "Increases maximum mana by 80";
+						case 1213:
+						case 1214:
+							break;
+						case 1215:
+							return "8% increased melee speed";
+						case 1216:
+							return "7% increased ranged critical strike chance";
+						case 1217:
+							return "Increases maximum mana by 100";
+						case 1218:
+							return "3% increased critical strike chance";
+						case 1219:
+							return "6% increased movement speed";
+						default:
+							switch (l)
+							{
+							case 1249:
+								return "Releases bees when damaged";
+							case 1250:
+								return "Increases jump height and negates fall damage";
+							case 1251:
+								return "Increases jump height and negates fall damage";
+							case 1252:
+								return "Increases jump height and negates fall damage";
+							case 1254:
+								return "Right click to zoom out";
+							}
+							break;
+						}
+						break;
+					}
+				}
+			}
+			else if (l <= 1321)
+			{
+				if (l <= 1295)
+				{
+					switch (l)
+					{
+					case 1282:
+						return "Reduces mana usage by 5%";
+					case 1283:
+						return "Reduces mana usage by 7%";
+					case 1284:
+						return "Reduces mana usage by 9%";
+					case 1285:
+						return "Reduces mana usage by 11%";
+					case 1286:
+						return "Reduces mana usage by 13%";
+					case 1287:
+						return "Reduces mana usage by 15%";
+					default:
+						if (l == 1295)
+						{
+							return "'Oolaa!!'";
+						}
+						break;
+					}
+				}
+				else
+				{
+					switch (l)
+					{
+					case 1300:
+						return "Right click to zoom out";
+					case 1301:
+						return "8% increased critical strike chance";
+					default:
+						switch (l)
+						{
+						case 1316:
+							return "Enemies are more likely to target you";
+						case 1317:
+							return "Enemies are more likely to target you";
+						case 1318:
+							return "Enemies are more likely to target you";
+						case 1321:
+							return "20% chance to not consume arrows";
+						}
+						break;
+					}
+				}
+			}
+			else if (l <= 1505)
+			{
+				switch (l)
+				{
+				case 1336:
+					return "Decreases target's defense";
+				case 1337:
+				case 1344:
+				case 1345:
+				case 1346:
+				case 1347:
+				case 1348:
+					break;
+				case 1338:
+					return "For use with bunny cannon";
+				case 1339:
+					return "'Extremely toxic'";
+				case 1340:
+					return "Melee attacks inflict Venom on enemies";
+				case 1341:
+					return "Inflicts target with Venom";
+				case 1342:
+					return "Inflicts target with Venom";
+				case 1343:
+					return "10% increased melee damage and speed";
+				case 1349:
+					return "Explodes into confetti on impact";
+				case 1350:
+					return "Causes confusion";
+				case 1351:
+					return "Explodes on impact";
+				case 1352:
+					return "Enemies killed will drop more money";
+				case 1353:
+					return "Melee attacks inflict enemies with cursed flames";
+				case 1354:
+					return "Melee attacks set enemies on fire";
+				case 1355:
+					return "Melee attacks make enemies drop more gold";
+				case 1356:
+					return "Melee attacks decrease enemies defense";
+				case 1357:
+					return "Melee attacks confuse enemies";
+				case 1358:
+					return "Melee attacks cause confetti to appear";
+				case 1359:
+					return "Melee attacks poison enemies";
+				default:
+					if (l == 1505)
+					{
+						return "8% increased movement speed";
+					}
+					break;
+				}
+			}
+			else
+			{
+				switch (l)
+				{
+				case 1546:
+					return "5% increased ranged critical strike chance";
+				case 1547:
+					return "5% increased ranged critical strike chance";
+				case 1548:
+					return "5% increased ranged critical strike chance";
+				case 1549:
+					return "20% chance to not consume ammo";
+				case 1550:
+					return "12% increased movement speed";
+				case 1551:
+				case 1552:
+					break;
+				case 1553:
+					return "'It came from the edge of space'";
+				default:
+					if (l == 1595)
+					{
+						return "Restores mana when damaged";
+					}
+					if (l == 1613)
+					{
+						return "Grants immunity to most debuffs";
+					}
+					break;
+				}
+			}
+		}
+		else if (l <= 3015)
+		{
+			if (l <= 2340)
+			{
+				if (l <= 2189)
+				{
+					if (l <= 1845)
+					{
+						switch (l)
+						{
+						case 1832:
+							return "Increases minion damage by 11%";
+						case 1833:
+							return "Increases minion damage by 11%";
+						case 1834:
+							return "Increases minion damage by 11%";
+						default:
+							if (l == 1845)
+							{
+								return "Increases minion damage by 10%";
+							}
+							break;
+						}
+					}
+					else
+					{
+						switch (l)
+						{
+						case 1858:
+							return "10% increased ranged damage and critical strike chance";
+						case 1859:
+							break;
+						case 1860:
+							return "Provides light under water";
+						case 1861:
+							return "Provides light under water and extra mobility on ice";
+						case 1862:
+							return "7% increased movement speed";
+						case 1863:
+							return "Increases jump height";
+						case 1864:
+							return "Increases the damage and knockback of your minions";
+						case 1865:
+							return "life regeneration, defense, pick speed, and minion knockback";
+						case 1866:
+							return "Hold DOWN and JUMP to hover";
+						default:
+							if (l == 2189)
+							{
+								return "5% increased magic damage and critical strike chance";
+							}
+							break;
+						}
+					}
+				}
+				else if (l <= 2221)
+				{
+					switch (l)
+					{
+					case 2199:
+						return "Enemies are more likely to target you";
+					case 2200:
+						return "6% increased movement and melee speed";
+					case 2201:
+						return "Enemies are more likely to target you";
+					case 2202:
+						return "Enemies are more likely to target you";
+					default:
+						switch (l)
+						{
+						case 2220:
+							return "15% increased magic damage";
+						case 2221:
+							return "Restores mana when damaged";
+						}
+						break;
+					}
+				}
+				else
+				{
+					if (l == 2270)
+					{
+						return "Highly inaccurate";
+					}
+					switch (l)
+					{
+					case 2277:
+						return "10% increased melee and movement speed";
+					case 2278:
+						break;
+					case 2279:
+						return "Reduces mana usage by 10%";
+					default:
+						if (l == 2340)
+						{
+							return "Hammer intersections to change direction";
+						}
+						break;
+					}
+				}
+			}
+			else if (l <= 2586)
+			{
+				if (l <= 2372)
+				{
+					switch (l)
+					{
+					case 2361:
+						return "Increases your max number of minions";
+					case 2362:
+						return "Increases your max number of minions";
+					default:
+						switch (l)
+						{
+						case 2370:
+							return "Increases minion damage by 6%";
+						case 2371:
+							return "Increases minion damage by 6%";
+						case 2372:
+							return "Increases minion damage by 6%";
+						}
+						break;
+					}
+				}
+				else
+				{
+					if (l == 2423)
+					{
+						return "Increases fall resistance";
+					}
+					if (l == 2586)
+					{
+						return "'Tossing may be difficult.'";
+					}
+				}
+			}
+			else if (l <= 2609)
+			{
+				if (l == 2590)
+				{
+					return "Lights nearby area on fire for a while";
+				}
+				if (l == 2609)
+				{
+					return "Allows quick travel in water";
+				}
+			}
+			else
+			{
+				switch (l)
+				{
+				case 2757:
+					return "7% increased ranged critical strike chance";
+				case 2758:
+					return "25% chance not to consume ammo";
+				case 2759:
+					return "10% increased movement speed";
+				case 2760:
+					return "7% increased magic damage and critical strike chance";
+				case 2761:
+					break;
+				case 2762:
+					return "10% increased movement speed";
+				case 2763:
+					return "Enemies are more likely to target you";
+				case 2764:
+					return "Enemies are more likely to target you";
+				case 2765:
+					return "Enemies are more likely to target you";
+				default:
+					switch (l)
+					{
+					case 2995:
+						return "'In loving memory'";
+					case 2996:
+						break;
+					case 2997:
+						return "Click their head on the fullscreen map";
+					default:
+						if (l == 3015)
+						{
+							return "5% increased damage and critical strike chance";
+						}
+						break;
+					}
+					break;
+				}
+			}
+		}
+		else if (l <= 3241)
+		{
+			if (l <= 3097)
+			{
+				if (l <= 3061)
+				{
+					switch (l)
+					{
+					case 3034:
+						return "Hitting enemies will sometimes drop extra coins";
+					case 3035:
+						return "Hitting enemies will sometimes drop extra coins";
+					default:
+						if (l == 3061)
+						{
+							return "Automatically paints placed objects";
+						}
+						break;
+					}
+				}
+				else
+				{
+					if (l == 3085)
+					{
+						return "Requires a Golden Key";
+					}
+					if (l == 3097)
+					{
+						return "Double tap a direction";
+					}
+				}
+			}
+			else if (l <= 3116)
+			{
+				if (l == 3110)
+				{
+					return "Minor increases to all stats";
+				}
+				switch (l)
+				{
+				case 3115:
+					return "Very bouncy";
+				case 3116:
+					return "Very bouncy";
+				}
+			}
+			else
+			{
+				if (l == 3124)
+				{
+					return "Allows you to return home at will";
+				}
+				switch (l)
+				{
+				case 3226:
+					return "Become the wind, ride the lightning.";
+				case 3227:
+					return "Bejeweled and elegant for soaring through the thundering skies";
+				case 3228:
+					return "The Valkyrie Satellite Barrier Platform is totally safe. Most of the time.";
+				default:
+					if (l == 3241)
+					{
+						return "Allows the holder to double jump";
+					}
+					break;
+				}
+			}
+		}
+		else if (l <= 3383)
+		{
+			if (l <= 3252)
+			{
+				if (l == 3245)
+				{
+					return "33% chance to not consume bone";
+				}
+				switch (l)
+				{
+				case 3250:
+				case 3251:
+				case 3252:
+					return "Increases jump height and negates fall damage";
+				}
+			}
+			else
+			{
+				if (l == 3368)
+				{
+					return "'I didn't get this off of a Schmoo'";
+				}
+				switch (l)
+				{
+				case 3381:
+					return "Increases minion damage by 22%";
+				case 3382:
+					return "Increases minion damage by 22%";
+				case 3383:
+					return "Increases minion damage by 22%";
+				}
+			}
+		}
+		else if (l <= 3532)
+		{
+			switch (l)
+			{
+			case 3474:
+				return "'Cultivate the most beautiful cellular infection'";
+			case 3475:
+				return "'The catastrophic mixture of pew pew and boom boom.'";
+			default:
+				switch (l)
+				{
+				case 3531:
+					return "'Who needs a horde of minions when you have a giant dragon?'";
+				case 3532:
+					return "'Bacon? Bacon.'";
+				}
+				break;
+			}
+		}
+		else
+		{
+			if (l == 3571)
+			{
+				return "'The colors, Duke, the colors!'";
+			}
+			switch (l)
+			{
+			case 3577:
+				return "'I know what you're thinking....'";
+			case 3578:
+			case 3579:
+				break;
+			case 3580:
+				return "Whatever this accessory does to you is not a bug!";
+			case 3581:
+				return "If you see this you should probably run away...";
+			default:
+				switch (l)
+				{
+				case 3589:
+					return "Disorder came from order, fear came from courage, weakness came from strength";
+				case 3590:
+					return "Know thy self, know thy enemy. A thousand battles, a thousand victories…";
+				case 3591:
+					return "Wheels of justice grind slow but grind fine.";
+				case 3592:
+					return "Let your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt.";
+				}
+				break;
+			}
+		}
 	}
 }
