@@ -16600,4 +16600,154 @@ public class LN
 			}
 		}
 	}
+
+	public static string evilGood()
+	{
+		int tGood = (int)WorldGen.tGood;
+		int tEvil = (int)WorldGen.tEvil;
+		int tBlood = (int)WorldGen.tBlood;
+		string text;
+		if (tGood > 0 && tEvil > 0 && tBlood > 0)
+		{
+			text = string.Concat(new object[]
+			{
+				Main.worldName,
+				" is ",
+				tGood,
+				"% hallow, ",
+				tEvil,
+				"% corrupt, and ",
+				tBlood,
+				"% crimson."
+			});
+		}
+		else if (tGood > 0 && tEvil > 0)
+		{
+			text = string.Concat(new object[]
+			{
+				Main.worldName,
+				" is ",
+				tGood,
+				"% hallow and ",
+				tEvil,
+				"% corrupt."
+			});
+		}
+		else if (tGood > 0 && tBlood > 0)
+		{
+			text = string.Concat(new object[]
+			{
+				Main.worldName,
+				" is ",
+				tGood,
+				"% hallow and ",
+				tBlood,
+				"% crimson."
+			});
+		}
+		else if (tEvil > 0 && tBlood > 0)
+		{
+			text = string.Concat(new object[]
+			{
+				Main.worldName,
+				" is ",
+				tEvil,
+				"% corrupt and ",
+				tBlood,
+				"% crimson."
+			});
+		}
+		else if (tEvil > 0)
+		{
+			text = string.Concat(new object[]
+			{
+				Main.worldName,
+				" is ",
+				tEvil,
+				"% corrupt."
+			});
+		}
+		else if (tBlood > 0)
+		{
+			text = string.Concat(new object[]
+			{
+				Main.worldName,
+				" is ",
+				tBlood,
+				"% crimson."
+			});
+		}
+		else
+		{
+			if (tGood <= 0)
+			{
+				return Main.worldName + " is completely pure. You have done an amazing job!";
+			}
+			text = string.Concat(new object[]
+			{
+				Main.worldName,
+				" is ",
+				tGood,
+				"% hallow."
+			});
+		}
+		if ((double)tGood * 1.2 >= (double)(tEvil + tBlood) && (double)tGood * 0.8 <= (double)(tEvil + tBlood))
+		{
+			text += " The world is in balance.";
+		}
+		else if (tGood >= tEvil + tBlood)
+		{
+			text += " We are living in a fairy tale.";
+		}
+		else if (tEvil + tBlood > tGood + 20)
+		{
+			text += " Things are grim indeed...";
+		}
+		else if (tEvil + tBlood > 10)
+		{
+			text += " You have a lot of work to do.";
+		}
+		else
+		{
+			text += " You are so close!";
+		}
+		return text;
+	}
+	
+	public static string DyeTraderQuestChat(bool gotDye = false)
+	{
+		string str = NPC.firstNPCName(207);
+		string result = "";
+		if (gotDye)
+		{
+			switch (Main.rand.Next(3))
+			{
+			case 0:
+				result = "Brilliant, my dear! You have brought me an exquisite sample of the world's beautiful colors and aroma. In exchange, you may take this special bottle of dye.";
+				break;
+			case 1:
+				result = "You bring me a beautiful, rare flower... yes, yes? Take this bottle of special dye for your troubles, friend!";
+				break;
+			case 2:
+				result = "Fantabulous, wonderful friend! With this delicate specimen, I may mix the most amazing dyes " + Main.worldName + " has ever seen! You may take this one right away!";
+				break;
+			}
+		}
+		else
+		{
+			switch (Main.rand.Next(3))
+			{
+			case 0:
+				result = "Oh no no, this will not do.  For these money is no good, you must return to me with a rare specimen of a plant!";
+				break;
+			case 1:
+				result = "You think you can pull a fast one on " + str + ", I don't think so! I only take the rarest of flowers for these special bottles!";
+				break;
+			case 2:
+				result = "These dye bottles? Sorry dear friend, these don't take coin. I only take the most precious and rare of flora in exchange for one of this!";
+				break;
+			}
+		}
+		return result;
+	}
 }
