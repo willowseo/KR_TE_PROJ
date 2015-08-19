@@ -5,7 +5,7 @@ public class LN
 	// 중간에 들어간 text 같은 것은 프로그램에서 쓰는거라 번역안하셔도 됩니다.
 	// 명사가 들어간다고 생각해주시면 될듯.
 	// 
-	// 따옴표 안쪽부분만 번역하세유
+	// 
 	
 	public static string KrTailString(string name)
 	{
@@ -4061,19 +4061,19 @@ public class LN
 			case 1969:
 				return "팀 염료";
 			case 1970:
-				return "아메디스트 보석불꽃 블럭";
+				return "아메디스트 스파크 블럭";
 			case 1971:
-				return "토파즈 보석불꽃 블럭";
+				return "토파즈 스파크 블럭";
 			case 1972:
-				return "사파이어 보석불꽃 블럭";
+				return "사파이어 스파크 블럭";
 			case 1973:
-				return "에메랄드 보석불꽃 블럭";
+				return "에메랄드 스파크 블럭";
 			case 1974:
-				return "루비 보석불꽃 블럭";
+				return "루비 스파크 블럭";
 			case 1975:
-				return "다이아몬드 보석불꽃 블럭";
+				return "다이아몬드 스파크 블럭";
 			case 1976:
-				return "호박 보석불꽃 블럭";
+				return "호박 스파크 블럭";
 			case 1977:
 				return "생명의 머리 염색약";
 			case 1978:
@@ -5194,8 +5194,8 @@ public class LN
 				return "야자수 램프";
 			case 2534:
 				return "야자수 작업대";
-							case 253		5:
-				rn "광학의 지팡이";
+			case 2535:
+				return "광학 지팡이";
 			case 2536:
 				return "야자수 책장";
 			case 2537:
@@ -5479,33 +5479,33 @@ public class LN
 			case 2676:
 				return "마스터 미끼";
 			case 2677:
-				return "호박 보석불꽃 벽면";
+				return "호박 스파크 벽면";
 			case 2678:
-				return "전원 끊긴 호박 보석불꽃 벽면";
+				return "전원 끊긴 호박 스파크 벽면";
 			case 2679:
-				return "아메디스트 보석불꽃 벽면";
+				return "아메디스트 스파크 벽면";
 			case 2680:
-				return "전원 끊긴 아메디스트 보석불꽃 벽면";
+				return "전원 끊긴 아메디스트 스파크 벽면";
 			case 2681:
-				return "다이아몬드 보석불꽃 벽면";
+				return "다이아몬드 스파크 벽면";
 			case 2682:
-				return "전원 끊긴 다이아몬드 보석불꽃 벽면";
+				return "전원 끊긴 다이아몬드 스파크 벽면";
 			case 2683:
-				return "에메랄드 보석불꽃 벽면";
+				return "에메랄드 스파크 벽면";
 			case 2684:
-				return "전원 끊긴 에메랄드 보석불꽃 벽면";
+				return "전원 끊긴 에메랄드 스파크 벽면";
 			case 2685:
-				return "루비 보석불꽃 벽면";
+				return "루비 스파크 벽면";
 			case 2686:
-				return "전원 끊긴 루비 보석불꽃 벽면";
+				return "전원 끊긴 루비 스파크 벽면";
 			case 2687:
-				return "사파이어 보석불꽃 벽면";
+				return "사파이어 스파크 벽면";
 			case 2688:
-				return "전원 끊긴 사파이어 보석불꽃 벽면";
+				return "전원 끊긴 사파이어 스파크 벽면";
 			case 2689:
-				return "토파즈 보석불꽃 벽면";
+				return "토파즈 스파크 벽면";
 			case 2690:
-				return "전원 끊긴 토파즈 보석불꽃 벽면";
+				return "전원 끊긴 토파즈 스파크 벽면";
 			case 2691:
 				return "주석 도금 벽면";
 			case 2692:
