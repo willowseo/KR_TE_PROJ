@@ -7,14 +7,32 @@ public class LN
 	// 
 	
 	// #### 담당 파트 ### //
-	//
-	// AnglerQuestChat : 
-	// setBonus : 버들서
-	// dialog : 
-	// setLang : 버들서
-	// npcName : 버들서
-	// toolTip1 : 
-	// toolTip2 :
+	/*
+	itemName
+	번:라피에나
+	검:버들서
+	AnglerQuestChat
+	번:
+	검:
+	setBonus
+	번:버들서
+	검:버들서
+	dialog
+	번:
+	검:
+	setLang
+	번:버들서
+	검:
+	npcName
+	번:버들서
+	검:
+	toolTip1
+	번:
+	검:
+	toolTip2
+	번:
+	검:
+	*/
 	
 	public static string KrTailString(string name)
 	{
