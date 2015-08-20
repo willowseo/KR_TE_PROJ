@@ -5919,7 +5919,7 @@ public class LN
 			case 2895:
 				return "황금 벌레";
 			case 2896:
-				return "Sticky Dynamite";
+				return "점착 다이너마이트";
 			case 2897:
 				return "Angry Trapper Banner";
 			case 2898:
@@ -6283,9 +6283,9 @@ public class LN
 			case 3076:
 				return "Gold Worm Cage";
 			case 3077:
-				return "Silk Rope";
+				return "실크 로프";
 			case 3078:
-				return "Web Rope";
+				return "거미줄 로프";
 			case 3079:
 				return "Silk Rope Coil";
 			case 3080:
@@ -6297,7 +6297,7 @@ public class LN
 			case 3083:
 				return "Smooth Marble Wall";
 			case 3084:
-				return "Radar";
+				return "레이더";
 			case 3085:
 				return "Golden Lock Box";
 			case 3086:
@@ -6309,15 +6309,15 @@ public class LN
 			case 3089:
 				return "Smooth Granite Wall";
 			case 3090:
-				return "Royal Gel";
+				return "로열 젤리";
 			case 3091:
 				return "Key of Night";
 			case 3092:
 				return "Key of Light";
 			case 3093:
-				return "Herb Bag";
+				return "허브 가방";
 			case 3094:
-				return "Javelin";
+				return "투창";
 			case 3095:
 				return "Tally Counter";
 			case 3096:
@@ -6325,7 +6325,7 @@ public class LN
 			case 3097:
 				return "Shield of Cthulhu";
 			case 3098:
-				return "Butcher's Chainsaw";
+				return "도살자의 전기톱";
 			case 3099:
 				return "Stopwatch";
 			case 3100:
@@ -6347,7 +6347,7 @@ public class LN
 			case 3108:
 				return "Nail";
 			case 3109:
-				return "Night Vision Helmet";
+				return "야간 투시 헬멧";
 			case 3110:
 				return "Celestial Shell";
 			case 3111:
@@ -6379,7 +6379,7 @@ public class LN
 			case 3124:
 				return "Cell Phone";
 			case 3125:
-				return "Granite Chest";
+				return "화강암 상자";
 			case 3126:
 				return "Meteorite Clock";
 			case 3127:
@@ -6389,9 +6389,9 @@ public class LN
 			case 3129:
 				return "Meteorite Door";
 			case 3130:
-				return "Marble Door";
+				return "대리석 문";
 			case 3131:
-				return "Granite Door";
+				return "화강암 문";
 			case 3132:
 				return "Meteorite Dresser";
 			case 3133:
