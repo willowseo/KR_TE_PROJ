@@ -6253,7 +6253,7 @@ public class LN
 			case 3061:
 				return "Architect Gizmo Pack";
 			case 3062:
-				return "Crimson Heart";
+				return "핏빛 심장";
 			case 3063:
 				return "Meowmere";
 			case 3064:
@@ -6287,33 +6287,33 @@ public class LN
 			case 3078:
 				return "거미줄 로프";
 			case 3079:
-				return "Silk Rope Coil";
+				return "실크 로프 뭉치";
 			case 3080:
-				return "Web Rope Coil";
+				return "거미줄 로프 뭉치";
 			case 3081:
-				return "Marble Block";
+				return "대리석 블록";
 			case 3082:
-				return "Marble Wall";
+				return "대리석 벽";
 			case 3083:
-				return "Smooth Marble Wall";
+				return "부드러운 대리석 벽";
 			case 3084:
 				return "레이더";
 			case 3085:
-				return "Golden Lock Box";
+				return "잠긴 황금 상자";
 			case 3086:
-				return "Granite Block";
+				return "화강암 블록";
 			case 3087:
-				return "Smooth Granite Block";
+				return "부드러운 화강암 블록";
 			case 3088:
-				return "Granite Wall";
+				return "화강암 벽";
 			case 3089:
-				return "Smooth Granite Wall";
+				return "부드러운 화강암 벽";
 			case 3090:
 				return "로열 젤리";
 			case 3091:
-				return "Key of Night";
+				return "밤의 열쇠";
 			case 3092:
-				return "Key of Light";
+				return "빛의 열쇠";
 			case 3093:
 				return "허브 가방";
 			case 3094:
@@ -6323,7 +6323,7 @@ public class LN
 			case 3096:
 				return "Sextant";
 			case 3097:
-				return "Shield of Cthulhu";
+				return "크툴루의 방패";
 			case 3098:
 				return "도살자의 전기톱";
 			case 3099:
@@ -6333,7 +6333,7 @@ public class LN
 			case 3101:
 				return "Meteorite Brick Wall";
 			case 3102:
-				return "Metal Detector";
+				return "금속 탐지기";
 			case 3103:
 				return "Endless Quiver";
 			case 3104:
@@ -6343,27 +6343,27 @@ public class LN
 			case 3106:
 				return "Psycho Knife";
 			case 3107:
-				return "Nail Gun";
+				return "네일 건";
 			case 3108:
-				return "Nail";
+				return "못";
 			case 3109:
 				return "야간 투시 헬멧";
 			case 3110:
 				return "Celestial Shell";
 			case 3111:
-				return "Pink Gel";
+				return "분홍 젤";
 			case 3112:
 				return "Bouncy Glowstick";
 			case 3113:
-				return "Pink Slime Block";
+				return "분홍 슬라임 블록";
 			case 3114:
-				return "Pink Torch";
+				return "분홍 횃불";
 			case 3115:
 				return "Bouncy Bomb";
 			case 3116:
 				return "Bouncy Grenade";
 			case 3117:
-				return "Peace Candle";
+				return "평화의 촛불";
 			case 3118:
 				return "Lifeform Analyzer";
 			case 3119:
@@ -6377,7 +6377,7 @@ public class LN
 			case 3123:
 				return "PDA";
 			case 3124:
-				return "Cell Phone";
+				return "휴대전화";
 			case 3125:
 				return "화강암 상자";
 			case 3126:
