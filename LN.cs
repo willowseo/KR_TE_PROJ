@@ -6367,7 +6367,7 @@ public class LN
 			case 3118:
 				return "Lifeform Analyzer";
 			case 3119:
-				return "DPS Meter";
+				return "DPS 측정기";
 			case 3120:
 				return "Fisherman's Pocket Guide";
 			case 3121:
@@ -6381,13 +6381,13 @@ public class LN
 			case 3125:
 				return "화강암 상자";
 			case 3126:
-				return "Meteorite Clock";
+				return "운석 시계";
 			case 3127:
-				return "Marble Clock";
+				return "대리석 시계";
 			case 3128:
-				return "Granite Clock";
+				return "화강암 시계";
 			case 3129:
-				return "Meteorite Door";
+				return "운석 문";
 			case 3130:
 				return "대리석 문";
 			case 3131:
@@ -6399,23 +6399,23 @@ public class LN
 			case 3134:
 				return "Granite Dresser";
 			case 3135:
-				return "Meteorite Lamp";
+				return "운석 램프";
 			case 3136:
-				return "Marble Lamp";
+				return "대리석 램프";
 			case 3137:
-				return "Granite Lamp";
+				return "화강암 램프";
 			case 3138:
-				return "Meteorite Lantern";
+				return "운석 랜턴";
 			case 3139:
-				return "Marble Lantern";
+				return "대리석 랜턴";
 			case 3140:
-				return "Granite Lantern";
+				return "화강암 랜턴";
 			case 3141:
-				return "Meteorite Piano";
+				return "운석 피아노";
 			case 3142:
-				return "Marble Piano";
+				return "대리석 피아노";
 			case 3143:
-				return "Granite Piano";
+				return "화강암 피아노";
 			case 3144:
 				return "Meteorite Platform";
 			case 3145:
