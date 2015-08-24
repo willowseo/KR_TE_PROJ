@@ -6327,7 +6327,7 @@ public class LN
 			case 3098:
 				return "도살자의 전기톱";
 			case 3099:
-				return "Stopwatch";
+				return "스톱워치";
 			case 3100:
 				return "Meteorite Brick";
 			case 3101:
@@ -6339,9 +6339,9 @@ public class LN
 			case 3104:
 				return "Endless Musket Pouch";
 			case 3105:
-				return "Toxic Flask";
+				return "독성 플라스크";
 			case 3106:
-				return "Psycho Knife";
+				return "사이코의 칼";
 			case 3107:
 				return "네일 건";
 			case 3108:
@@ -6417,11 +6417,11 @@ public class LN
 			case 3143:
 				return "화강암 피아노";
 			case 3144:
-				return "Meteorite Platform";
+				return "운석 플랫폼";
 			case 3145:
-				return "Marble Platform";
+				return "대리석 플랫폼";
 			case 3146:
-				return "Granite Platform";
+				return "화강암 플랫폼";
 			case 3147:
 				return "Meteorite Sink";
 			case 3148:
@@ -6429,29 +6429,29 @@ public class LN
 			case 3149:
 				return "Granite Sink";
 			case 3150:
-				return "Meteorite Sofa";
+				return "운석 소파";
 			case 3151:
-				return "Marble Sofa";
+				return "대리석 소파";
 			case 3152:
-				return "Granite Sofa";
+				return "화강암 소파";
 			case 3153:
-				return "Meteorite Table";
+				return "운석 테이블";
 			case 3154:
-				return "Marble Table";
+				return "대리석 테이블";
 			case 3155:
-				return "Granite Table";
+				return "화강암 테이블";
 			case 3156:
-				return "Meteorite Work Bench";
+				return "운석 작업대";
 			case 3157:
-				return "Marble Work Bench";
+				return "대리석 작업대";
 			case 3158:
-				return "Granite Work Bench";
+				return "화강암 작업대";
 			case 3159:
-				return "Meteorite Bathtub";
+				return "운석 욕조";
 			case 3160:
-				return "Marble Bathtub";
+				return "대리석 욕조";
 			case 3161:
-				return "Granite Bathtub";
+				return "화강암 욕조";
 			case 3162:
 				return "Meteorite Bed";
 			case 3163:
@@ -8228,8 +8228,8 @@ public class LN
 		Main.buffName[139] = "샤크네이도";
 		Main.buffTip[139] = "샤크네이도가 당신을 위해 싸웁니다";
 		Main.buffName[140] = "UFO";
-		Main.buffTip[140] = "The UFO will fight for you";
-		Main.buffName[141] = "UFO Mount";
+		Main.buffTip[140] = "UFO가 당신을 위해 싸웁니다";
+		Main.buffName[141] = "UFO 탑승";
 		Main.buffTip[141] = "It's a good thing you had a MAC";
 		Main.buffName[142] = "Drill Mount";
 		Main.buffTip[142] = "Riding in a flying drill";
