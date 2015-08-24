@@ -6,6 +6,8 @@ public class LN
 	// 명사가 들어간다고 생각해주시면 될듯.
 	// 
 	
+	// 주 : 데미지 X 대미지
+	
 	// #### 담당 파트 ### //
 	/*
 	itemName
@@ -7940,9 +7942,9 @@ public class LN
 		Lang.tip[50] = "사는 가격:";
 		Lang.tip[51] = "가치 없음";
 		Lang.tip[52] = "소모함 ";
-		Lang.tip[53] = " 소환 데미지";
+		Lang.tip[53] = " 소환 대미지";
 		Lang.tip[54] = " 사정거리";
-		Lang.tip[55] = " 데미지";
+		Lang.tip[55] = " 대미지";
 		Lang.tip[56] = "Marked as favorite";
 		Lang.tip[57] = "Quick trash, stacking, and selling will be blocked";
 		Lang.tip[58] = " throwing damage";
@@ -11340,27 +11342,27 @@ public class LN
 		switch (l)
 		{
 			case 0:
-				result += "2 defense";
+				result += "방어 +2";
 			case 1:
-				result += "3 defense";
+				result += "방어 +3";
 			case 2:
-				result += "15% increased movement speed";
+				result += "이동속도 +15%";
 			case 3:
-				result += "Space Gun costs 0 mana";
+				result += "스페이스 건의 마나 소모 없음";
 			case 4:
-				result += "20% chance to not consume ammo";
+				result += "탄을 쓰지 않을 확률 +20%";
 			case 5:
 				result += "16% reduced mana usage";
 			case 6:
-				result += "17% extra melee damage";
+				result += "추가 대미지 +17%";
 			case 7:
-				result += "30% increased mining speed";
+				result += "채광 속도 +30%";
 			case 8:
 				result += "14% reduced mana usage";
 			case 9:
-				result += "15% increased melee speed";
+				result += "공격 속도 +15%";
 			case 10:
-				result += "20% chance to not consume ammo";
+				result += "탄을 쓰지 않을 확률 +20%";
 			case 11:
 				result += "17% reduced mana usage";
 			case 12:
