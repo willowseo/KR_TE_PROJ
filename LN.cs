@@ -8222,7 +8222,7 @@ public class LN
 		Main.buffTip[121] = "낚시 레벨 증가";
 		Main.buffName[122] = "수중탐지";
 		Main.buffTip[122] = "낚시 바늘에 무엇이 물고 있는지 볼 수 있습니다";
-		Main.buffName[123] = "상자";
+		Main.buffName[123] = "아이템 낚시 확률 증가";
 		Main.buffTip[123] = "상자를 낚아올릴 큰 기회";
 		Main.buffName[124] = "온기";
 		Main.buffTip[124] = "차가운 것으로부터 피해 감소";
@@ -8235,7 +8235,7 @@ public class LN
 		Main.buffName[128] = "토끼 탈 것";
 		Main.buffTip[128] = "당신은 당근을 갈망한다";
 		Main.buffName[129] = "돼지용 탈 것";
-		Main.buffTip[129] = "지금 나보고....";
+		Main.buffTip[129] = "살찌지 않았다 꿀";
 		Main.buffName[130] = "슬라임 탈 것";
 		Main.buffTip[130] = "뿌잉!";
 		Main.buffName[131] = "거북이 탈 것";
