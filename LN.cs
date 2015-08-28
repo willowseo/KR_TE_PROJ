@@ -5658,15 +5658,15 @@ public class LN
 			case 2750:
 				return "메테오 스태프";
 			case 2751:
-				return "Living Cursed Fire Block";
+				return "타오르는 저주받은 불 블록";
 			case 2752:
-				return "Living Demon Fire Block";
+				return "타오르는 악마의 불 블록";
 			case 2753:
-				return "Living Frost Fire Block";
+				return "타오르는 냉기의 불 블록";
 			case 2754:
-				return "Living Ichor Block";
+				return "타오르는 이코르 불 블록";
 			case 2755:
-				return "Living Ultrabright Fire Block";
+				return "타오르는 매우 밝은 불 블록";
 			case 2756:
 				return "성전환 물약";
 			case 2757:
@@ -5698,7 +5698,7 @@ public class LN
 			case 2770:
 				return "Mothron Wings";
 			case 2771:
-				return "Brain Scrambler";
+				return "두뇌 분쇄기";
 			case 2772:
 				return "소용돌이 도끼";
 			case 2773:
@@ -5740,17 +5740,17 @@ public class LN
 			case 2791:
 				return "Shroomite Plating Wall";
 			case 2792:
-				return "Chlorophyte Brick";
+				return "녹조류 벽돌";
 			case 2793:
 				return "Crimtane Brick";
 			case 2794:
 				return "Shroomite Plating";
 			case 2795:
-				return "Laser Machinegun";
+				return "레이저 기관총";
 			case 2796:
 				return "Electrosphere Launcher";
 			case 2797:
-				return "Xenopopper";
+				return "제노포퍼";
 			case 2798:
 				return "레이저 드릴";
 			case 2799:
