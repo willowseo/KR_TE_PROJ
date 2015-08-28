@@ -5625,9 +5625,9 @@ public class LN
 			#endregion
 			#region 2749 ~ 3000 (1.3~)
 			case 2749:
-				return "Xeno Staff";
+				return "제노 스태프";
 			case 2750:
-				return "Meteor Staff";
+				return "미티어 스태프";
 			case 2751:
 				return "Living Cursed Fire Block";
 			case 2752:
@@ -5641,11 +5641,11 @@ public class LN
 			case 2756:
 				return "성전환 물약";
 			case 2757:
-				return "Vortex 투구";
+				return "소용돌이 투구";
 			case 2758:
-				return "Vortex 흉갑";
+				return "소용돌이 흉갑";
 			case 2759:
-				return "Vortex 각반";
+				return "소용돌이 각반";
 			case 2760:
 				return "성운 투구";
 			case 2761:
@@ -5671,19 +5671,19 @@ public class LN
 			case 2771:
 				return "Brain Scrambler";
 			case 2772:
-				return "Vortex Axe";
+				return "소용돌이 도끼";
 			case 2773:
-				return "Vortex Chainsaw";
+				return "소용돌이 전기톱";
 			case 2774:
-				return "Vortex Drill";
+				return "소용돌이 드릴";
 			case 2775:
-				return "Vortex Hammer";
+				return "소용돌이 망치";
 			case 2776:
-				return "Vortex Pickaxe";
+				return "소용돌이 곡괭이";
 			case 2777:
-				return "Nebula Axe";
+				return "성운 도끼";
 			case 2778:
-				return "Nebula Chainsaw";
+				return "성운 전기톱";
 			case 2779:
 				return "Nebula Drill";
 			case 2780:
