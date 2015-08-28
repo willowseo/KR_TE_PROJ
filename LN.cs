@@ -5723,15 +5723,15 @@ public class LN
 			case 2797:
 				return "Xenopopper";
 			case 2798:
-				return "Laser Drill";
+				return "레이저 드릴";
 			case 2799:
 				return "Mechanical Ruler";
 			case 2800:
-				return "Anti-Gravity Hook";
+				return "반중력 갈고리";
 			case 2801:
-				return "Moon Mask";
+				return "달의 가면";
 			case 2802:
-				return "Sun Mask";
+				return "해의 가면";
 			case 2803:
 				return "Martian Costume Mask";
 			case 2804:
