@@ -5656,7 +5656,7 @@ public class LN
 			case 2749:
 				return "제노 스태프";
 			case 2750:
-				return "미티어 스태프";
+				return "메테오 스태프";
 			case 2751:
 				return "Living Cursed Fire Block";
 			case 2752:
@@ -5682,11 +5682,11 @@ public class LN
 			case 2762:
 				return "성운 각반";
 			case 2763:
-				return "Solar Flare Helmet";
+				return "태양풍 헬멧";
 			case 2764:
-				return "Solar Flare Breastplate";
+				return "태양풍 흉갑";
 			case 2765:
-				return "Solar Flare Leggings";
+				return "태양풍 각반";
 			case 2766:
 				return "Solar Tablet Fragment";
 			case 2767:
