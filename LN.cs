@@ -2868,11 +2868,11 @@ public class LN
 			case 1359:
 				return "독의 플라스크";
 			case 1360:
-				return "크툴루의 눈 전리품";
+				return "크툴후의 눈 전리품";
 			case 1361:
 				return "세상을 먹는 자 전리품";
 			case 1362:
-				return "크툴루의 뇌 전리품";
+				return "크툴후의 뇌 전리품";
 			case 1363:
 				return "스켈레트론 전리품";
 			case 1364:
@@ -4360,7 +4360,7 @@ public class LN
 			case 2103:
 				return "으스스한 촛대";
 			case 2104:
-				return "크툴루의 뇌 가면";
+				return "크툴후의 뇌 가면";
 			case 2105:
 				return "육체의 벽 가면";
 			case 2106:
@@ -4376,7 +4376,7 @@ public class LN
 			case 2111:
 				return "세계를 먹는 자 가면";
 			case 2112:
-				return "크툴루의 눈 가면";
+				return "크툴후의 눈 가면";
 			case 2113:
 				return "파괴자 가면";
 			case 2114:
@@ -5070,7 +5070,7 @@ public class LN
 			case 2458:
 				return "떨어진 별고기";
 			case 2459:
-				return "'크툴루의 물고기'";
+				return "'크툴후의 물고기'";
 			case 2460:
 				return "피쇼트론";
 			case 2461:
@@ -6352,7 +6352,7 @@ public class LN
 			case 3096:
 				return "Sextant";
 			case 3097:
-				return "크툴루의 방패";
+				return "크툴후의 방패";
 			case 3098:
 				return "도살자의 전기톱";
 			case 3099:
@@ -11583,9 +11583,9 @@ public class LN
 			case 3:
 				result += "좀비";
 			case 4:
-				result += "크툴루의 눈";
+				result += "크툴후의 눈";
 			case 5:
-				result += "크툴루의 하수인";
+				result += "크툴후의 하수인";
 			case 6:
 				result += "영혼을 먹는 자";
 			case 7:
@@ -12103,7 +12103,7 @@ public class LN
 			case 265:
 				result += "포자";
 			case 266:
-				result += "크툴루의 뇌";
+				result += "크툴후의 뇌";
 			case 267:
 				result += "크리퍼";
 			case 268:
