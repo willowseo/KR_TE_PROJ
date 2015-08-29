@@ -6,6 +6,8 @@ public class LN
 	// 명사가 들어간다고 생각해주시면 될듯.
 	// 
 	
+	// 주 : 데미지 X 대미지
+	
 	// #### 담당 파트 ### //
 	/*
 	itemName
@@ -2866,11 +2868,11 @@ public class LN
 			case 1359:
 				return "독의 플라스크";
 			case 1360:
-				return "크툴루의 눈 전리품";
+				return "크툴후의 눈 전리품";
 			case 1361:
 				return "세상을 먹는 자 전리품";
 			case 1362:
-				return "크툴루의 뇌 전리품";
+				return "크툴후의 뇌 전리품";
 			case 1363:
 				return "스켈레트론 전리품";
 			case 1364:
@@ -4358,7 +4360,7 @@ public class LN
 			case 2103:
 				return "으스스한 촛대";
 			case 2104:
-				return "크툴루의 뇌 가면";
+				return "크툴후의 뇌 가면";
 			case 2105:
 				return "육체의 벽 가면";
 			case 2106:
@@ -4374,7 +4376,7 @@ public class LN
 			case 2111:
 				return "세계를 먹는 자 가면";
 			case 2112:
-				return "크툴루의 눈 가면";
+				return "크툴후의 눈 가면";
 			case 2113:
 				return "파괴자 가면";
 			case 2114:
@@ -5068,7 +5070,7 @@ public class LN
 			case 2458:
 				return "떨어진 별고기";
 			case 2459:
-				return "'크툴루의 물고기'";
+				return "'크툴후의 물고기'";
 			case 2460:
 				return "피쇼트론";
 			case 2461:
@@ -5652,27 +5654,27 @@ public class LN
 			#endregion
 			#region 2749 ~ 3000 (1.3~)
 			case 2749:
-				return "Xeno Staff";
+				return "제노 스태프";
 			case 2750:
-				return "Meteor Staff";
+				return "메테오 스태프";
 			case 2751:
-				return "Living Cursed Fire Block";
+				return "타오르는 저주받은 불 블록";
 			case 2752:
-				return "Living Demon Fire Block";
+				return "타오르는 악마의 불 블록";
 			case 2753:
-				return "Living Frost Fire Block";
+				return "타오르는 냉기의 불 블록";
 			case 2754:
-				return "Living Ichor Block";
+				return "타오르는 이코르 불 블록";
 			case 2755:
-				return "Living Ultrabright Fire Block";
+				return "타오르는 매우 밝은 불 블록";
 			case 2756:
 				return "성전환 물약";
 			case 2757:
-				return "Vortex 투구";
+				return "소용돌이 투구";
 			case 2758:
-				return "Vortex 흉갑";
+				return "소용돌이 흉갑";
 			case 2759:
-				return "Vortex 각반";
+				return "소용돌이 각반";
 			case 2760:
 				return "성운 투구";
 			case 2761:
@@ -5680,11 +5682,11 @@ public class LN
 			case 2762:
 				return "성운 각반";
 			case 2763:
-				return "Solar Flare Helmet";
+				return "태양풍 헬멧";
 			case 2764:
-				return "Solar Flare Breastplate";
+				return "태양풍 흉갑";
 			case 2765:
-				return "Solar Flare Leggings";
+				return "태양풍 각반";
 			case 2766:
 				return "Solar Tablet Fragment";
 			case 2767:
@@ -5696,21 +5698,21 @@ public class LN
 			case 2770:
 				return "Mothron Wings";
 			case 2771:
-				return "Brain Scrambler";
+				return "두뇌 분쇄기";
 			case 2772:
-				return "Vortex Axe";
+				return "소용돌이 도끼";
 			case 2773:
-				return "Vortex Chainsaw";
+				return "소용돌이 전기톱";
 			case 2774:
-				return "Vortex Drill";
+				return "소용돌이 드릴";
 			case 2775:
-				return "Vortex Hammer";
+				return "소용돌이 망치";
 			case 2776:
-				return "Vortex Pickaxe";
+				return "소용돌이 곡괭이";
 			case 2777:
-				return "Nebula Axe";
+				return "성운 도끼";
 			case 2778:
-				return "Nebula Chainsaw";
+				return "성운 전기톱";
 			case 2779:
 				return "Nebula Drill";
 			case 2780:
@@ -5738,27 +5740,27 @@ public class LN
 			case 2791:
 				return "Shroomite Plating Wall";
 			case 2792:
-				return "Chlorophyte Brick";
+				return "녹조류 벽돌";
 			case 2793:
 				return "Crimtane Brick";
 			case 2794:
 				return "Shroomite Plating";
 			case 2795:
-				return "Laser Machinegun";
+				return "레이저 기관총";
 			case 2796:
 				return "Electrosphere Launcher";
 			case 2797:
-				return "Xenopopper";
+				return "제노포퍼";
 			case 2798:
-				return "Laser Drill";
+				return "레이저 드릴";
 			case 2799:
 				return "Mechanical Ruler";
 			case 2800:
-				return "Anti-Gravity Hook";
+				return "반중력 갈고리";
 			case 2801:
-				return "Moon Mask";
+				return "달의 가면";
 			case 2802:
-				return "Sun Mask";
+				return "해의 가면";
 			case 2803:
 				return "Martian Costume Mask";
 			case 2804:
@@ -5946,7 +5948,7 @@ public class LN
 			case 2895:
 				return "황금 벌레";
 			case 2896:
-				return "Sticky Dynamite";
+				return "점착 다이너마이트";
 			case 2897:
 				return "Angry Trapper Banner";
 			case 2898:
@@ -6280,7 +6282,7 @@ public class LN
 			case 3061:
 				return "Architect Gizmo Pack";
 			case 3062:
-				return "Crimson Heart";
+				return "핏빛 심장";
 			case 3063:
 				return "Meowmere";
 			case 3064:
@@ -6310,91 +6312,91 @@ public class LN
 			case 3076:
 				return "Gold Worm Cage";
 			case 3077:
-				return "Silk Rope";
+				return "실크 로프";
 			case 3078:
-				return "Web Rope";
+				return "거미줄 로프";
 			case 3079:
-				return "Silk Rope Coil";
+				return "실크 로프 뭉치";
 			case 3080:
-				return "Web Rope Coil";
+				return "거미줄 로프 뭉치";
 			case 3081:
-				return "Marble Block";
+				return "대리석 블록";
 			case 3082:
-				return "Marble Wall";
+				return "대리석 벽";
 			case 3083:
-				return "Smooth Marble Wall";
+				return "부드러운 대리석 벽";
 			case 3084:
-				return "Radar";
+				return "레이더";
 			case 3085:
-				return "Golden Lock Box";
+				return "잠긴 황금 상자";
 			case 3086:
-				return "Granite Block";
+				return "화강암 블록";
 			case 3087:
-				return "Smooth Granite Block";
+				return "부드러운 화강암 블록";
 			case 3088:
-				return "Granite Wall";
+				return "화강암 벽";
 			case 3089:
-				return "Smooth Granite Wall";
+				return "부드러운 화강암 벽";
 			case 3090:
-				return "Royal Gel";
+				return "로열 젤리";
 			case 3091:
-				return "Key of Night";
+				return "밤의 열쇠";
 			case 3092:
-				return "Key of Light";
+				return "빛의 열쇠";
 			case 3093:
-				return "Herb Bag";
+				return "허브 가방";
 			case 3094:
-				return "Javelin";
+				return "투창";
 			case 3095:
 				return "Tally Counter";
 			case 3096:
 				return "Sextant";
 			case 3097:
-				return "Shield of Cthulhu";
+				return "크툴후의 방패";
 			case 3098:
-				return "Butcher's Chainsaw";
+				return "도살자의 전기톱";
 			case 3099:
-				return "Stopwatch";
+				return "스톱워치";
 			case 3100:
 				return "Meteorite Brick";
 			case 3101:
 				return "Meteorite Brick Wall";
 			case 3102:
-				return "Metal Detector";
+				return "금속 탐지기";
 			case 3103:
 				return "Endless Quiver";
 			case 3104:
 				return "Endless Musket Pouch";
 			case 3105:
-				return "Toxic Flask";
+				return "독성 플라스크";
 			case 3106:
-				return "Psycho Knife";
+				return "사이코의 칼";
 			case 3107:
-				return "Nail Gun";
+				return "네일 건";
 			case 3108:
-				return "Nail";
+				return "못";
 			case 3109:
-				return "Night Vision Helmet";
+				return "야간 투시 헬멧";
 			case 3110:
 				return "Celestial Shell";
 			case 3111:
-				return "Pink Gel";
+				return "분홍 젤";
 			case 3112:
 				return "Bouncy Glowstick";
 			case 3113:
-				return "Pink Slime Block";
+				return "분홍 슬라임 블록";
 			case 3114:
-				return "Pink Torch";
+				return "분홍 횃불";
 			case 3115:
 				return "Bouncy Bomb";
 			case 3116:
 				return "Bouncy Grenade";
 			case 3117:
-				return "Peace Candle";
+				return "평화의 촛불";
 			case 3118:
 				return "Lifeform Analyzer";
 			case 3119:
-				return "DPS Meter";
+				return "DPS 측정기";
 			case 3120:
 				return "Fisherman's Pocket Guide";
 			case 3121:
@@ -6404,21 +6406,21 @@ public class LN
 			case 3123:
 				return "PDA";
 			case 3124:
-				return "Cell Phone";
+				return "휴대전화";
 			case 3125:
-				return "Granite Chest";
+				return "화강암 상자";
 			case 3126:
-				return "Meteorite Clock";
+				return "운석 시계";
 			case 3127:
-				return "Marble Clock";
+				return "대리석 시계";
 			case 3128:
-				return "Granite Clock";
+				return "화강암 시계";
 			case 3129:
-				return "Meteorite Door";
+				return "운석 문";
 			case 3130:
-				return "Marble Door";
+				return "대리석 문";
 			case 3131:
-				return "Granite Door";
+				return "화강암 문";
 			case 3132:
 				return "Meteorite Dresser";
 			case 3133:
@@ -6426,29 +6428,29 @@ public class LN
 			case 3134:
 				return "Granite Dresser";
 			case 3135:
-				return "Meteorite Lamp";
+				return "운석 램프";
 			case 3136:
-				return "Marble Lamp";
+				return "대리석 램프";
 			case 3137:
-				return "Granite Lamp";
+				return "화강암 램프";
 			case 3138:
-				return "Meteorite Lantern";
+				return "운석 랜턴";
 			case 3139:
-				return "Marble Lantern";
+				return "대리석 랜턴";
 			case 3140:
-				return "Granite Lantern";
+				return "화강암 랜턴";
 			case 3141:
-				return "Meteorite Piano";
+				return "운석 피아노";
 			case 3142:
-				return "Marble Piano";
+				return "대리석 피아노";
 			case 3143:
-				return "Granite Piano";
+				return "화강암 피아노";
 			case 3144:
-				return "Meteorite Platform";
+				return "운석 플랫폼";
 			case 3145:
-				return "Marble Platform";
+				return "대리석 플랫폼";
 			case 3146:
-				return "Granite Platform";
+				return "화강암 플랫폼";
 			case 3147:
 				return "Meteorite Sink";
 			case 3148:
@@ -6456,29 +6458,29 @@ public class LN
 			case 3149:
 				return "Granite Sink";
 			case 3150:
-				return "Meteorite Sofa";
+				return "운석 소파";
 			case 3151:
-				return "Marble Sofa";
+				return "대리석 소파";
 			case 3152:
-				return "Granite Sofa";
+				return "화강암 소파";
 			case 3153:
-				return "Meteorite Table";
+				return "운석 테이블";
 			case 3154:
-				return "Marble Table";
+				return "대리석 테이블";
 			case 3155:
-				return "Granite Table";
+				return "화강암 테이블";
 			case 3156:
-				return "Meteorite Work Bench";
+				return "운석 작업대";
 			case 3157:
-				return "Marble Work Bench";
+				return "대리석 작업대";
 			case 3158:
-				return "Granite Work Bench";
+				return "화강암 작업대";
 			case 3159:
-				return "Meteorite Bathtub";
+				return "운석 욕조";
 			case 3160:
-				return "Marble Bathtub";
+				return "대리석 욕조";
 			case 3161:
-				return "Granite Bathtub";
+				return "화강암 욕조";
 			case 3162:
 				return "Meteorite Bed";
 			case 3163:
@@ -7664,24 +7666,24 @@ public class LN
 		Lang.menu[127] = "Style";
 		Lang.menu[128] = "배치 미리보기 켬";
 		Lang.menu[129] = "배치 미리보기 끔";
-		Lang.menu[130] = "Mount             ";
-		Lang.menu[131] = "Achievements";
-		Lang.menu[132] = "Blood and Gore On";
-		Lang.menu[133] = "Blood and Gore Off";
-		Lang.menu[134] = "Apply";
-		Lang.menu[135] = "Server Settings";
-		Lang.menu[136] = "Steam Multiplayer: Disabled";
-		Lang.menu[137] = "Steam Multiplayer: Enabled";
-		Lang.menu[138] = "Allowed Users: Invite Only";
-		Lang.menu[139] = "Allowed Users: Friends";
-		Lang.menu[140] = "Friends Can Invite: Off";
-		Lang.menu[141] = "Friends Can Invite: On";
-		Lang.menu[142] = "Allow Friends Of Friends: Off";
-		Lang.menu[143] = "Allow Friends Of Friends: On";
-		Lang.menu[144] = "Start";
-		Lang.menu[145] = "Join via Steam";
-		Lang.menu[146] = "Join via IP";
-		Lang.menu[147] = "Invite Friends";
+		Lang.menu[130] = "탑승물             ";
+		Lang.menu[131] = "도전 과제";
+		Lang.menu[132] = "피와 잔인한 요소를 사용함";
+		Lang.menu[133] = "피와 잔인한 요소를 사용하지 않음";
+		Lang.menu[134] = "승락";
+		Lang.menu[135] = "서버 설정";
+		Lang.menu[136] = "스팀 멀티플레이어 : 사용 안함";
+		Lang.menu[137] = "스팀 멀티플레이어 : 사용함";
+		Lang.menu[138] = "허용할 유저 : 초대만 가능";
+		Lang.menu[139] = "허용할 유저 : 친구만 가능";
+		Lang.menu[140] = "친구가 초대 가능 : 사용 안함";
+		Lang.menu[141] = "친구가 초대 가능 ; 사용함";
+		Lang.menu[142] = "친구의 친구 허용 : 허용 안함";
+		Lang.menu[143] = "친구의 친구 허용 : 허용함";
+		Lang.menu[144] = "시작";
+		Lang.menu[145] = "스팀 계정으로 참여합니다";
+		Lang.menu[146] = "아이피 주소로 참여합니다";
+		Lang.menu[147] = "친구 초대";
 		
 		Lang.gen[0] = "월드 지형 생성 중 :";
 		Lang.gen[1] = "모래를 넣는 중...";
@@ -7940,9 +7942,9 @@ public class LN
 		Lang.tip[50] = "사는 가격:";
 		Lang.tip[51] = "가치 없음";
 		Lang.tip[52] = "소모함 ";
-		Lang.tip[53] = " 소환 데미지";
+		Lang.tip[53] = " 소환 대미지";
 		Lang.tip[54] = " 사정거리";
-		Lang.tip[55] = " 데미지";
+		Lang.tip[55] = " 대미지";
 		Lang.tip[56] = "Marked as favorite";
 		Lang.tip[57] = "Quick trash, stacking, and selling will be blocked";
 		Lang.tip[58] = " throwing damage";
@@ -8220,7 +8222,7 @@ public class LN
 		Main.buffTip[121] = "낚시 레벨 증가";
 		Main.buffName[122] = "수중탐지";
 		Main.buffTip[122] = "낚시 바늘에 무엇이 물고 있는지 볼 수 있습니다";
-		Main.buffName[123] = "상자";
+		Main.buffName[123] = "아이템 낚시 확률 증가";
 		Main.buffTip[123] = "상자를 낚아올릴 큰 기회";
 		Main.buffName[124] = "온기";
 		Main.buffTip[124] = "차가운 것으로부터 피해 감소";
@@ -8233,7 +8235,7 @@ public class LN
 		Main.buffName[128] = "토끼 탈 것";
 		Main.buffTip[128] = "당신은 당근을 갈망한다";
 		Main.buffName[129] = "돼지용 탈 것";
-		Main.buffTip[129] = "지금 나보고....";
+		Main.buffTip[129] = "살찌지 않았다 꿀";
 		Main.buffName[130] = "슬라임 탈 것";
 		Main.buffTip[130] = "뿌잉!";
 		Main.buffName[131] = "거북이 탈 것";
@@ -8255,8 +8257,8 @@ public class LN
 		Main.buffName[139] = "샤크네이도";
 		Main.buffTip[139] = "샤크네이도가 당신을 위해 싸웁니다";
 		Main.buffName[140] = "UFO";
-		Main.buffTip[140] = "The UFO will fight for you";
-		Main.buffName[141] = "UFO Mount";
+		Main.buffTip[140] = "UFO가 당신을 위해 싸웁니다";
+		Main.buffName[141] = "UFO 탑승";
 		Main.buffTip[141] = "It's a good thing you had a MAC";
 		Main.buffName[142] = "Drill Mount";
 		Main.buffTip[142] = "Riding in a flying drill";
@@ -11340,27 +11342,27 @@ public class LN
 		switch (l)
 		{
 			case 0:
-				result += "2 defense";
+				result += "방어 +2";
 			case 1:
-				result += "3 defense";
+				result += "방어 +3";
 			case 2:
-				result += "15% increased movement speed";
+				result += "이동속도 +15%";
 			case 3:
-				result += "Space Gun costs 0 mana";
+				result += "스페이스 건의 마나 소모 없음";
 			case 4:
-				result += "20% chance to not consume ammo";
+				result += "탄을 쓰지 않을 확률 +20%";
 			case 5:
 				result += "16% reduced mana usage";
 			case 6:
-				result += "17% extra melee damage";
+				result += "추가 대미지 +17%";
 			case 7:
-				result += "30% increased mining speed";
+				result += "채광 속도 +30%";
 			case 8:
 				result += "14% reduced mana usage";
 			case 9:
-				result += "15% increased melee speed";
+				result += "공격 속도 +15%";
 			case 10:
-				result += "20% chance to not consume ammo";
+				result += "탄을 쓰지 않을 확률 +20%";
 			case 11:
 				result += "17% reduced mana usage";
 			case 12:
@@ -11581,9 +11583,9 @@ public class LN
 			case 3:
 				result += "좀비";
 			case 4:
-				result += "크툴루의 눈";
+				result += "크툴후의 눈";
 			case 5:
-				result += "크툴루의 하수인";
+				result += "크툴후의 하수인";
 			case 6:
 				result += "영혼을 먹는 자";
 			case 7:
@@ -12101,7 +12103,7 @@ public class LN
 			case 265:
 				result += "포자";
 			case 266:
-				result += "크툴루의 뇌";
+				result += "크툴후의 뇌";
 			case 267:
 				result += "크리퍼";
 			case 268:
