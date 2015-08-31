@@ -10542,7 +10542,7 @@ public class LN
 			case 9:
 				result += "아, 언젠가는 " + Main.player[Main.myPlayer].name + "의 전설이 퍼질꺼야... 좋은 이야기들만 말야.";
 			case 10:
-				result += "내 흙블럭들좀 보시게나!; 훨씬 더 더럽지.";
+				result += "내 흙블럭들좀 보시게나! 훨씬 더 더럽지.";
 			case 11:
 				result += "어이, 저 태양은 뜨겁기만 하다네! 통풍이 잘되는 방어구가 있는데... 어떤가?.";
 			case 12:
@@ -10557,11 +10557,11 @@ public class LN
 					" arguing from here."
 				});
 			case 14:
-				result += "자네 혹시 그걸 본적이 있나?  키툴...시툴.. 채ㅌ... 그 큰 눈을 말야.";
+				result += "자네 혹시 그걸 본적이 있나?  키툴...시툴.. 채ㅌ...아 아니 그 큰 눈을 말야.";
 			case 15:
 				result += "어이, 이 집은 안전한거지? 그치? " + Main.player[Main.myPlayer].name + "?";
 			case 16:
-				result += "블러드 문도 자본주의를 막진 못해. 자 거래를 하자.";
+				result += "혈월도 자본주의를 막지는 못하지! 자 거래를 하자.";
 			case 17:
 				result += "상품에서 눈을 때지 말게, 렌즈도 사고 말야!";
 			case 18:
@@ -10569,7 +10569,7 @@ public class LN
 			case 19:
 				result += Main.player[Main.myPlayer].name + " 맞지? 자네 이야길 많이 들었어, 친구!";
 			case 20:
-				result += "숨겨진 보물이 있다던데... 아, 신경쓰지말게.";
+				result += "숨겨진 보물이 있다던데... 아, 신경쓰지 말게.";
 			case 21:
 				result += "천사상? 미안하게 됬군, 난 고물상인이 아니거든.";
 			case 22:
@@ -10589,7 +10589,7 @@ public class LN
 			case 29:
 				result += "당신의 그 말투... 반갑지가 않군요.";
 			case 30:
-				result += "도데체 여긴 왜 온거에요? 피흘리는게 아니라면, 여기 있을 필요는 없어요. 나가요.";
+				result += "도데체 여긴 왜 온거에요? 피 흘리는게 아니라면, 여기 있을 필요는 없어요. 나가요.";
 			case 31:
 				result += "뭐라구요?!";
 			case 32:
@@ -10597,7 +10597,7 @@ public class LN
 			case 33:
 				result += "제발 " + str2 + " 님이 좀더 조심스러웠으면 해요. 그 사람 팔을 다시 붙이는것도 지긋지긋해요.";
 			case 34:
-				result += "저기요, 혹시 " + text2 + " 님이 어떤 이유든간에 의사가 필요하다 한적 없나요? 그냥 궁금해서요.";
+				result += "저기요, 혹시 " + text2 + " 님이 어떤 이유든 간에 의사가 필요하다 한적 없나요? 그냥 궁금해서요.";
 			case 35:
 				result += "정말 " + str4 + " 님과 심각한 대화가 필요해요. 이번주만 해도 심각한 용암 화상으로 온게 몇번짼데요?";
 			case 36:
@@ -10613,7 +10613,7 @@ public class LN
 			case 41:
 				result += "애처럼 굴지좀 말아요! 난 더한것도 봤어요.";
 			case 42:
-				result += "그건 꽤메야 겠는데요!";
+				result += "그건 꿰메야 겠는데요!";
 			case 43:
 				result += "또 그 나쁜 무리랑 어울렸나요?";
 			case 44:
@@ -10645,7 +10645,7 @@ public class LN
 			case 57:
 				result += "제 시간좀 뺏지 말아요.";
 			case 58:
-				result += "인형중에 " + str4 + " 과 비슷한 인형이 지하 어딘가 있다더라고. 	그속에다 몇발 쏴 보고 싶군.";
+				result += "인형중에 " + str4 + " 녀석과 비슷한 인형이 지하 어딘가 있다더라고. 	그속에다 몇발 쏴 보고 싶군.";
 			case 59:
 				result += "빨리좀 해! " + text + " 간호사와 데이트 약속이 있단 말야.";
 			case 60:
@@ -10653,7 +10653,7 @@ public class LN
 			case 61:
 				result += text3 + "? 그녀는 정말 매력적이야!  내숭쟁이라는게 정말 아쉽군.";
 			case 62:
-				result += str2 + "랑은 어울리지도 마. 너한테 필요한건 내가 다 가지고 있어.";
+				result += str2 + " 녀석이랑은 어울리지도 마. 너한테 필요한건 내가 다 가지고 있어.";
 			case 63:
 				result += "도데체 " + str2 + " 저놈은 뭐하는 거야? 우리가 서로 다른 물건을 취급하는건 알고는 있는거야??";
 			case 64:
@@ -10667,15 +10667,15 @@ public class LN
 			case 68:
 				result += "내 물건에서 손때 , 이놈아!";
 			case 69:
-				result += "혹시 타락한 땅 ebonestone에 정화가루를  뿌려보셨나요?";
+				result += "혹시 타락한 땅 흑단석에 정화가루를  뿌려보셨나요?";
 			case 70:
-				result += "제발 " + text2 + " 이(가) 그만 찝쩍대면 좋겟어요. 내가 500살이 넘었다는건 모르나 보죠?";
+				result += "제발 " + text2 + KRTracker.End(text2, "이가") + " 그만 집적대면 좋겠어요. 내가 500살이 넘었다는건 모르나 보죠?";
 			case 71:
-				result += "왜 자꾸 " + str + " 이(가) 나에게 천사상을 팔려는 건가요? 쓸모가 없다는건 모두가 아는 사실인데.";
+				result += "왜 자꾸 " + str + KRTracker.End(str, "이가") + " 나에게 천사상을 팔려는 건가요? 쓸모가 없다는건 모두가 아는 사실인데.";
 			case 72:
-				result += "던전 근처를 돌아다니는 노인을 보셨나요? 전혀 좋아보이시지 않던데...";
+				result += "던전 근처를 돌아다니는 노인을 보셨나요? 건강이 별로 좋아보이지 않던데...";
 			case 73:
-				result += "전 팔고싶은 것만 팔아요! 맘에 안드신다면, 안됬네요.";
+				result += "전 팔고싶은 것만 팔아요! 맘에 안드신다면, 안됐네요.";
 			case 74:
 				result += "왜 하필 이럴때에 대립적이신거죠?";
 			case 75:
@@ -10685,7 +10685,7 @@ public class LN
 			case 77:
 				result += "당신은 타락한 이 세계를 정화해야만 해요.";
 			case 78:
-				result += "조심하세요!; 테라리아는 당신을 필요로 해요!";
+				result += "조심하세요! 테라리아는 당신을 필요로 해요!";
 			case 79:
 				result += "시간의 모래는 흐르고 있어요. 그리고 당신은 나이를 꼴사납게 먹는군요.";
 			case 80:
@@ -10711,7 +10711,7 @@ public class LN
 			case 90:
 				result += "낮선 이여, 당신은 내 마스터를 상대할 힘을 소유하고 있소?";
 			case 91:
-				result += "제발! 내 포획자를 상대하고 날 자유케 해 주시오! 이렇게 빌겟소!";
+				result += "제발! 내 포획자를 상대하고 날 자유케 해 주시오! 이렇게 빌겠소!";
 			case 92:
 				result += "내 마스터와 싸워 이긴다면 던전으로 가는 길을 열어주겠소.";
 			case 93:
@@ -10769,7 +10769,7 @@ public class LN
 			case 119:
 				result += "저주받았을땐 외로웠어, 그래서 가죽으로 친구를 만들었지. 그 친구 이름은 윌슨이야.";
 			case 120:
-				result += "풀어줘서 고마워 인간.	 다른 고블린들에 의해 여기 묶여 버려졌었어.	사이가 안 좋았다고 볼 수 있어.";
+				result += "풀어줘서 고마워 인간. 다른 고블린들에 의해 여기 묶여 버려졌었어.	사이가 안 좋았다고 볼 수 있어.";
 			case 121:
 				result += "고블린들이 동쪽으로 가고 있지 않다는걸 지적한 이유로 날 여기 버리고 갔다는걸 정말 믿을수가 없어!";
 			case 122:
@@ -10781,7 +10781,7 @@ public class LN
 			case 125:
 				result += "난 너가 키가 더 클줄 알았는데.";
 			case 126:
-				result += "저기...지금 혹시 " + text5 + "은(는) 뭐해? 말...말 나눠 본적 있어? 우연이라도?";
+				result += "저기...지금 혹시 " + text5 + KRTracker.End(text5, "은는") + "뭐해? 말...말 나눠 본적 있어? 우연이라도?";
 			case 127:
 				result += "혹시 너의 모자에 모터가 필요하지 않아? 그 모자에 꼭 맞는 모터를 가지고 있는것 같은데.";
 			case 128:
@@ -11010,9 +11010,9 @@ public class LN
 			case 236:
 				result += "이 마을의 모든 사람은 조금씩 이상버섯. 어젯밤에 깨보니 옷상인이 내 발을 먹고있었버섯.";
 			case 237:
-				result += "젊은이 옷에는 할인을 부과하겟소, 만약 젊은이가 " + str5 + " 을(를) 설득해서....치수! 치수를 재러 오게 만들면 말이오";
+				result += "젊은이 옷에는 할인을 부과하겠소, 만약 젊은이가 " + str5 + KRTracker.End(text5, "을를") + " 설득해서....치수! 치수를 재러 오게 만들면 말이오";
 			case 238:
-				result += "아마도 " + str5 + " 님이 오해를 받는것 같아요, 정말 재밌는 분인데."; //원문은 'fun guy'(재밋는 친구)는 'fungi'(곰팡이류)와 발음이 비슷함을 이용한 말장난
+				result += "아마 " + str5 + " 님이 오해를 받는것 같아요, 참 재미있게 발효된 분이었는데."; //원문은 'fun guy'(재밋는 친구)는 'fungi'(곰팡이류)와 발음이 비슷함을 이용한 말장난
 			case 240:
 				result += "트러플 셔플'같은건 모른다버섯! 그만좀 물어봐버섯!";
 			case 241:
@@ -11030,9 +11030,9 @@ public class LN
 			case 247:
 				result += "That captain fellow seems to me to be 'pretty well over the bay' if you know what I mean!";
 			case 248:
-				result += "Show me some gears!";
+				result += "내게 톱니바퀴를 보여줘...!";
 			case 249:
-				result += "I like your... gear. Does it come in brass?";
+				result += "나는 너의 ... 톱니바퀴가 좋아. Does it come in brass?";
 			case 250:
 				result += "신성한 땅에 들어가면 하늘에 무지개가 있는걸 볼 수 있어. 그걸 색칠하고 싶으면 도와줄 수 있어.";
 			case 251:
@@ -11050,7 +11050,7 @@ public class LN
 			case 257:
 				result += "재무를 가져온다면 가장 화려한 색을 가져오지!";
 			case 258:
-				result += "어휴, 그리 칙칙한 옷을 입고 다니다니. 옷을 염색하는 법을 배워야겟어!";
+				result += "어휴, 그리 칙칙한 옷을 입고 다니다니. 옷을 염색하는 법을 배워야겠어!";
 			case 259:
 				result += "The only kind of wood I would bother dyeing is RICH Mahogany. Dyeing any other wood is such a waste.";
 			case 260:
@@ -11088,7 +11088,7 @@ public class LN
 			case 276:
 				result += Main.player[Main.myPlayer].name + ", 넌 선장이 2주동간 본 아가씨들 중에 가장 이쁘게 생겼군!";
 			case 277:
-				result += "내 엉덩이에서 비켜, 이 망나니야!";
+				result += "내 뒤에서 비켜, 이 망나니야!";
 			case 278:
 				result += "도데체 먼 소리를 하는거야? 모비딕은 내꺼야!";
 			case 279:
@@ -12333,35 +12333,35 @@ public class LN
 			case 380:
 				result += "White Cultist Archer";
 			case 381:
-				result += "Brain Scrambler";
+				result += "두뇌 분쇄기";
 			case 382:
 				result += "Ray Gunner";
 			case 383:
 				result += "Martian Officer";
 			case 384:
-				result += "Bubble Shield";
+				result += "거품 방패";
 			case 385:
 				result += "Gray Grunt";
 			case 386:
 				result += "Martian Engineer";
 			case 387:
-				result += "Tesla Turret";
+				result += "테슬라 터렛";
 			case 388:
 				result += "Martian Drone";
 			case 389:
-				result += "Gigazapper";
+				result += "기가재퍼";
 			case 390:
 				result += "Scutlix Gunner";
 			case 391:
 				result += "Scutlix";
 			case 392:
-				result += "Martian Saucer";
+				result += "마틴 소서";
 			case 393:
-				result += "Martian Saucer Turret";
+				result += "마틴 소서 터렛";
 			case 394:
-				result += "Martian Saucer Cannon";
+				result += "마틴 소서 캐논";
 			case 395:
-				result += "Martian Saucer";
+				result += "마틴 소서";
 			case 396:
 				result += "Moon Lord";
 			case 397:
@@ -12406,33 +12406,33 @@ public class LN
 			case 422:
 				result += "Vortex Pillar";
 			case 423:
-				result += "Evolution Beast";
+				result += "진화의 괴수";
 			case 424:
 				result += "Predictor";
 			case 425:
 				result += "Storm Diver";
 			case 426:
-				result += "Alien Queen";
+				result += "외계여왕";
 			case 427:
-				result += "Alien Hornet";
+				result += "외계말벌";
 			case 428:
-				result += "Alien Larva";
+				result += "외계애벌레";
 			case 429:
-				result += "Vortexian";
+				result += "소용도리안";
 			case 430:
-				result += "Zombie";
+				result += "좀비";
 			case 431:
-				result += "Zombie Eskimo";
+				result += "좀비 에스키모";
 			case 432:
-				result += "Zombie";
+				result += "좀비";
 			case 433:
-				result += "Zombie";
+				result += "좀비";
 			case 434:
-				result += "Zombie";
+				result += "좀비";
 			case 435:
-				result += "Zombie";
+				result += "좀비";
 			case 436:
-				result += "Zombie";
+				result += "좀비";
 			case 437:
 				result += "Mysterious Tablet";
 			case 438:
@@ -12471,7 +12471,7 @@ public class LN
 			case 459:
 				result += "Phantasm Dragon";
 			case 460:
-				result += "Butcher";
+				result += "도살자";
 			case 461:
 				result += "Creature from the Deep";
 			case 462:
@@ -12591,13 +12591,13 @@ public class LN
 			case 523:
 				result += "Ancient Doom";
 			case 524:
-				result += "Ghoul";
+				result += "구울";
 			case 525:
-				result += "Vile Ghoul";
+				result += "Vile 구울";
 			case 526:
-				result += "Tainted Ghoul";
+				result += "Tainted 구울";
 			case 527:
-				result += "Dreamer Ghoul";
+				result += "꿈꾸는 구울";
 			case 528:
 			case 529:
 				result += "Lamia";
@@ -12605,9 +12605,9 @@ public class LN
 			case 531:
 				result += "Sand Poacher";
 			case 532:
-				result += "Basilisk";
+				result += "바실리스크";
 			case 533:
-				result += "Desert Spirit";
+				result += "사막 망령";
 			case 534:
 				result += "Tortured Soul";
 			case 535:
@@ -12805,7 +12805,7 @@ public class LN
 		{
 			if (l >= 1874 && l <= 1905)
 			{
-				return "Placeable on a christmas tree";
+				return "배치할 수 있는 성탄절 소나무";
 			}
 			if ((l >= 2897 && l <= 2994) || (l >= 1615 && l <= 1701) || (l >= 3390 && l <= 3452) || (l >= 3593 && l <= 3594))
 			{
