@@ -7957,28 +7957,28 @@ public class LN
 		Lang.mp[2] = "이 상태에서 작업이 잘못되었습니다.";
 		Lang.mp[3] = "당신의 캐릭터는 서버에서 추방당했습니다.";
 		Lang.mp[4] = "당신은 현재 서버와 동일한 버전을 사용하고 있지 않습니다.";
-		Lang.mp[5] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " 이미 서버에 있습니다.";
+		Lang.mp[5] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " 이미 서버에 있습니다.";
 		Lang.mp[6] = "/playing";
 		Lang.mp[7] = "현재 플레이어 : ";
 		Lang.mp[8] = "/roll";
 		Lang.mp[9] = "주사위를 굴렸습니다. 나온 숫자는 - ";
 		Lang.mp[10] = "당신은 파티에 속하지 않습니다!";
-		Lang.mp[11] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " 대전을 활성화시켰습니다!";
-		Lang.mp[12] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " 대전을 비활성화시켰습니다!";
-		Lang.mp[13] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " 파티에서 탈퇴하였습니다.";
-		Lang.mp[14] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " [적] 파티에 참여했습니다.";
-		Lang.mp[15] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " [녹] 파티에 참여했습니다.";
-		Lang.mp[16] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " [청] 파티에 참여했습니다.";
-		Lang.mp[17] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " [황] 파티에 참여했습니다.";
+		Lang.mp[11] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " 대전을 활성화시켰습니다!";
+		Lang.mp[12] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " 대전을 비활성화시켰습니다!";
+		Lang.mp[13] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " 파티에서 탈퇴하였습니다.";
+		Lang.mp[14] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " [적] 파티에 참여했습니다.";
+		Lang.mp[15] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " [녹] 파티에 참여했습니다.";
+		Lang.mp[16] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " [청] 파티에 참여했습니다.";
+		Lang.mp[17] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " [황] 파티에 참여했습니다.";
 		Lang.mp[18] = "환영합니다! ";
-		Lang.mp[19] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " 참여했습니다.";
-		Lang.mp[20] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " 나갔습니다.";
+		Lang.mp[19] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " 참여했습니다.";
+		Lang.mp[20] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " 나갔습니다.";
 		Lang.mp[21] = "/players";
 		Lang.mp[22] = "has joined the pink party.";
 		Lang.the = "the ";
-		Lang.dt[0] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 해독제를 찾지 못했습니다";
-		Lang.dt[1] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 몸에 붙은 불을 끌 수 없었습니다";
-		Lang.dt[2] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 숨을 쉴 수 없습니다";
+		Lang.dt[0] = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 해독제를 찾지 못했습니다";
+		Lang.dt[1] = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 몸에 붙은 불을 끌 수 없었습니다";
+		Lang.dt[2] = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 숨을 쉴 수 없습니다";
 		Lang.dt[3] = "couldn't contain the watts.";
 		Main.buffName[1] = "흑요석 피부";
 		Main.buffTip[1] = "용암에 면역";
@@ -9829,18 +9829,18 @@ public class LN
 		if (plr >= 0 && plr < 255)
 		{
 			if (proj >= 0 && Main.projectile[proj].name != "")
-				result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " " + Main.player[plr].name + "의 " + returnProjectileName(proj) + LangKR.KrTailString(returnProjectileName(proj), 3) + text;
+				result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " " + Main.player[plr].name + "의 " + returnProjectileName(proj) + KRTracker.End(returnProjectileName(proj), 3) + text;
 			else
-				result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " " + Main.player[plr].name + "의 " + Main.player[plr].inventory[Main.player[plr].selectedItem].name + LangKR.KrTailString(Main.player[plr].inventory[Main.player[plr].selectedItem].name, 3) + text;
+				result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " " + Main.player[plr].name + "의 " + Main.player[plr].inventory[Main.player[plr].selectedItem].name + KRTracker.End(Main.player[plr].inventory[Main.player[plr].selectedItem].name, 3) + text;
 
 		}
 		else if (npc >= 0 && Main.npc[npc].displayName != "")
 		{
-			result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " " + Main.npc[npc].displayName + "에게" + text;
+			result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " " + Main.npc[npc].displayName + "에게" + text;
 		}
 		else if (proj >= 0 && Main.projectile[proj].name != "")
 		{
-			result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " " + returnProjectileName(proj) + "에 의해서" + text;
+			result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " " + returnProjectileName(proj) + "에 의해서" + text;
 		}
 		else if (other >= 0)
 		{
@@ -9848,11 +9848,11 @@ public class LN
 			{
 				if (Main.rand.Next(2) == 0)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 높이를 생각하지 못하고 뛰어내렸습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 높이를 생각하지 못하고 뛰어내렸습니다.";
 				}
 				else
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 튀어오를 수 없었습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 튀어오를 수 없었습니다.";
 				}
 			}
 			else if (other == 1)
@@ -9860,19 +9860,19 @@ public class LN
 				int num2 = Main.rand.Next(4);
 				if (num2 == 0)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 숨쉬는 것을 잊어버렸습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 숨쉬는 것을 잊어버렸습니다.";
 				}
 				else if (num2 == 1)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 물고기와 함께 편안히 잠들었습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 물고기와 함께 편안히 잠들었습니다.";
 				}
 				else if (num2 == 2)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 물에서 헤엄쳐나올 수 없었습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 물에서 헤엄쳐나올 수 없었습니다.";
 				}
 				else if (num2 == 3)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 상어밥이 되었습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 상어밥이 되었습니다.";
 				}
 			}
 			else if (other == 2)
@@ -9880,28 +9880,28 @@ public class LN
 				int num3 = Main.rand.Next(4);
 				if (num3 == 0)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 녹아버렸습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 녹아버렸습니다.";
 				}
 				else if (num3 == 1)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 소각되어 버렸습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 소각되어 버렸습니다.";
 				}
 				else if (num3 == 2)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 용암에서 헤엄치려 시도했습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 용암에서 헤엄치려 시도했습니다.";
 				}
 				else if (num3 == 3)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 용암에서 노는 것을 즐겼습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 용암에서 노는 것을 즐겼습니다.";
 				}
 			}
 			else if (other == 3)
 			{
-				result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + text + ".";
+				result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + text + ".";
 			}
 			else if (other == 4)
 			{
-				result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 죽어버렸시맛타.";
+				result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 죽어버렸시맛타.";
 			}
 		}
 		
