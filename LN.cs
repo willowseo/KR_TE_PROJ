@@ -34,6 +34,8 @@ public class LN
 	toolTip2
 	번:
 	검:
+	
+	원문을 확인하려면 파일을 구버전으로 롤백해 보십시오.
 	*/
 	
 	public static string KrTailString(string name)
