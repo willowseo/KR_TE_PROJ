@@ -6,6 +6,8 @@ public class LN
 	// 명사가 들어간다고 생각해주시면 될듯.
 	// 
 	
+	// 주 : 데미지 X 대미지
+	
 	// #### 담당 파트 ### //
 	/*
 	itemName
@@ -18,7 +20,7 @@ public class LN
 	번:버들서
 	검:버들서
 	dialog
-	번:
+	번:Poro
 	검:
 	setLang
 	번:버들서
@@ -32,6 +34,8 @@ public class LN
 	toolTip2
 	번:
 	검:
+	
+	원문을 확인하려면 파일을 구버전으로 롤백해 보십시오.
 	*/
 	
 	public static string KrTailString(string name)
@@ -2866,11 +2870,11 @@ public class LN
 			case 1359:
 				return "독의 플라스크";
 			case 1360:
-				return "크툴루의 눈 전리품";
+				return "크툴후의 눈 전리품";
 			case 1361:
 				return "세상을 먹는 자 전리품";
 			case 1362:
-				return "크툴루의 뇌 전리품";
+				return "크툴후의 뇌 전리품";
 			case 1363:
 				return "스켈레트론 전리품";
 			case 1364:
@@ -4358,7 +4362,7 @@ public class LN
 			case 2103:
 				return "으스스한 촛대";
 			case 2104:
-				return "크툴루의 뇌 가면";
+				return "크툴후의 뇌 가면";
 			case 2105:
 				return "육체의 벽 가면";
 			case 2106:
@@ -4374,7 +4378,7 @@ public class LN
 			case 2111:
 				return "세계를 먹는 자 가면";
 			case 2112:
-				return "크툴루의 눈 가면";
+				return "크툴후의 눈 가면";
 			case 2113:
 				return "파괴자 가면";
 			case 2114:
@@ -5068,7 +5072,7 @@ public class LN
 			case 2458:
 				return "떨어진 별고기";
 			case 2459:
-				return "'크툴루의 물고기'";
+				return "'크툴후의 물고기'";
 			case 2460:
 				return "피쇼트론";
 			case 2461:
@@ -5652,27 +5656,27 @@ public class LN
 			#endregion
 			#region 2749 ~ 3000 (1.3~)
 			case 2749:
-				return "Xeno Staff";
+				return "제노 스태프";
 			case 2750:
-				return "Meteor Staff";
+				return "메테오 스태프";
 			case 2751:
-				return "Living Cursed Fire Block";
+				return "타오르는 저주받은 불 블록";
 			case 2752:
-				return "Living Demon Fire Block";
+				return "타오르는 악마의 불 블록";
 			case 2753:
-				return "Living Frost Fire Block";
+				return "타오르는 냉기의 불 블록";
 			case 2754:
-				return "Living Ichor Block";
+				return "타오르는 이코르 불 블록";
 			case 2755:
-				return "Living Ultrabright Fire Block";
+				return "타오르는 매우 밝은 불 블록";
 			case 2756:
 				return "성전환 물약";
 			case 2757:
-				return "Vortex 투구";
+				return "소용돌이 투구";
 			case 2758:
-				return "Vortex 흉갑";
+				return "소용돌이 흉갑";
 			case 2759:
-				return "Vortex 각반";
+				return "소용돌이 각반";
 			case 2760:
 				return "성운 투구";
 			case 2761:
@@ -5680,11 +5684,11 @@ public class LN
 			case 2762:
 				return "성운 각반";
 			case 2763:
-				return "Solar Flare Helmet";
+				return "태양풍 헬멧";
 			case 2764:
-				return "Solar Flare Breastplate";
+				return "태양풍 흉갑";
 			case 2765:
-				return "Solar Flare Leggings";
+				return "태양풍 각반";
 			case 2766:
 				return "Solar Tablet Fragment";
 			case 2767:
@@ -5696,21 +5700,21 @@ public class LN
 			case 2770:
 				return "Mothron Wings";
 			case 2771:
-				return "Brain Scrambler";
+				return "두뇌 분쇄기";
 			case 2772:
-				return "Vortex Axe";
+				return "소용돌이 도끼";
 			case 2773:
-				return "Vortex Chainsaw";
+				return "소용돌이 전기톱";
 			case 2774:
-				return "Vortex Drill";
+				return "소용돌이 드릴";
 			case 2775:
-				return "Vortex Hammer";
+				return "소용돌이 망치";
 			case 2776:
-				return "Vortex Pickaxe";
+				return "소용돌이 곡괭이";
 			case 2777:
-				return "Nebula Axe";
+				return "성운 도끼";
 			case 2778:
-				return "Nebula Chainsaw";
+				return "성운 전기톱";
 			case 2779:
 				return "Nebula Drill";
 			case 2780:
@@ -5738,27 +5742,27 @@ public class LN
 			case 2791:
 				return "Shroomite Plating Wall";
 			case 2792:
-				return "Chlorophyte Brick";
+				return "녹조류 벽돌";
 			case 2793:
 				return "Crimtane Brick";
 			case 2794:
 				return "Shroomite Plating";
 			case 2795:
-				return "Laser Machinegun";
+				return "레이저 기관총";
 			case 2796:
 				return "Electrosphere Launcher";
 			case 2797:
-				return "Xenopopper";
+				return "제노포퍼";
 			case 2798:
-				return "Laser Drill";
+				return "레이저 드릴";
 			case 2799:
 				return "Mechanical Ruler";
 			case 2800:
-				return "Anti-Gravity Hook";
+				return "반중력 갈고리";
 			case 2801:
-				return "Moon Mask";
+				return "달의 가면";
 			case 2802:
-				return "Sun Mask";
+				return "해의 가면";
 			case 2803:
 				return "Martian Costume Mask";
 			case 2804:
@@ -5946,7 +5950,7 @@ public class LN
 			case 2895:
 				return "황금 벌레";
 			case 2896:
-				return "Sticky Dynamite";
+				return "점착 다이너마이트";
 			case 2897:
 				return "Angry Trapper Banner";
 			case 2898:
@@ -6280,7 +6284,7 @@ public class LN
 			case 3061:
 				return "Architect Gizmo Pack";
 			case 3062:
-				return "Crimson Heart";
+				return "핏빛 심장";
 			case 3063:
 				return "Meowmere";
 			case 3064:
@@ -6310,91 +6314,91 @@ public class LN
 			case 3076:
 				return "Gold Worm Cage";
 			case 3077:
-				return "Silk Rope";
+				return "실크 로프";
 			case 3078:
-				return "Web Rope";
+				return "거미줄 로프";
 			case 3079:
-				return "Silk Rope Coil";
+				return "실크 로프 뭉치";
 			case 3080:
-				return "Web Rope Coil";
+				return "거미줄 로프 뭉치";
 			case 3081:
-				return "Marble Block";
+				return "대리석 블록";
 			case 3082:
-				return "Marble Wall";
+				return "대리석 벽";
 			case 3083:
-				return "Smooth Marble Wall";
+				return "부드러운 대리석 벽";
 			case 3084:
-				return "Radar";
+				return "레이더";
 			case 3085:
-				return "Golden Lock Box";
+				return "잠긴 황금 상자";
 			case 3086:
-				return "Granite Block";
+				return "화강암 블록";
 			case 3087:
-				return "Smooth Granite Block";
+				return "부드러운 화강암 블록";
 			case 3088:
-				return "Granite Wall";
+				return "화강암 벽";
 			case 3089:
-				return "Smooth Granite Wall";
+				return "부드러운 화강암 벽";
 			case 3090:
-				return "Royal Gel";
+				return "로열 젤리";
 			case 3091:
-				return "Key of Night";
+				return "밤의 열쇠";
 			case 3092:
-				return "Key of Light";
+				return "빛의 열쇠";
 			case 3093:
-				return "Herb Bag";
+				return "허브 가방";
 			case 3094:
-				return "Javelin";
+				return "투창";
 			case 3095:
 				return "Tally Counter";
 			case 3096:
 				return "Sextant";
 			case 3097:
-				return "Shield of Cthulhu";
+				return "크툴후의 방패";
 			case 3098:
-				return "Butcher's Chainsaw";
+				return "도살자의 전기톱";
 			case 3099:
-				return "Stopwatch";
+				return "스톱워치";
 			case 3100:
 				return "Meteorite Brick";
 			case 3101:
 				return "Meteorite Brick Wall";
 			case 3102:
-				return "Metal Detector";
+				return "금속 탐지기";
 			case 3103:
 				return "Endless Quiver";
 			case 3104:
 				return "Endless Musket Pouch";
 			case 3105:
-				return "Toxic Flask";
+				return "독성 플라스크";
 			case 3106:
-				return "Psycho Knife";
+				return "사이코의 칼";
 			case 3107:
-				return "Nail Gun";
+				return "네일 건";
 			case 3108:
-				return "Nail";
+				return "못";
 			case 3109:
-				return "Night Vision Helmet";
+				return "야간 투시 헬멧";
 			case 3110:
 				return "Celestial Shell";
 			case 3111:
-				return "Pink Gel";
+				return "분홍 젤";
 			case 3112:
 				return "Bouncy Glowstick";
 			case 3113:
-				return "Pink Slime Block";
+				return "분홍 슬라임 블록";
 			case 3114:
-				return "Pink Torch";
+				return "분홍 횃불";
 			case 3115:
 				return "Bouncy Bomb";
 			case 3116:
 				return "Bouncy Grenade";
 			case 3117:
-				return "Peace Candle";
+				return "평화의 촛불";
 			case 3118:
 				return "Lifeform Analyzer";
 			case 3119:
-				return "DPS Meter";
+				return "DPS 측정기";
 			case 3120:
 				return "Fisherman's Pocket Guide";
 			case 3121:
@@ -6404,21 +6408,21 @@ public class LN
 			case 3123:
 				return "PDA";
 			case 3124:
-				return "Cell Phone";
+				return "휴대전화";
 			case 3125:
-				return "Granite Chest";
+				return "화강암 상자";
 			case 3126:
-				return "Meteorite Clock";
+				return "운석 시계";
 			case 3127:
-				return "Marble Clock";
+				return "대리석 시계";
 			case 3128:
-				return "Granite Clock";
+				return "화강암 시계";
 			case 3129:
-				return "Meteorite Door";
+				return "운석 문";
 			case 3130:
-				return "Marble Door";
+				return "대리석 문";
 			case 3131:
-				return "Granite Door";
+				return "화강암 문";
 			case 3132:
 				return "Meteorite Dresser";
 			case 3133:
@@ -6426,29 +6430,29 @@ public class LN
 			case 3134:
 				return "Granite Dresser";
 			case 3135:
-				return "Meteorite Lamp";
+				return "운석 램프";
 			case 3136:
-				return "Marble Lamp";
+				return "대리석 램프";
 			case 3137:
-				return "Granite Lamp";
+				return "화강암 램프";
 			case 3138:
-				return "Meteorite Lantern";
+				return "운석 랜턴";
 			case 3139:
-				return "Marble Lantern";
+				return "대리석 랜턴";
 			case 3140:
-				return "Granite Lantern";
+				return "화강암 랜턴";
 			case 3141:
-				return "Meteorite Piano";
+				return "운석 피아노";
 			case 3142:
-				return "Marble Piano";
+				return "대리석 피아노";
 			case 3143:
-				return "Granite Piano";
+				return "화강암 피아노";
 			case 3144:
-				return "Meteorite Platform";
+				return "운석 플랫폼";
 			case 3145:
-				return "Marble Platform";
+				return "대리석 플랫폼";
 			case 3146:
-				return "Granite Platform";
+				return "화강암 플랫폼";
 			case 3147:
 				return "Meteorite Sink";
 			case 3148:
@@ -6456,29 +6460,29 @@ public class LN
 			case 3149:
 				return "Granite Sink";
 			case 3150:
-				return "Meteorite Sofa";
+				return "운석 소파";
 			case 3151:
-				return "Marble Sofa";
+				return "대리석 소파";
 			case 3152:
-				return "Granite Sofa";
+				return "화강암 소파";
 			case 3153:
-				return "Meteorite Table";
+				return "운석 테이블";
 			case 3154:
-				return "Marble Table";
+				return "대리석 테이블";
 			case 3155:
-				return "Granite Table";
+				return "화강암 테이블";
 			case 3156:
-				return "Meteorite Work Bench";
+				return "운석 작업대";
 			case 3157:
-				return "Marble Work Bench";
+				return "대리석 작업대";
 			case 3158:
-				return "Granite Work Bench";
+				return "화강암 작업대";
 			case 3159:
-				return "Meteorite Bathtub";
+				return "운석 욕조";
 			case 3160:
-				return "Marble Bathtub";
+				return "대리석 욕조";
 			case 3161:
-				return "Granite Bathtub";
+				return "화강암 욕조";
 			case 3162:
 				return "Meteorite Bed";
 			case 3163:
@@ -7457,7 +7461,7 @@ public class LN
 			case 44:
 				return "테라리아 : 크툴후는 미치광이에 눈을 잃어버렸습니다.";
 			case 45:
-				return "테라리아 : 벌은 안됩니다.";
+				return "테라리아 : 제발 벌만은!";
 			case 46:
 				return "테라리아 : 막스의 전설";
 			case 47:
@@ -7664,24 +7668,24 @@ public class LN
 		Lang.menu[127] = "Style";
 		Lang.menu[128] = "배치 미리보기 켬";
 		Lang.menu[129] = "배치 미리보기 끔";
-		Lang.menu[130] = "Mount             ";
-		Lang.menu[131] = "Achievements";
-		Lang.menu[132] = "Blood and Gore On";
-		Lang.menu[133] = "Blood and Gore Off";
-		Lang.menu[134] = "Apply";
-		Lang.menu[135] = "Server Settings";
-		Lang.menu[136] = "Steam Multiplayer: Disabled";
-		Lang.menu[137] = "Steam Multiplayer: Enabled";
-		Lang.menu[138] = "Allowed Users: Invite Only";
-		Lang.menu[139] = "Allowed Users: Friends";
-		Lang.menu[140] = "Friends Can Invite: Off";
-		Lang.menu[141] = "Friends Can Invite: On";
-		Lang.menu[142] = "Allow Friends Of Friends: Off";
-		Lang.menu[143] = "Allow Friends Of Friends: On";
-		Lang.menu[144] = "Start";
-		Lang.menu[145] = "Join via Steam";
-		Lang.menu[146] = "Join via IP";
-		Lang.menu[147] = "Invite Friends";
+		Lang.menu[130] = "탑승물             ";
+		Lang.menu[131] = "도전 과제";
+		Lang.menu[132] = "피와 잔인한 요소를 사용함";
+		Lang.menu[133] = "피와 잔인한 요소를 사용하지 않음";
+		Lang.menu[134] = "승락";
+		Lang.menu[135] = "서버 설정";
+		Lang.menu[136] = "스팀 멀티플레이어 : 사용 안함";
+		Lang.menu[137] = "스팀 멀티플레이어 : 사용함";
+		Lang.menu[138] = "허용할 유저 : 초대만 가능";
+		Lang.menu[139] = "허용할 유저 : 친구만 가능";
+		Lang.menu[140] = "친구가 초대 가능 : 사용 안함";
+		Lang.menu[141] = "친구가 초대 가능 ; 사용함";
+		Lang.menu[142] = "친구의 친구 허용 : 허용 안함";
+		Lang.menu[143] = "친구의 친구 허용 : 허용함";
+		Lang.menu[144] = "시작";
+		Lang.menu[145] = "스팀 계정으로 참여합니다";
+		Lang.menu[146] = "아이피 주소로 참여합니다";
+		Lang.menu[147] = "친구 초대";
 		
 		Lang.gen[0] = "월드 지형 생성 중 :";
 		Lang.gen[1] = "모래를 넣는 중...";
@@ -7940,9 +7944,9 @@ public class LN
 		Lang.tip[50] = "사는 가격:";
 		Lang.tip[51] = "가치 없음";
 		Lang.tip[52] = "소모함 ";
-		Lang.tip[53] = " 소환 데미지";
+		Lang.tip[53] = " 소환 대미지";
 		Lang.tip[54] = " 사정거리";
-		Lang.tip[55] = " 데미지";
+		Lang.tip[55] = " 대미지";
 		Lang.tip[56] = "Marked as favorite";
 		Lang.tip[57] = "Quick trash, stacking, and selling will be blocked";
 		Lang.tip[58] = " throwing damage";
@@ -7953,28 +7957,28 @@ public class LN
 		Lang.mp[2] = "이 상태에서 작업이 잘못되었습니다.";
 		Lang.mp[3] = "당신의 캐릭터는 서버에서 추방당했습니다.";
 		Lang.mp[4] = "당신은 현재 서버와 동일한 버전을 사용하고 있지 않습니다.";
-		Lang.mp[5] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " 이미 서버에 있습니다.";
+		Lang.mp[5] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " 이미 서버에 있습니다.";
 		Lang.mp[6] = "/playing";
 		Lang.mp[7] = "현재 플레이어 : ";
 		Lang.mp[8] = "/roll";
 		Lang.mp[9] = "주사위를 굴렸습니다. 나온 숫자는 - ";
 		Lang.mp[10] = "당신은 파티에 속하지 않습니다!";
-		Lang.mp[11] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " 대전을 활성화시켰습니다!";
-		Lang.mp[12] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " 대전을 비활성화시켰습니다!";
-		Lang.mp[13] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " 파티에서 탈퇴하였습니다.";
-		Lang.mp[14] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " [적] 파티에 참여했습니다.";
-		Lang.mp[15] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " [녹] 파티에 참여했습니다.";
-		Lang.mp[16] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " [청] 파티에 참여했습니다.";
-		Lang.mp[17] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " [황] 파티에 참여했습니다.";
+		Lang.mp[11] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " 대전을 활성화시켰습니다!";
+		Lang.mp[12] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " 대전을 비활성화시켰습니다!";
+		Lang.mp[13] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " 파티에서 탈퇴하였습니다.";
+		Lang.mp[14] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " [적] 파티에 참여했습니다.";
+		Lang.mp[15] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " [녹] 파티에 참여했습니다.";
+		Lang.mp[16] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " [청] 파티에 참여했습니다.";
+		Lang.mp[17] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " [황] 파티에 참여했습니다.";
 		Lang.mp[18] = "환영합니다! ";
-		Lang.mp[19] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " 참여했습니다.";
-		Lang.mp[20] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 2) + " 나갔습니다.";
+		Lang.mp[19] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " 참여했습니다.";
+		Lang.mp[20] = KRTracker.End(Main.player[Main.myPlayer].name, 2) + " 나갔습니다.";
 		Lang.mp[21] = "/players";
 		Lang.mp[22] = "has joined the pink party.";
 		Lang.the = "the ";
-		Lang.dt[0] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 해독제를 찾지 못했습니다";
-		Lang.dt[1] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 몸에 붙은 불을 끌 수 없었습니다";
-		Lang.dt[2] = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 숨을 쉴 수 없습니다";
+		Lang.dt[0] = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 해독제를 찾지 못했습니다";
+		Lang.dt[1] = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 몸에 붙은 불을 끌 수 없었습니다";
+		Lang.dt[2] = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 숨을 쉴 수 없습니다";
 		Lang.dt[3] = "couldn't contain the watts.";
 		Main.buffName[1] = "흑요석 피부";
 		Main.buffTip[1] = "용암에 면역";
@@ -8220,7 +8224,7 @@ public class LN
 		Main.buffTip[121] = "낚시 레벨 증가";
 		Main.buffName[122] = "수중탐지";
 		Main.buffTip[122] = "낚시 바늘에 무엇이 물고 있는지 볼 수 있습니다";
-		Main.buffName[123] = "상자";
+		Main.buffName[123] = "아이템 낚시 확률 증가";
 		Main.buffTip[123] = "상자를 낚아올릴 큰 기회";
 		Main.buffName[124] = "온기";
 		Main.buffTip[124] = "차가운 것으로부터 피해 감소";
@@ -8233,7 +8237,7 @@ public class LN
 		Main.buffName[128] = "토끼 탈 것";
 		Main.buffTip[128] = "당신은 당근을 갈망한다";
 		Main.buffName[129] = "돼지용 탈 것";
-		Main.buffTip[129] = "지금 나보고....";
+		Main.buffTip[129] = "살찌지 않았다 꿀";
 		Main.buffName[130] = "슬라임 탈 것";
 		Main.buffTip[130] = "뿌잉!";
 		Main.buffName[131] = "거북이 탈 것";
@@ -8255,8 +8259,8 @@ public class LN
 		Main.buffName[139] = "샤크네이도";
 		Main.buffTip[139] = "샤크네이도가 당신을 위해 싸웁니다";
 		Main.buffName[140] = "UFO";
-		Main.buffTip[140] = "The UFO will fight for you";
-		Main.buffName[141] = "UFO Mount";
+		Main.buffTip[140] = "UFO가 당신을 위해 싸웁니다";
+		Main.buffName[141] = "UFO 탑승";
 		Main.buffTip[141] = "It's a good thing you had a MAC";
 		Main.buffName[142] = "Drill Mount";
 		Main.buffTip[142] = "Riding in a flying drill";
@@ -9825,18 +9829,18 @@ public class LN
 		if (plr >= 0 && plr < 255)
 		{
 			if (proj >= 0 && Main.projectile[proj].name != "")
-				result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " " + Main.player[plr].name + "의 " + returnProjectileName(proj) + LangKR.KrTailString(returnProjectileName(proj), 3) + text;
+				result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " " + Main.player[plr].name + "의 " + returnProjectileName(proj) + KRTracker.End(returnProjectileName(proj), 3) + text;
 			else
-				result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " " + Main.player[plr].name + "의 " + Main.player[plr].inventory[Main.player[plr].selectedItem].name + LangKR.KrTailString(Main.player[plr].inventory[Main.player[plr].selectedItem].name, 3) + text;
+				result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " " + Main.player[plr].name + "의 " + Main.player[plr].inventory[Main.player[plr].selectedItem].name + KRTracker.End(Main.player[plr].inventory[Main.player[plr].selectedItem].name, 3) + text;
 
 		}
 		else if (npc >= 0 && Main.npc[npc].displayName != "")
 		{
-			result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " " + Main.npc[npc].displayName + "에게" + text;
+			result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " " + Main.npc[npc].displayName + "에게" + text;
 		}
 		else if (proj >= 0 && Main.projectile[proj].name != "")
 		{
-			result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " " + returnProjectileName(proj) + "에 의해서" + text;
+			result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " " + returnProjectileName(proj) + "에 의해서" + text;
 		}
 		else if (other >= 0)
 		{
@@ -9844,11 +9848,11 @@ public class LN
 			{
 				if (Main.rand.Next(2) == 0)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 높이를 생각하지 못하고 뛰어내렸습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 높이를 생각하지 못하고 뛰어내렸습니다.";
 				}
 				else
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 튀어오를 수 없었습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 튀어오를 수 없었습니다.";
 				}
 			}
 			else if (other == 1)
@@ -9856,19 +9860,19 @@ public class LN
 				int num2 = Main.rand.Next(4);
 				if (num2 == 0)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 숨쉬는 것을 잊어버렸습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 숨쉬는 것을 잊어버렸습니다.";
 				}
 				else if (num2 == 1)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 물고기와 함께 편안히 잠들었습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 물고기와 함께 편안히 잠들었습니다.";
 				}
 				else if (num2 == 2)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 물에서 헤엄쳐나올 수 없었습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 물에서 헤엄쳐나올 수 없었습니다.";
 				}
 				else if (num2 == 3)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 상어밥이 되었습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 상어밥이 되었습니다.";
 				}
 			}
 			else if (other == 2)
@@ -9876,28 +9880,28 @@ public class LN
 				int num3 = Main.rand.Next(4);
 				if (num3 == 0)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 녹아버렸습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 녹아버렸습니다.";
 				}
 				else if (num3 == 1)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 소각되어 버렸습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 소각되어 버렸습니다.";
 				}
 				else if (num3 == 2)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 용암에서 헤엄치려 시도했습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 용암에서 헤엄치려 시도했습니다.";
 				}
 				else if (num3 == 3)
 				{
-					result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 용암에서 노는 것을 즐겼습니다.";
+					result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 용암에서 노는 것을 즐겼습니다.";
 				}
 			}
 			else if (other == 3)
 			{
-				result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + text + ".";
+				result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + text + ".";
 			}
 			else if (other == 4)
 			{
-				result = LangKR.KrTailString(Main.player[Main.myPlayer].name, 0) + " 죽어버렸시맛타.";
+				result = KRTracker.End(Main.player[Main.myPlayer].name, 0) + " 죽어버렸시맛타.";
 			}
 		}
 		
@@ -10522,29 +10526,29 @@ public class LN
 		switch (l)
 		{
 			case 1:
-				result += "I hope a scrawny kid like you isn't all that is standing between us and Cthulhu's Eye.";
+				result += "나와 크툴루의 눈 사이에 서있는게 뼈만 앙상한 자네가 전부이지 않길 바라네.";
 			case 2:
-				result += "Look at that shoddy armor you're wearing. Better buy some more healing potions.";
+				result += "그 조잡한 방어구좀 보게. 치료약을 좀 사는것이 어떤가?";
 			case 3:
-				result += "I feel like an evil presence is watching me.";
+				result += "사악한 존재가 날 보고 있는것만 같아.";
 			case 4:
-				result += "Sword beats paper! Get one today.";
+				result += "보자기를 이기는건 검이지! 오늘 하나 사게나.";
 			case 5:
-				result += "You want apples? You want carrots? You want pineapples? We got torches.";
+				result += "무엇을 살텐가? 사과? 딸기? 파인에플? 횃불은 있는데";
 			case 6:
-				result += "Lovely morning, wouldn't you say? Was there something you needed?";
+				result += "좋은 아침이군, 그렇지 않나? 뭔가 필요한 것이 있나?";
 			case 7:
-				result += "Night will be upon us soon, friend. Make your choices while you can.";
+				result += "곧 어둠이 우리 위를 덮을꺼야 친구. 선택할 수 있을때 하게.";
 			case 8:
-				result += "You have no idea how much Dirt Blocks sell for overseas.";
+				result += "넌 해외에선 흙 블럭이 얼마나 잘 팔리는지 모를꺼야.";
 			case 9:
-				result += "Ah, they will tell tales of " + Main.player[Main.myPlayer].name + " some day... good ones I'm sure.";
+				result += "아, 언젠가는 " + Main.player[Main.myPlayer].name + "의 전설이 퍼질꺼야... 좋은 이야기들만 말야.";
 			case 10:
-				result += "Check out my dirt blocks; they are extra dirty.";
+				result += "내 흙블럭들좀 보시게나! 훨씬 더 더럽지.";
 			case 11:
-				result += "Boy, that sun is hot! I do have some perfectly ventilated armor.";
+				result += "어이, 저 태양은 뜨겁기만 하다네! 통풍이 잘되는 방어구가 있는데... 어떤가?.";
 			case 12:
-				result += "The sun is high, but my prices are not.";
+				result += "태양은 높지만, 내 가격은 아니야.";
 			case 13:
 				result += string.Concat(new string[]
 				{
@@ -10555,472 +10559,472 @@ public class LN
 					" arguing from here."
 				});
 			case 14:
-				result += "Have you seen Chith...Shith.. Chat... The big eye?";
+				result += "자네 혹시 그걸 본적이 있나?  키툴...시툴.. 채ㅌ...아 아니 그 큰 눈을 말야.";
 			case 15:
-				result += "Hey, this house is secure, right? Right? " + Main.player[Main.myPlayer].name + "?";
+				result += "어이, 이 집은 안전한거지? 그치? " + Main.player[Main.myPlayer].name + "?";
 			case 16:
-				result += "Not even a blood moon can stop capitalism. Let's do some business.";
+				result += "혈월도 자본주의를 막지는 못하지! 자 거래를 하자.";
 			case 17:
-				result += "Keep your eye on the prize, buy a lense!";
+				result += "상품에서 눈을 때지 말게, 렌즈도 사고 말야!";
 			case 18:
-				result += "Kosh, kapleck Mog. Oh sorry, that's klingon for 'Buy something or die.'";
+				result += "코시, 케플렉 모그. 아 미안하네, 방금 그건 클링곤어로 '뭔가 사거나 죽게.' 라는 뜻이야.";
 			case 19:
-				result += Main.player[Main.myPlayer].name + " is it? I've heard good things, friend!";
+				result += Main.player[Main.myPlayer].name + " 맞지? 자네 이야길 많이 들었어, 친구!";
 			case 20:
-				result += "I hear there's a secret treasure... oh never mind.";
+				result += "숨겨진 보물이 있다던데... 아, 신경쓰지 말게.";
 			case 21:
-				result += "Angel Statue you say? I'm sorry, I'm not a junk dealer.";
+				result += "천사상? 미안하게 됬군, 난 고물상인이 아니거든.";
 			case 22:
-				result += "The last guy who was here left me some junk... er I mean... treasures!";
+				result += "자네 전의 사람은 나에게 쓰레ㄱ... 어 그러니까... 귀중품을 팔고 갔지!";
 			case 23:
-				result += "I wonder if the moon is made of cheese...huh, what? Oh yes, buy something!";
+				result += "정말 궁금하군. 달은 치즈로 만들어진걸까?... 어, 뭐라고? 그래 맞아, 물건들좀 보게나!";
 			case 24:
-				result += "Did you say gold?  I'll take that off of ya.";
+				result += "방금 금이라고 했나?  자네에게서 뜯어내고 말겠네 .";
 			case 25:
-				result += "You better not get blood on me.";
+				result += "워우, 저한테 피를 흘리진 마세요.";
 			case 26:
-				result += "Hurry up and stop bleeding.";
+				result += "서둘러요, 피좀 그만 흘리구요.";
 			case 27:
-				result += "If you're going to die, do it outside.";
+				result += "죽을거 같으면... 밖에서 죽어요.";
 			case 28:
-				result += "What is that supposed to mean?!";
+				result += "도데체 그게 무슨 꿍꿍이신 거죠?!";
 			case 29:
-				result += "I don't think I like your tone.";
+				result += "당신의 그 말투... 반갑지가 않군요.";
 			case 30:
-				result += "Why are you even here? If you aren't bleeding, you don't need to be here. Get out.";
+				result += "도데체 여긴 왜 온거에요? 피 흘리는게 아니라면, 여기 있을 필요는 없어요. 나가요.";
 			case 31:
-				result += "WHAT?!";
+				result += "뭐라구요?!";
 			case 32:
-				result += "Have you seen that old man pacing around the dungeon? He looks troubled.";
+				result += "던젼 주변의 노인을 본적이 있어요? 불안해 하는 것 같던데.";
 			case 33:
-				result += "I wish " + str2 + " would be more careful.  I'm getting tired of having to sew his limbs back on every day.";
+				result += "제발 " + str2 + " 님이 좀더 조심스러웠으면 해요. 그 사람 팔을 다시 붙이는것도 지긋지긋해요.";
 			case 34:
-				result += "Hey, has " + text2 + " mentioned needing to go to the doctor for any reason? Just wondering.";
+				result += "저기요, 혹시 " + text2 + " 님이 어떤 이유든 간에 의사가 필요하다 한적 없나요? 그냥 궁금해서요.";
 			case 35:
-				result += "I need to have a serious talk with " + str4 + ". How many times a week can you come in with severe lava burns?";
+				result += "정말 " + str4 + " 님과 심각한 대화가 필요해요. 이번주만 해도 심각한 용암 화상으로 온게 몇번짼데요?";
 			case 36:
-				result += "I think you look better this way.";
+				result += "이쪽이 더 나아 보이는군요.";
 			case 37:
-				result += "Eww... What happened to your face?";
+				result += "으으.... 당신 얼굴에 무슨일이 일어난 거에요?";
 			case 38:
-				result += "MY GOODNESS! I'm good, but I'm not THAT good.";
+				result += "꺄아아아! 나...난 괜찮아요, 근데 당신처럼 괜찮진 않아요...";
 			case 39:
-				result += "Dear friends we are gathered here today to bid farewell... Oh, you'll be fine.";
+				result += "이자리에 우린 지난 친구들에게 마지막 작고를 하기 위하여 모였어요... 어 안녕하세요? 괜찮아요. 당신은 좋아질꺼에요.";
 			case 40:
-				result += "You left your arm over there. Let me get that for you...";
+				result += "저기, 팔을 나두고 갔던데요. 잠시만요...";
 			case 41:
-				result += "Quit being such a baby! I've seen worse.";
+				result += "애처럼 굴지좀 말아요! 난 더한것도 봤어요.";
 			case 42:
-				result += "That's gonna need stitches!";
+				result += "그건 꿰매야 겠는데요!";
 			case 43:
-				result += "Trouble with those bullies again?";
+				result += "또 그 나쁜 놈들이랑 어울렸나요?";
 			case 44:
-				result += "Hold on, I've got some cartoon bandages around here somewhere.";
+				result += "잠시만요, 뽀로로 반창고좀 찾아 올게요...";
 			case 45:
-				result += "Walk it off, " + Main.player[Main.myPlayer].name + ", you'll be fine. Sheesh.";
+				result += "남자답게 행동좀 해요, " + Main.player[Main.myPlayer].name + ", 괜찮아 질거에요. 어휴.";
 			case 46:
-				result += "Does it hurt when you do that? Don't do that.";
+				result += "그곳을 누르면 아픈가요? 그럼 누르질 마요.";
 			case 47:
-				result += "You look half digested. Have you been chasing slimes again?";
+				result += "당신... 반쯤 소화된것 같아요. 슬라임들을 잡으러 다녔나요?";
 			case 48:
-				result += "Turn your head and cough.";
+				result += "제채기는 머리를 돌리고 해요.";
 			case 49:
-				result += "That's not the biggest I've ever seen... Yes, I've seen bigger wounds for sure.";
+				result += "그 큰 상처는 제가 본것에 비하면 별거 아니에요... 맞아요, 더 큰것도 봤어요. 확실해요.";
 			case 50:
-				result += "Would you like a lollipop?";
+				result += "사탕이라도 드릴까요?";
 			case 51:
-				result += "Show me where it hurts.";
+				result += "어디가 아픈지 보여주세요.";
 			case 52:
-				result += "I'm sorry, but you can't afford me.";
+				result += "죄송하지만, 절 고용하기엔...";
 			case 53:
-				result += "I'm gonna need more gold than that.";
+				result += "그것보단 돈이 더 필요해요.";
 			case 54:
-				result += "I don't work for free you know.";
+				result += "전 의료봉사원이 아니에요. 모르실까봐.";
 			case 55:
-				result += "I don't give happy endings.";
+				result += "전 행복한 결말따위 좋아하지 않아요.";
 			case 56:
-				result += "I can't do anymore for you without plastic surgery.";
+				result += "더이상은 안되요. 성형이라면 모를까.";
 			case 57:
-				result += "Quit wasting my time.";
+				result += "제 시간좀 뺏지 말아요.";
 			case 58:
-				result += "I heard there is a doll that looks very similar to " + str4 + " somewhere in the underworld.	 I'd like to put a few rounds in it.";
+				result += "인형중에 " + str4 + " 녀석과 비슷한 인형이 지하 어딘가 있다더라고. 	그속에다 몇발 쏴 보고 싶군.";
 			case 59:
-				result += "Make it quick! I've got a date with " + text + " in an hour.";
+				result += "빨리좀 해! " + text + " 간호사와 데이트 약속이 있단 말야.";
 			case 60:
-				result += "I want what " + text + " is sellin'. What do you mean, she doesn't sell anything?";
+				result += "난 그 간호사, " + text + " 의 상품을 구매하고 싶군... 뭐? 그녀는 파는 상품이 없다고?";
 			case 61:
-				result += text3 + " is a looker.  Too bad she's such a prude.";
+				result += text3 + "? 그녀는 정말 매력적이야!  내숭쟁이라는게 정말 아쉽군.";
 			case 62:
-				result += "Don't bother with " + str2 + ", I've got all you need right here.";
+				result += str2 + " 녀석이랑은 어울리지도 마. 너한테 필요한건 내가 다 가지고 있어.";
 			case 63:
-				result += "What's " + str2 + "'s problem? Does he even realize we sell completely different stuff?";
+				result += "도데체 " + str2 + " 저놈은 뭐하는 거야? 우리가 서로 다른 물건을 취급하는건 알고는 있는거야??";
 			case 64:
-				result += "Man, it's a good night not to talk to anybody, don't you think, " + Main.player[Main.myPlayer].name + "?";
+				result += "누구랑도 얘기하기 싫은 밤이군. 안그래 " + Main.player[Main.myPlayer].name + "?";
 			case 65:
-				result += "I love nights like tonight.	There is never a shortage of things to kill!";
+				result += "오늘같은 밤이 좋아.	죽이고 싶은게 모자라지 않거든!";
 			case 66:
-				result += "I see you're eyeballin' the Minishark.. You really don't want to know how it was made.";
+				result += "이 미니샤크가 그렇게 궁금해?.. 어떻게 만들어졌는진 알고싶지 않을껄?.";
 			case 67:
-				result += "Hey, this ain't a movie, pal. Ammo is extra.";
+				result += "야 이거 영화 아냐. 탄약은 따로라고.";
 			case 68:
-				result += "Keep your hands off my gun, buddy!";
+				result += "내 물건에서 손때 , 이놈아!";
 			case 69:
-				result += "Have you tried using purification powder on the ebonstone of the corruption?";
+				result += "혹시 타락한 땅 흑단석에 정화가루를  뿌려보셨나요?";
 			case 70:
-				result += "I wish " + text2 + " would stop flirting with me. Doesn't he realize I'm 500 years old?";
+				result += "제발 " + text2 + KRTracker.End(text2, "이가") + " 그만 집적대면 좋겠어요. 내가 500살이 넘었다는건 모르나 보죠?";
 			case 71:
-				result += "Why does " + str + " keep trying to sell me an angel statues? Everyone knows that they don't do anything.";
+				result += "왜 자꾸 " + str + KRTracker.End(str, "이가") + " 나에게 천사상을 팔려는 건가요? 쓸모가 없다는건 모두가 아는 사실인데.";
 			case 72:
-				result += "Have you seen the old man walking around the dungeon? He doesn't look well at all...";
+				result += "던전 근처를 돌아다니는 노인을 보셨나요? 건강이 별로 좋아보이지 않던데...";
 			case 73:
-				result += "I sell what I want! If you don't like it, too bad.";
+				result += "전 팔고싶은 것만 팔아요! 맘에 안드신다면, 안됐네요.";
 			case 74:
-				result += "Why do you have to be so confrontational during a time like this?";
+				result += "왜 하필 이럴때에 대립적이신거죠?";
 			case 75:
-				result += "I don't want you to buy my stuff. I want you to want to buy my stuff, ok?";
+				result += "저는 당신이 제 물건을 사는걸 바라지 않아요. 당신이 내 물건을 사고 싶어하는걸 바랄 뿐이죠. ";
 			case 76:
-				result += "Dude, is it just me or is there like a million zombies out tonight?";
+				result += "저기요, 그냥 기분탓인가요 아님 밖에 좀비가 엄청나게 많은건가요?";
 			case 77:
-				result += "You must cleanse the world of this corruption.";
+				result += "당신은 타락한 이 세계를 정화해야만 해요.";
 			case 78:
-				result += "Be safe; Terraria needs you!";
+				result += "조심하세요! 테라리아는 당신을 필요로 해요!";
 			case 79:
-				result += "The sands of time are flowing. And well, you are not aging very gracefully.";
+				result += "시간의 모래는 흐르고 있어요. 그리고 당신은 나이를 꼴사납게 먹는군요.";
 			case 80:
-				result += "What's this about me having more 'bark' than bite?";
+				result += "제가 걱정했던것 만큼 그리 '나쁘지' 않다구요 무슨뜻이에요?";
 			case 81:
-				result += "So two goblins walk into a bar, and one says to the other, 'Want to get a Goblet of beer?!";
+				result += "두 고블린이 바에 들어갔는데, 한 고블린이 뭐라고 했는질 알아요? '맥주 고블릿으로 한잔 어때?!"; //말장난 '고블린'과 '고블릿'(유리잔) 의 발음이 비슷한 말장난
 			case 82:
-				result += "I cannot let you enter until you free me of my curse.";
+				result += "내 저주를 풀어주지 않는다면 던전에 들여보내주지 않을꺼요.";
 			case 83:
-				result += "Come back at night if you wish to enter.";
+				result += "들어가고 싶다면, 밤에 다시 오시오.";
 			case 84:
-				result += "My master cannot be summoned under the light of day.";
+				result += "내 마스터는 낮의 빛 아래 소환될 수 없소.";
 			case 85:
-				result += "You are far too weak to defeat my curse.	 Come back when you aren't so worthless.";
+				result += "당신은 내 저주를 풀어주기엔 너무 약하군.	 쓸모가 있어지면 다시 오시오.";
 			case 86:
-				result += "You pathetic fool.  You cannot hope to face my master as you are now.";
+				result += "불쌍한 바보여.  당신이 내 주인을 상대하기엔 희망조차도 못한다오.";
 			case 87:
-				result += "I hope you have like six friends standing around behind you.";
+				result += "난 당신이 여섯명의 친구와 함께이길 바라오. 당신 혼자겠지만.";
 			case 88:
-				result += "Please, no, stranger. You'll only get yourself killed.";
+				result += "제발, 하지 마시오 낮선 이여. 당신을 죽이는 일만 될 뿐이라오.";
 			case 89:
-				result += "You just might be strong enough to free me from my curse...";
+				result += "당신은 내 저주를 풀어주기에 충분하게 보이는군...";
 			case 90:
-				result += "Stranger, do you possess the strength to defeat my master?";
+				result += "낮선 이여, 당신은 내 마스터를 상대할 힘을 소유하고 있소?";
 			case 91:
-				result += "Please! Battle my captor and free me! I beg you!";
+				result += "제발! 내 포획자를 상대하고 날 자유케 해 주시오! 이렇게 빌겠소!";
 			case 92:
-				result += "Defeat my master, and I will grant you passage into the Dungeon.";
+				result += "내 마스터와 싸워 이긴다면 던전으로 가는 길을 열어주겠소.";
 			case 93:
-				result += "Trying to get past that ebonrock, eh?  Why not introduce it to one of these explosives!";
+				result += "까만 돌을 뚫고 싶다고, 에?  이 폭발물을 그 돌들에게 소개시켜주는건 어때!";
 			case 94:
-				result += "Hey, have you seen a clown around?";
+				result += "혹시 주변에서 광대를 본적이 있어?";
 			case 95:
-				result += "There was a bomb sitting right here, and now I can't seem to find it...";
+				result += "분명 폭탄을 여기 어디 두었는데, 도데체 찾을 수가 없네...";
 			case 96:
-				result += "I've got something for them zombies alright!";
+				result += "좀비들을 상대할 만한 좋은게 있지!";
 			case 97:
-				result += "Even " + text2 + " wants what I'm selling!";
+				result += text2 + "마저도 내 물건들을 사고싶어 한다고";
 			case 98:
-				result += "Would you rather have a bullet hole or a grenade hole? That's what I thought.";
+				result += "총알이 낫겠어 아님 폭탄이 낫겠어? 그냥 그렇다고.";
 			case 99:
-				result += "I'm sure " + text + " will help if you accidentally lose a limb to these.";
+				result += "분명" + text + " 간호사가 팔을 붙이는데 도와줄꺼야. 이녀석들한테 당한다면 말야.";
 			case 100:
-				result += "Why purify the world when you can just blow it up?";
+				result += "그냥 날려버리면 되는데 정화를 할 필요가 있을까?";
 			case 101:
-				result += "If you throw this one in the bathtub and close all the windows, it'll clear your sinuses and pop your ears!";
+				result += "이걸 욕조에 넣고 모든 창문을 닫아봐. 당신 코는 물론이고 귀까지 뚫어버릴껄!";
 			case 102:
-				result += "Wanna play Fuse Chicken?";
+				result += "닭폭탄놀이 어때?";
 			case 103:
-				result += "Hey, could you sign this Griefing Waiver?";
+				result += "저기, 여기에 서명좀 해주겠어? 테러 포기각서 말야";
 			case 104:
-				result += "NO SMOKING IN HERE!!";
+				result += "담배는 나가서 펴!!";
 			case 105:
-				result += "Explosives are da' bomb these days.	Buy some now!";
+				result += "폭탄의 인기가 폭발적이라고! .	너도 어서 하나 사!";
 			case 106:
-				result += "It's a good day to die!";
+				result += "삶을 마감하기 좋은 날이로다!";
 			case 107:
-				result += "I wonder what happens if I... (BOOM!)... Oh, sorry, did you need that leg?";
+				result += "만약 이걸 이렇게 한다면... (펑)... 어이쿠, 미안, 혹시 그 다리가 필요해?";
 			case 108:
-				result += "Dynamite, my own special cure-all for what ails ya.";
+				result += "다이너마이트, 내 특효약이지, 어떤 고통에도 잘 들어.";
 			case 109:
-				result += "Check out my goods; they have explosive prices!";
+				result += "내 물건들좀 봐줘; 폭탄 세일중이야!";
 			case 110:
-				result += "I keep having vague memories of tying up a woman and throwing her in a dungeon.";
+				result += "희미안 기억이지만 한 소자를 묶어 던전 속으로 던진 기억이 자꾸만 나";
 			case 111:
-				result += "... we have a problem! Its a blood moon out there!";
+				result += "... 문제가 생겼소, 밖에 블러드문이!";
 			case 112:
-				result += "T'were I younger, I would ask " + text + " out. I used to be quite the lady killer.";
+				result += "만약 내가 젊었다면" + text + " 간호사를 불러냈을텐데... 소싯적엔 꾀나 여자를 부렸거든.";
 			case 113:
-				result += "That Red Hat of yours looks familiar...";
+				result += "어! 그 빨간 모자 어디서 본거 같은데";
 			case 114:
-				result += "Thanks again for freeing me from my curse. Felt like something jumped up and bit me.";
+				result += "다시한번 저주를 풀어준데 의해 감사를 표하지. 꼭 뭔가 뛰어오르며 날 물어뜯는 느낌이였거든.";
 			case 115:
-				result += "Mama always said I would make a great tailor.";
+				result += "어머니께선 항상 내가 좋은 양복을 만들거라고 했지 .";
 			case 116:
-				result += "Life's like a box of clothes; you never know what you are gonna wear!";
+				result += "삶은 마치 옷이 가득한 상자와 같아; 뭘 입게 될지 모르지!";
 			case 117:
-				result += "Of course embroidery is hard! If it wasn't hard, no one would do it! That's what makes it great.";
+				result += "물론 자수를 놓는건 힘들지! 만약 어렵지 않았다면, 누구도 하지 않았을꺼야! 그게 바로 자수가 멋진 이유지.";
 			case 118:
-				result += "I know everything they is to know about the clothierin' business.";
+				result += "난 의복 사업이라면 모든것을 꽤고 있지.";
 			case 119:
-				result += "Being cursed was lonely, so I once made a friend out of leather. I named him Wilson.";
+				result += "저주받았을땐 외로웠어, 그래서 가죽으로 친구를 만들었지. 그 친구 이름은 윌슨이야.";
 			case 120:
-				result += "Thank you for freeing me, human.	 I was tied up and left here by the other goblins.	You could say that we didn't get along very well.";
+				result += "풀어줘서 고마워 인간. 다른 고블린들에 의해 여기 묶여 버려졌었어.	사이가 안 좋았다고 볼 수 있어.";
 			case 121:
-				result += "I can't believe they tied me up and left me here just for pointing out that they weren't going east!";
+				result += "고블린들이 동쪽으로 가고 있지 않다는걸 지적한 이유로 날 여기 버리고 갔다는걸 정말 믿을수가 없어!";
 			case 122:
-				result += "Now that I'm an outcast, can I throw away the spiked balls? My pockets hurt.";
+				result += "난 이제 왕따니까, 가시공좀 버려도 되지? 주머니쪽이 아파.";
 			case 123:
-				result += "Looking for a gadgets expert? I'm your goblin!";
+				result += "도구 전문자를 찾고 있어? 난 너의 고블린이야!";
 			case 124:
-				result += "Thanks for your help. Now, I have to finish pacing around aimlessly here. I'm sure we'll meet again.";
+				result += "도와줘서 고마워. 이제, 하릴없이 이곳을 돌아다녀야겠군. 언젠가 또 만나게 될꺼야.";
 			case 125:
-				result += "I thought you'd be taller.";
+				result += "난 너가 키가 더 클줄 알았는데.";
 			case 126:
-				result += "Hey...what's " + text5 + " up to? Have you...have you talked to her, by chance?";
+				result += "저기...지금 혹시 " + text5 + KRTracker.End(text5, "은는") + "뭐해? 말...말 나눠 본적 있어? 우연이라도?";
 			case 127:
-				result += "Hey, does your hat need a motor? I think I have a motor that would fit exactly in that hat.";
+				result += "혹시 너의 모자에 모터가 필요하지 않아? 그 모자에 꼭 맞는 모터를 가지고 있는것 같은데.";
 			case 128:
-				result += "Yo, I heard you like rockets and running boots, so I put some rockets in your running boots.";
+				result += "요, 너 로켓과 운동화를 좋아한다 들엇어,  그래서 로켓을 운동화 속에 넣었지.";
 			case 129:
-				result += "Silence is golden. Duct tape is silver.";
+				result += "침묵은 금이야. 덕트 테이프는 은이고.";
 			case 130:
-				result += "YES, gold is stronger than iron. What are they teaching these humans nowadays?";
+				result += "그래 , 금이 철보다 강한지.  도데체 요즘 인간들은 뭘 배우는지.";
 			case 131:
-				result += "You know, that mining helmet-flipper combination was a much better idea on paper.";
+				result += "근데말야, 그 채광용-오리발 조합은 종이에서나 좋은 아이디어였어.";
 			case 132:
-				result += "Goblins are surprisingly easy to anger. In fact, they could start a war over cloth!";
+				result += "고블린들은 쉽게 분노를 표하지. 사실, 옷때문에 전쟁이 일어나기도 해!";
 			case 133:
-				result += "To be honest, most goblins aren't exactly rocket scientists. Well, some are.";
+				result += "솔직히 모든 고블린들이 로켓 연구가는 아냐. 글쌔, 몇명은.";
 			case 134:
-				result += "Do you know why we all carry around these spiked balls? Because I don't.";
+				result += "왜 우리가 이 가시공들을 들고 다니는지 알아? 내가 안들고 다니거든.";
 			case 135:
-				result += "I just finished my newest creation! This version doesn't explode violently if you breathe on it too hard.";
+				result += "방금 신상품을 개발했지! 이번꺼는 숨을 깊게 쉰다고 격렬하게 터지진 않을꺼야.";
 			case 136:
-				result += "Goblin thieves aren't very good at their job. They can't even steal from an unlocked chest!";
+				result += "고블린 도적들은 사실 자기 일을 제데로 하지도 못해. 잠겨있지 않은 창고에서 물건을 훔치지도 못하거든!";
 			case 137:
-				result += "Thanks for saving me, friend!  This bondage was starting to chafe.";
+				result += "살려줘서 고맙소 친구!  이 결박이 쓸리기 시작했거든.";
 			case 138:
-				result += "Ohh, my hero!";
+				result += "오! 나의 영웅!";
 			case 139:
-				result += "Oh, how heroic! Thank you for saving me, young lady!";
+				result += "정말 영웅적이군! 살려줘서 고맙소, 젊은 아가씨!";
 			case 140:
-				result += "Oh, how heroic! Thank you for saving me, young man!";
+				result += "정말 영웅적이군! 살려줘서 고맙소, 젊은이!";
 			case 141:
-				result += "Now that we know each other, I can move in with you, right?";
+				result += "이제 서로 알았으니, 나도 너와 함께 살아도 되겠소?";
 			case 142:
-				result += "Well, hi there, " + str4 + "! What can I do for you today?";
+				result += "오, 안녕하신가, " + str4 + "! 오늘은 무엇을 도와드리면 좋겠소?";
 			case 143:
-				result += "Well, hi there, " + str2 + "! What can I do for you today?";
+				result += "오, 안녕하신가, " + str2 + "! 오늘은 무엇을 도와드리면 좋겠소?";
 			case 144:
-				result += "Well, hi there, " + text4 + "! What can I do for you today?";
+				result += "오, 안녕하신가, " + text4 + "! 오늘은 무엇을 도와드리면 좋겠소?";
 			case 145:
-				result += "Well, hi there, " + text + "! What can I do for you today?";
+				result += "오, 안녕하신가, " + text + "! 오늘은 무엇을 도와드리면 좋겠소?";
 			case 146:
-				result += "Well, hi there, " + text5 + "! What can I do for you today?";
+				result += "오, 안녕하신가, " + text5 + "! 오늘은 무엇을 도와드리면 좋겠소?";
 			case 147:
-				result += "Well, hi there, " + text3 + "! What can I do for you today?";
+				result += "오, 안녕하신가, " + text3 + "! 오늘은 무엇을 도와드리면 좋겠소?";
 			case 148:
-				result += "Want me to pull a coin from behind your ear? No? Ok.";
+				result += "귀 뒤에서 동전 꺼내는 마술 보여줄까? 싫소? 알았소.";
 			case 149:
-				result += "Do you want some magic candy? No? Ok.";
+				result += "혹시 마법 사탕은 어떻소? 싫소? 알았소.";
 			case 150:
-				result += "I make a rather enchanting hot chocolate if you'd be inter...No? Ok.";
+				result += "핫초코를 인챈팅 하는건 어떻...싫소? 알았소.";
 			case 151:
-				result += "Are you here for a peek at my crystal ball?";
+				result += "내 수정구를 훔쳐보려고 왔소?";
 			case 152:
-				result += "Ever wanted an enchanted ring that turns rocks into slimes? Well neither did I.";
+				result += "혹시 돌을 슬라임으로 바꾸는 인챈트 반지를 가지고 싶은적이 있소? 글쎄, 나도 싫소.";
 			case 153:
-				result += "Someone once told me friendship is magic. That's ridiculous. You can't turn people into frogs with friendship.";
+				result += "누군가 말하더군 우정은 마법이라고. 그렇게 멍청한 말이 또 어딨겠소? 우정으로는 사람들을 개구리로 만들수 없잖소.";
 			case 154:
-				result += "I can see your future now... You will buy a lot of items from me!";
+				result += "자네의 미래가 보이는군... 나에게서 많은 아이템을 살 것이란걸 말이오!";
 			case 155:
-				result += "I once tried to bring an Angel Statue to life. It didn't do anything.";
+				result += "천사상에게 생명을 불어넣는 시도도 해봣지. 아무일도 안일어나더군.";
 			case 156:
-				result += "Thanks!	It was just a matter of time before I ended up like the rest of the skeletons down here.";
+				result += "고마워요!	이곳 스켈레톤처럼 끝나는건 시간문제였거든요.";
 			case 157:
-				result += "Hey, watch where you're going! I was over there a little while ago!";
+				result += "길좀 보고 다녀욧! 조금 전에도 여기였거든요?!";
 			case 158:
-				result += "Hold on, I've almost got wifi going down here.";
+				result += "잠깐만요, 분명 어디서 와이파이 신호가 잡혔는데...";
 			case 159:
-				result += "But I was almost done putting blinking lights up here!";
+				result += "그...그치만 조금만 더하면 반짝전구를 달았는데!";
 			case 160:
-				result += "DON'T MOVE. I DROPPED MY CONTACT.";
+				result += "꼼짝마요! 컨택트렌즈를 떨어뜨렸어요.";
 			case 161:
-				result += "All I want is for the switch to make the... What?!";
+				result += "전 그저 스위치로...흐흐...... 뭐!";
 			case 162:
-				result += "Oh, let me guess. Didn't buy enough wire. Idiot.";
+				result += "제가 하나 맞춰볼까요?. 전선을 충분히 안샀죠?. 멍청이.";
 			case 163:
-				result += "Just-could you just... Please? Ok? Ok. Ugh.";
+				result += "그냥... 그냥 좀... 네? 오케이? 오케이. 어휴.";
 			case 164:
-				result += "I don't appreciate the way you're looking at me. I am WORKING right now.";
+				result += "그런 눈으로 보지마요. 지금 '일'하잖아요!.";
 			case 165:
 				result += string.Concat(new string[]
 				{
-					"Hey, ",
+					"저기, ",
 					Main.player[Main.myPlayer].name,
-					", did you just come from ",
+					", 혹시  ",
 					text4,
-					"'s? Did he say anything about me by chance?"
+					"'의 집에서 오는 길인가요? 그가 우연히라도 제 말을 하던가요?"
 				});
 			case 166:
-				result += text2 + " keeps talking about pressing my pressure plate. I told him it was for stepping on.";
+				result += text2 + " 님이 자꾸 갑압판이 누르는게 아니냐고 물어봐요. 밟는거라도 그렇게 말을 해도...";
 			case 167:
-				result += "Always buy more wire than you need!";
+				result += "필요한 전선보다 더 많이 준비해가요!";
 			case 168:
-				result += "Did you make sure your device was plugged in?";
+				result += "혹시 제품의 플러그를 꼽은걸 확인했나요?";
 			case 169:
-				result += "Oh, you know what this house needs? More blinking lights.";
+				result += "혹시 이 집이 더 필요한게 뭔지 알아요? 반짝전구말이에요.";
 			case 170:
-				result += "You can tell a Blood Moon is out when the sky turns red. There is something about it that causes monsters to swarm.";
+				result += "하늘이 빨갛다면 블러드문이라는 뜻이죠. 무언가가 괴물들을 모여들게 하고 있어요.";
 			case 171:
-				result += "Hey, buddy, do you know where any deathweed is? Oh, no reason; just wondering, is all.";
+				result += "저기 친구. 사망초를 어디서 구하는지 알아요? 아뇨? 이유는 없어요; 그냥 궁금해서, 그게 전부에요.";
 			case 172:
-				result += "If you were to look up, you'd see that the moon is red right now.";
+				result += "하늘을 봐봐요, 하늘을 보면 달이 빨간걸 알 수 있죠.";
 			case 173:
-				result += "You should stay indoors at night. It is very dangerous to be wandering around in the dark.";
+				result += "밤에는 실내에 있는게 좋아요. 어둠속에선 밖을 돌아다니는게 위험해요.";
 			case 174:
-				result += "Greetings, " + Main.player[Main.myPlayer].name + ". Is there something I can help you with?";
+				result += "안녕하세요, " + Main.player[Main.myPlayer].name + "님. 어떻게 도와드릴까요?";
 			case 175:
-				result += "I am here to give you advice on what to do next.	 It is recommended that you talk with me anytime you get stuck.";
+				result += "전 앞으로 뭘 해야할지 충고를 줄꺼에요.	 뭔가 막힌다면 저와 대화하는걸 추천하죠.";
 			case 176:
-				result += "They say there is a person who will tell you how to survive in this land... oh wait. That's me.";
+				result += "당신이 살아남도록 도와주는 사람이 어딘가 있다던데... 아 잠깐만. 저 말이였네요.";
 			case 177:
-				result += "You can use your pickaxe to dig through dirt, and your axe to chop down trees. Just place your cursor over the tile and click!";
+				result += "곡괭이를 사용하면 땅을 팔 수 있고, 도끼로는 나무를 팰 수 있죠. 마우스 커서를 블럭 위에 두고 클릭하시기만 하면 되요!";
 			case 178:
-				result += "If you want to survive, you will need to create weapons and shelter. Start by chopping down trees and gathering wood.";
+				result += "살아남고 싶다면, 무기와 집을 만드는것이 좋아요. 나무를 베어 원목을 모으는 것부터 시작하세요.";
 			case 179:
-				result += "Press " + Main.cInv + " to access your crafting menu. When you have enough wood, create a workbench. This will allow you to create more complicated things, as long as you are standing close to it.";
+				result += "키보드에서 [" + Main.cInv + "] 를 눌러 조합창에 들어가봐요. 나무가 충분하다면, 작업대를 만들어요. 작업대에서 가까이에만 있다면 더 복잡한것도 만들 수 있어요.";
 			case 180:
-				result += "You can build a shelter by placing wood or other blocks in the world. Don't forget to create and place walls.";
+				result += "나무나 어떤 블럭으로도 집을 지을 수 있지요. 아참, 벽을 조합하여 설치하는것도 잊지 마세요,";
 			case 181:
-				result += "Once you have a wooden sword, you might try to gather some gel from the slimes. Combine wood and gel to make a torch!";
+				result += "목검을 만들었다면, 슬라임들에게서 젤을 모아보세요. 나무와 합하여 횃불을 만들 수 있답니다!";
 			case 182:
-				result += "To interact with backgrounds, use a hammer!";
+				result += "배경을 바꾸고 싶다면 망치를 사용해보세요!";
 			case 183:
-				result += "You should do some mining to find metal ore. You can craft very useful things with it.";
+				result += "채광을 통해 금속 광석을 얻어야 해요. 그걸로 쓸모있는 것들을 만들 수 있지요.";
 			case 184:
-				result += "Now that you have some ore, you will need to turn it into a bar in order to make items with it. This requires a furnace!";
+				result += "광석이 조금 있으니, 금속괴로 만들어야해요. 이 작업은 화로를 필요로 하지요!";
 			case 185:
-				result += "You can create a furnace out of torches, wood, and stone. Make sure you are standing near a work bench.";
+				result += "화로를 만드려면 횃불, 돌 그리고 나무가 많이 필요해요. 작업대 근처에 서는걸 까먹지 마시구요";
 			case 186:
-				result += "You will need an anvil to make most things out of metal bars.";
+				result += "금속괴로 무언가 만드려면 모루가 필요해요.";
 			case 187:
-				result += "Anvils can be crafted out of iron, or purchased from a merchant.";
+				result += "모루는 철로 만들거나, 상인에게서 구입이 가능해요.";
 			case 188:
-				result += "Underground are crystal hearts which can be used to increase your max life. You can smash them with a pickaxe.";
+				result += "지하에 있는 생명의 결정은 생명력을 늘릴때 써요. 곡괭이로 캐낼 수 있지요.";
 			case 189:
-				result += "If you gather 5 fallen stars, they can be combined to create an item that will increase your magic capacity.";
+				result += "별을 세개 모으면, 마법 수용력을 늘릴 수 있는 아이템을 만들 수 있답니다.";
 			case 190:
-				result += "Stars fall all over the world at night. They can be used for all sorts of usefull things. If you see one, be sure to grab it because they disappear after sunrise.";
+				result += "밤에는 별이 어디든 떨어지지요. 그것들론 유용한 것들을 만들 수 있어요. 해가 뜨면 사라지니 그 전에 모으세요.";
 			case 191:
-				result += "There are many different ways you can attract people to move in to our town. They will of course need a home to live in.";
+				result += "많은 방법으로 당신의 마을에 사람들을 불러모을 수 있어요. 물론 그들이 살 집이 필요하구요.";
 			case 192:
-				result += "In order for a room to be considered a home, it needs to have a door, a chair, a table, and a light source.	Make sure the house has walls as well.";
+				result += "집을 만드려면 문, 탁자, 의자와 광원이 필요해요. 벽을 나두는것도 잊지 말구요";
 			case 193:
-				result += "Two people will not live in the same home. Also, if their home is destroyed, they will look for a new place to live.";
+				result += "한 집에는 두사람이 살 수 없어요. 또한, 집이 파괴되면, 다른 집을 찾아 이동하지요.";
 			case 194:
-				result += "You can use the housing interface to assign and view housing. Open your inventory and click the house icon.";
+				result += "집 인터페이스를 사용해 주거지를 보고 변경할 수 있어요. 인벤토리를 열어 집 아이콘을 클릭해 보세요.";
 			case 195:
-				result += "If you want a merchant to move in, you will need to gather plenty of money. 50 silver coins should do the trick!";
+				result += "돈이 아주 많으면 상인이 찾아올 거에요. 50 은전이면 될꺼에요!";
 			case 196:
-				result += "For a nurse to move in, you might want to increase your maximum life.";
+				result += "최대 생명력을 늘리면 간호사가 찾아올 거에요.";
 			case 197:
-				result += "If you had a gun, I bet an arms dealer might show up to sell you some ammo!";
+				result += "내가 장담하건데, 총을 소지하면 무기상이 찾아올 거에요!";
 			case 198:
-				result += "You should prove yourself by defeating a strong monster. That will get the attention of a dryad.";
+				result += "강력한 괴물을 죽여 당신의 힘을 증명해 보세요. 숲의 요정의 관심을 끌꺼에요";
 			case 199:
-				result += "Make sure to explore the dungeon thoroughly. There may be prisoners held deep within.";
+				result += "던전을 철저히 탐험해보세요. 깊은곳에 사람이 있을지도 몰라요!.";
 			case 200:
-				result += "Perhaps the old man by the dungeon would like to join us now that his curse has been lifted.";
+				result += "아마 던전 근처에 있는 노인은 저주가 풀리면 우리를 찾아올 지도 몰라요.";
 			case 201:
-				result += "Hang on to any bombs you might find. A demolitionist may want to have a look at them.";
+				result += "폭발물을 찾았다면 조금만 기다려보세요.폭탄상인이 한번 보고 싶어 할꺼에요.";
 			case 202:
-				result += "Are goblins really so different from us that we couldn't live together peacefully?";
+				result += "정말 고블린들은 우리와 달라서 같이 평화롭게 살 수 없나요?";
 			case 203:
-				result += "I heard there was a powerful wizard who lives in these parts.  Make sure to keep an eye out for him next time you go underground.";
+				result += "마법사가 이 세상 어디에 산다던데... 다음번에 지하에 가면 꼭 찾아보세요.";
 			case 204:
-				result += "If you combine lenses at a demon altar, you might be able to find a way to summon a powerful monster. You will want to wait until night before using it, though.";
+				result += "악마의 제단에서 렌즈를 조합해 보세요, 강력한 괴물을 소환할 있는 아이템을 만들 수 있을거에요. 소환하려면 밤까지 기다려야 하지만요";
 			case 205:
-				result += "You can create worm bait with rotten chunks and vile powder. Make sure you are in a corrupt area before using it.";
+				result += "썩은 덩어리와 역겨운 가루를 조합하면 벌레 먹이를 만들 수 있어요. 쓰기전에 타락 지역에 있는지 확인하세요.";
 			case 206:
-				result += "Demonic altars can usually be found in the corruption. You will need to be near them to craft some items.";
+				result += "악마의 제단은 타락 지역에서 흔히 볼 수 있어요. 어떤 아이템들은 조합할 때 그 제단 근처에 있어야해요.";
 			case 207:
-				result += "You can make a grappling hook from a hook and 3 chains. Skeletons found deep underground usually carry hooks, and chains can be made from iron bars.";
+				result += "갈고리는 쇠사슬 3개와 갈고랑쇠로 만들 수 있지요. 보통은 지하에 있는 스켈레톤에게서 강고랑쇠 구할 수 있고, 철괴로 사슬을 만들 수 있지요.";
 			case 208:
-				result += "If you see a pot, be sure to smash it open. They contain all sorts of useful supplies.";
+				result += "항아리가 보인다면 깨 보세요. 유용한 물건들이 많이 들어 있어요.";
 			case 209:
-				result += "There is treasure hidden all over the world. Some amazing things can be found deep underground!";
+				result += "이 세상 곳곳에 보물이 숨겨진거 알아요? 지하 깊숙한 곳엔 멋진것도 있지요!";
 			case 210:
-				result += "Smashing a shadow orb will sometimes cause a meteor to fall out of the sky. Shadow orbs can usually be found in the chasms around corrupt areas.";
+				result += "그림자 보주를 깨는 일은 유성을 떨어지게도 해요. 그림자 보주는 보통 타락한 땅 지하에서 발견되요 .";
 			case 211:
-				result += "You should focus on gathering more life crystals to increase your maximum life.";
+				result += "지금은 생명의 결정을 모아 최대 생명력을 늘리는데 집중해야해요.";
 			case 212:
-				result += "Your current equipment simply won't do. You need to make better armor.";
+				result += "지금 장비하고 있는 방어구는 소용이 없어요. 더 좋은 방어구를 만들어야 해요.";
 			case 213:
-				result += "I think you are ready for your first major battle. Gather some lenses from the eyeballs at night and take them to a demon altar.";
+				result += "당신은 이제 첫번째 큰 전투에 준비가 된 것 같아요. 밤이 오면 눈알으로부터 렌즈를 모아 악마의 제단으로 가져가보세요 .";
 			case 214:
-				result += "You will want to increase your life before facing your next challenge. Fifteen hearts should be enough.";
+				result += "다음 도전을 위해서는 생명력이 더 필요해요. 하트 열 다섯개면 충분할 것 같아요.";
 			case 215:
-				result += "The ebonstone in the corruption can be purified using some powder from a dryad, or it can be destroyed with explosives.";
+				result += "타락 지역에 있는 까만 돌은 숲의 요정한테서 산 가루로 정화시킬 수 있어요, 또는 폭발물로 부술 수 있구요.";
 			case 216:
-				result += "Your next step should be to explore the corrupt chasms.	Find and destroy any shadow orb you find.";
+				result += "타락한 땅을 탐엄 하는게 다음 단계에요.	그림자 보주를 찾으면 부셔버리세요.";
 			case 217:
-				result += "There is a old dungeon not far from here. Now would be a good time to go check it out.";
+				result += "여기서 멀지 않은 곳에 오래된 던전이 하나 있어요. 지금 그걸 확인하는것이 좋은 타이밍 인것 같네요.";
 			case 218:
-				result += "You should make an attempt to max out your available life. Try to gather twenty hearts.";
+				result += "이제 남은 생명력을 마저 채워보시는건 어떤가요? 하트 20개를 모아봐요.";
 			case 219:
-				result += "There are many treasures to be discovered in the jungle, if you are willing to dig deep enough.";
+				result += "아직 미발견된 보물이 정글 속에 많이 있어요, 충분히 깊게 파야 하지만요.";
 			case 220:
-				result += "The underworld is made of a material called hellstone. It's perfect for making weapons and armor.";
+				result += "지하세계는 지옥석이라는 물질로 만들어져 있지요. 방어구와 무기를 만드는데 딱이랍니다.";
 			case 221:
-				result += "When you are ready to challenge the keeper of the underworld, you will have to make a living sacrifice. Everything you need for it can be found in the underworld.";
+				result += "지하세계의 수호자를 상대할 준비가 되면, 살아있는 제물을 희생시켜야해요. 필요한 모든것은 지하세계에 있답니다.";
 			case 222:
-				result += "Make sure to smash any demon altar you can find. Something good is bound to happen if you do!";
+				result += "악마의 제단을 찾아 부수세요. 무엇인가 좋은일이 일어날꺼에요!";
 			case 223:
-				result += "Souls can sometimes be gathered from fallen creatures in places of extreme light or dark.";
+				result += "어떨때는 극에 달한 빛과 어둠이 있는곳에 타락한 생물이 영혼을 떨어뜨리기도 한답니다.";
 			case 224:
-				result += "Ho ho ho, and a bottle of... Egg Nog!";
+				result += "호 호 호, 그리고 한 병의... 에그노그!";
 			case 225:
-				result += "Care to bake me some cookies?";
+				result += "쿠키는 안 구워 왔나?";
 			case 226:
-				result += "What? You thought I wasn't real?";
+				result += "뭐라고? 내가 진짜가 아닌줄 알았다고?";
 			case 227:
-				result += "I managed to sew your face back on. Be more careful next time.";
+				result += "어떻게든 얼굴을 되돌려 놨어요. 다음엔 제발 조심히 좀 해요.";
 			case 228:
-				result += "That's probably going to leave a scar.";
+				result += "아무래도 흉터가 남겠어요.";
 			case 229:
-				result += "All better. I don't want to see you jumping off anymore cliffs.";
+				result += "다 나아졌어요. 이제 절벽에서 뛰어내리는 짓은 보고싶지 않네요.";
 			case 230:
-				result += "That didn't hurt too bad, now did it?";
+				result += "그렇게 안 아팠죠, 아팠나요?";
 			case 231:
-				result += "As if living underground wasn't bad enough, jerks like you come in while I'm sleeping and steal my children.";
+				result += "땅 속에서 사는건 그렇게 나쁘지 안았버섯, 너 같은 바보들이 내 아이들을 대려가는것만 빼면 말이버섯.";
 			case 232:
-				result += "Between you and me, " + text3 + " is the only one I trust. She is the only one here who hasn't tried to eat me or use me in a potion.";
+				result += "우리 둘 사이에 말인버섯, " + text3 + " 요정이 내가 믿는 유일한 친구버섯. 걔만 날 먹으려들거나 포션으로 만들지 않았버섯.";
 			case 233:
-				result += "I tried to lick myself the other day to see what the big deal was, everything started glowing blue.";
+				result += "도데체 뭐가 대수인지 알기 위해 내 몸을 햝아보기도 했버섯, 근데 모든게 파란빛으로 빛나기 시작했버섯.";
 			case 234:
-				result += "Everytime I see the color blue, it makes me depressed and lazy.";
+				result += "파란걸 볼때마다버섯, 날 우울하게 만들고 게으르게 만들버섯.";
 			case 235:
-				result += "You haven't seen any pigs around here have you? My brother lost his leg to one.";
+				result += "이 근처에서 돼지를 본 적이 없버섯? 내 동생은 다리 하나를 그들한테 잃엇버섯.";
 			case 236:
-				result += "Everyone in this town feels a bit off. I woke up to the clothier chewing on my foot last night.";
+				result += "이 마을의 모든 사람은 조금씩 이상버섯. 어젯밤에 깨보니 옷상인이 내 발을 먹고있었버섯.";
 			case 237:
-				result += "I'll give you a discount on your wears if you can convince " + str5 + " to come over for a...sizing.";
+				result += "젊은이 옷에는 할인을 부과하겠소, 만약 젊은이가 " + str5 + KRTracker.End(text5, "을를") + " 설득해서....치수! 치수를 재러 오게 만들면 말이오";
 			case 238:
-				result += "I feel like " + str5 + " is a bit misunderstood, he really is a fun guy.";
+				result += "아마 " + str5 + " 님이 오해를 받는것 같아요, 참 재미있게 발효된 분이었는데."; //원문은 'fun guy'(재밋는 친구)는 'fungi'(곰팡이류)와 발음이 비슷함을 이용한 말장난
 			case 240:
-				result += "I don't know the 'Truffle Shuffle,' so stop asking!";
+				result += "트러플 셔플'같은건 모른다버섯! 그만좀 물어봐버섯!";
 			case 241:
-				result += "There's been such a huge rumor that's being spread about me, 'If you can't beat him, eat him!'";
+				result += "나에 관한 큰 소문이 돌고있버섯, '그를 이기지 못한다면, 먹어버려!'라고 말버섯";
 			case 242:
-				result += "Oy, whatchu got in you jiminy fluffer?";
+				result += "어머나, 도데체 너 속엔 뭐가 든거야?"; // Oy, whatchu got in you jiminy fluffer?
 			case 243:
-				result += "Should I become an air pirate? I've considered becoming an air pirate.";
+				result += "하이재커가 됬어야 할까? 고민 많이 했었는데.";
 			case 244:
-				result += "Be it what it would, a jetpack would suit you nicely!";
+				result += "개의치 말고, 너한텐 제트팩이 잘 어울리겠는데!"; //뭐라는거야... ("Be it what it would, a jetpack would suit you nicely!")
 			case 245:
 				result += "I'm feeling a bit peevish as of late, so enough with your palaver you ragamuffin!";
 			case 246:
@@ -11028,69 +11032,69 @@ public class LN
 			case 247:
 				result += "That captain fellow seems to me to be 'pretty well over the bay' if you know what I mean!";
 			case 248:
-				result += "Show me some gears!";
+				result += "내게 톱니바퀴를 보여줘...!";
 			case 249:
-				result += "I like your... gear. Does it come in brass?";
+				result += "나는 너의 ... 톱니바퀴가 좋아. Does it come in brass?";
 			case 250:
-				result += "Once you enter hallowed land, you will see a rainbow in the sky. I can help you with painting that if you want.";
+				result += "신성한 땅에 들어가면 하늘에 무지개가 있는걸 볼 수 있어. 그걸 색칠하고 싶으면 도와줄 수 있어.";
 			case 251:
-				result += "Check out " + text6 + ". Now that's a girl who can paint the town red!";
+				result += "저 아이," + text6 + " 말야. 저 아이라면 마을을 온통 빨간색으로 칠할꺼야!";
 			case 252:
-				result += "I know the difference between turquoise and blue-green. But I won't tell you.";
+				result += "난 터키옥 색이랑 청록색의 차이르 알아. 그렇지만 안알려줄꺼야.";
 			case 253:
-				result += "I'm all out of titanium white, so don't even ask.";
+				result += "타이타늄 화이트는 다 나가고 없으니, 묻지를 말어.";
 			case 254:
-				result += "Try swirly pink and purple, it works, I swear!";
+				result += "분홍색과 보라색의 스월리 디자인은 어때? 멩세하건데 이뻐!";
 			case 255:
-				result += "No, no, no... There's TONS of different grays! Don't get me started...";
+				result += "아냐아냐아냐... 회색이란게 얼마나 많은데! 말하게 하지마...";
 			case 256:
-				result += "I hope it doesn't rain again until this paint dries. That would be a disaster!";
+				result += "페인트가 마르기 전에 비가 내리지 않았으면 좋겠어. 그건 재앙이나 마찬가지야!";
 			case 257:
-				result += "I bring you the richest colors in exchange for your riches!";
+				result += "재무를 가져온다면 가장 화려한 색을 가져오지!";
 			case 258:
-				result += "My dear, what you're wearing is much too drab. You absolutely must take a lesson in dyeing your tired attire!";
+				result += "어휴, 그리 칙칙한 옷을 입고 다니다니. 옷을 염색하는 법을 배워야겠어!";
 			case 259:
 				result += "The only kind of wood I would bother dyeing is RICH Mahogany. Dyeing any other wood is such a waste.";
 			case 260:
-				result += "You must do something about " + str7 + ".  Everytime he comes over here, it takes me a week to get the smell off!";
+				result +=  str7 + "한테 무슨 말좀 해봐요.  여기 왔다 갈때마다 냄새를 빼는데 일주일이나 걸린다구요";
 			case 261:
-				result += "Which doctor am I? The Witch Doctor am I.";
+				result += "무슨 마술사냐고? 난 주술사야."; // which doctor(어느 의사) 와 witch doctor(주술사) 의 발음이 비슷함을 이용한 말장난
 			case 262:
-				result += "The heart of magic is nature. The nature of hearts is magic.";
+				result += "마법의 심장은 자연이야. 심장의 본성은 마법이고."; // nature 이 다른 뜻으로 쓰임 (자연, 마법)을 이용한 말장난
 			case 263:
-				result += text + " may help heal your body, but I can make you embody healing.";
+				result += text + " 간호사는 치료를 도와주지만, 난 너의 몸이 너를 치료를 하게 만들 수 있어.";
 			case 264:
-				result += "Choose wisely, " + Main.player[Main.myPlayer].name + ", my commodities are volatile and my dark arts, mysterious.";
+				result += "신중히 선택해, " + Main.player[Main.myPlayer].name + ", 내 물건들은 변덕스럽고 나의 어두운 예술은, 불가사의하지.";
 			case 265:
-				result += "We have to talk. It's... it's about parties.";
+				result += "우리 얘기좀 해. ㅍ... 파티 말야.";
 			case 266:
-				result += "I can't decide what I like more: parties, or after-parties.";
+				result += "파티? 2차? 어떤게 더 좋은지 결정을 못하겠어.";
 			case 267:
-				result += "We should set up a blinkroot party, and we should also set up an after-party.";
+				result += "반짝이 꽃 파티를 만들자! 물론 2차도 준비하고 말야.";
 			case 268:
-				result += "Wow, " + Main.player[Main.myPlayer].name + ", meeting an adventurous man like you makes me want to party!";
+				result += "와우, " + Main.player[Main.myPlayer].name + ", 모험적인 너를 만나니 파티가 하고싶어져!";
 			case 269:
-				result += "Put up a disco ball and then I'll show you how to party.";
+				result += "디스코 볼 설치좀 해줘, 그러면 파티를 어떻게 하는지 알려줄게";
 			case 270:
-				result += "I went to Sweden once, they party hard, why aren't you like that?";
+				result += "스웨덴에 가본적이 있는데, 파티를 엄청 열광적이게 하더라고! 왜 너는 그러지 않은거야?";
 			case 271:
-				result += "My name's " + text6 + " but people call me party pooper. Yeah I don't know, it sounds cool though.";
+				result += "내 이름은 " + text6 + " 인데 다들 나를 확깨는 여자라고 하더라고. 몰라아아 , 그래도 멋지게 들려.";
 			case 272:
-				result += "Do you party? Sometimes? Hm, okay then we can talk...";
+				result += "혹시 파티해? 가끔이라도? 흠, 우리 얘기좀 해...";
 			case 273:
-				result += "I'm no landlubber, but it's better to have lubbed and lost than never to have lubbed at all.";
+				result += "난 풋내기 선원이 아냐. 하지만 풋내기였다가 아닌게 아얘 풋내기가 아니였던것 보단 낫지"; //사랑을 하다가 사랑을 잃은 편이 사랑을 한 번도 안 해본 것 보다 낫다 의 사랑(love) 와 landlubber의 'lubb' 가 발음이 비슷한 것을 이용한 말장난
 			case 274:
-				result += "Yo ho ho and a bottle of....blinkroots!";
+				result += "요 호 호 그리고 한병의 ....반짝이꽃!";
 			case 275:
-				result += "YAR!	 Funny ye should be mentionin' parrots b'cause...um...What t'were we talkin' 'bout?";
+				result += "야알!	 정말 웃기는군 넌 내 앵무샐 말했어야 했어 왜냐하면!...엄...우리 먼 얘기 하고 있엇지?";
 			case 276:
-				result += Main.player[Main.myPlayer].name + ", Ye be one o' the finest lookin' lassies this here captain's seen in many a fortnight!";
+				result += Main.player[Main.myPlayer].name + ", 넌 선장이 2주동간 본 아가씨들 중에 가장 이쁘게 생겼군!";
 			case 277:
-				result += "Stay off me booty, ya scallywag!";
+				result += "내 뒤에서 비켜, 이 망나니야!";
 			case 278:
-				result += "What in blazes are ye talkin' about? Moby Dick is mine!";
+				result += "도데체 먼 소리를 하는거야? 모비딕은 내꺼야!";
 			case 279:
-				result += "*Yarr Blarr Harrdarr*";
+				result += "*야아아 내가 ㄱ르에서서어 *"; // 술에 취한 상태라네요
 			case 280:
 				result += "And then Unit 492-8 said, 'Who do you think I am, Unit 472-6?' HA. HA. HA.";
 			case 281:
@@ -11340,27 +11344,27 @@ public class LN
 		switch (l)
 		{
 			case 0:
-				result += "2 defense";
+				result += "방어 +2";
 			case 1:
-				result += "3 defense";
+				result += "방어 +3";
 			case 2:
-				result += "15% increased movement speed";
+				result += "이동속도 +15%";
 			case 3:
-				result += "Space Gun costs 0 mana";
+				result += "스페이스 건의 마나 소모 없음";
 			case 4:
-				result += "20% chance to not consume ammo";
+				result += "탄을 쓰지 않을 확률 +20%";
 			case 5:
 				result += "16% reduced mana usage";
 			case 6:
-				result += "17% extra melee damage";
+				result += "추가 대미지 +17%";
 			case 7:
-				result += "30% increased mining speed";
+				result += "채광 속도 +30%";
 			case 8:
 				result += "14% reduced mana usage";
 			case 9:
-				result += "15% increased melee speed";
+				result += "공격 속도 +15%";
 			case 10:
-				result += "20% chance to not consume ammo";
+				result += "탄을 쓰지 않을 확률 +20%";
 			case 11:
 				result += "17% reduced mana usage";
 			case 12:
@@ -11581,9 +11585,9 @@ public class LN
 			case 3:
 				result += "좀비";
 			case 4:
-				result += "크툴루의 눈";
+				result += "크툴후의 눈";
 			case 5:
-				result += "크툴루의 하수인";
+				result += "크툴후의 하수인";
 			case 6:
 				result += "영혼을 먹는 자";
 			case 7:
@@ -12101,7 +12105,7 @@ public class LN
 			case 265:
 				result += "포자";
 			case 266:
-				result += "크툴루의 뇌";
+				result += "크툴후의 뇌";
 			case 267:
 				result += "크리퍼";
 			case 268:
@@ -12331,35 +12335,35 @@ public class LN
 			case 380:
 				result += "White Cultist Archer";
 			case 381:
-				result += "Brain Scrambler";
+				result += "두뇌 분쇄기";
 			case 382:
 				result += "Ray Gunner";
 			case 383:
 				result += "Martian Officer";
 			case 384:
-				result += "Bubble Shield";
+				result += "거품 방패";
 			case 385:
 				result += "Gray Grunt";
 			case 386:
 				result += "Martian Engineer";
 			case 387:
-				result += "Tesla Turret";
+				result += "테슬라 터렛";
 			case 388:
 				result += "Martian Drone";
 			case 389:
-				result += "Gigazapper";
+				result += "기가재퍼";
 			case 390:
 				result += "Scutlix Gunner";
 			case 391:
 				result += "Scutlix";
 			case 392:
-				result += "Martian Saucer";
+				result += "마틴 소서";
 			case 393:
-				result += "Martian Saucer Turret";
+				result += "마틴 소서 터렛";
 			case 394:
-				result += "Martian Saucer Cannon";
+				result += "마틴 소서 캐논";
 			case 395:
-				result += "Martian Saucer";
+				result += "마틴 소서";
 			case 396:
 				result += "Moon Lord";
 			case 397:
@@ -12404,33 +12408,33 @@ public class LN
 			case 422:
 				result += "Vortex Pillar";
 			case 423:
-				result += "Evolution Beast";
+				result += "진화의 괴수";
 			case 424:
 				result += "Predictor";
 			case 425:
 				result += "Storm Diver";
 			case 426:
-				result += "Alien Queen";
+				result += "외계여왕";
 			case 427:
-				result += "Alien Hornet";
+				result += "외계말벌";
 			case 428:
-				result += "Alien Larva";
+				result += "외계애벌레";
 			case 429:
-				result += "Vortexian";
+				result += "소용도리안";
 			case 430:
-				result += "Zombie";
+				result += "좀비";
 			case 431:
-				result += "Zombie Eskimo";
+				result += "좀비 에스키모";
 			case 432:
-				result += "Zombie";
+				result += "좀비";
 			case 433:
-				result += "Zombie";
+				result += "좀비";
 			case 434:
-				result += "Zombie";
+				result += "좀비";
 			case 435:
-				result += "Zombie";
+				result += "좀비";
 			case 436:
-				result += "Zombie";
+				result += "좀비";
 			case 437:
 				result += "Mysterious Tablet";
 			case 438:
@@ -12469,7 +12473,7 @@ public class LN
 			case 459:
 				result += "Phantasm Dragon";
 			case 460:
-				result += "Butcher";
+				result += "도살자";
 			case 461:
 				result += "Creature from the Deep";
 			case 462:
@@ -12589,13 +12593,13 @@ public class LN
 			case 523:
 				result += "Ancient Doom";
 			case 524:
-				result += "Ghoul";
+				result += "구울";
 			case 525:
-				result += "Vile Ghoul";
+				result += "Vile 구울";
 			case 526:
-				result += "Tainted Ghoul";
+				result += "Tainted 구울";
 			case 527:
-				result += "Dreamer Ghoul";
+				result += "꿈꾸는 구울";
 			case 528:
 			case 529:
 				result += "Lamia";
@@ -12603,9 +12607,9 @@ public class LN
 			case 531:
 				result += "Sand Poacher";
 			case 532:
-				result += "Basilisk";
+				result += "바실리스크";
 			case 533:
-				result += "Desert Spirit";
+				result += "사막 망령";
 			case 534:
 				result += "Tortured Soul";
 			case 535:
@@ -12803,7 +12807,7 @@ public class LN
 		{
 			if (l >= 1874 && l <= 1905)
 			{
-				return "Placeable on a christmas tree";
+				return "배치할 수 있는 성탄절 소나무";
 			}
 			if ((l >= 2897 && l <= 2994) || (l >= 1615 && l <= 1701) || (l >= 3390 && l <= 3452) || (l >= 3593 && l <= 3594))
 			{
