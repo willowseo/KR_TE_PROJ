@@ -9945,19 +9945,19 @@ public class LN
 			switch (Main.rand.Next(5))
 			{
 			case 0:
-				array2[0] = "Oh! Thanks for the fish I asked for, now scram!";
+				array2[0] = "어! 내가 말한 물고기네? 고마워, 이제 가버려!";
 				break;
 			case 1:
-				array2[0] = "Awesome catch! It's all going according to plan! He he he!";
+				array2[0] = "정말 멋져! 계획대로 되 가는군! 헤헤헤!";
 				break;
 			case 2:
-				array2[0] = "You make a great errand monkey! Now go away!";
+				array2[0] = "넌 정말 좋은 심부름꾼이야! 이제 가!";
 				break;
 			case 3:
-				array2[0] = "Muahahahahaha! You did it! You're still in one piece though, how boring!";
+				array2[0] = "음하하하하하! 너 해냈잖아! 근데 다친곳 하나없네? 재미없어!";
 				break;
 			case 4:
-				array2[0] = "Woah!? You actually did what I asked, and survived! Nice, hand it over and beat it!";
+				array2[0] = "뭐어!? 정말 내가 말한걸 해냈잖아! 그리고 살아남았어! 좋아, 그거 빨리 주고 저리가!";
 				break;
 			}
 		}
@@ -9966,19 +9966,19 @@ public class LN
 			switch (Main.rand.Next(5))
 			{
 			case 0:
-				array[0] = "I don't have anything for you to do right now.";
+				array[0] = "지금은 시킬 일이 없는데...";
 				break;
 			case 1:
-				array[0] = "You have entertained me enough for today, go.";
+				array[0] = "오늘 충분히 날 즐겁게 했어! 가도 좋아.";
 				break;
 			case 2:
-				array[0] = "You are done, the grand " + str + " dismisses you!";
+				array[0] = "오늘은 끝이야, 터키의 황제 " + str + " 은(는) 널 해고하노라!";
 				break;
 			case 3:
-				array[0] = "Only one fish a day, please go away!";
+				array[0] = "하루에 물고기 하나만, 제발 저리좀 가!";
 				break;
 			case 4:
-				array[0] = "I haven't even used the last fish you gave me.  I don't need another.";
+				array[0] = "너가 마지막으로 잡아준 물고기도 다 못 썼어. 더 이상은 필요없어.";
 				break;
 			}
 		}
@@ -9993,10 +9993,10 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "Na na na na na na na Bat-FISH!";
-					array[num2++] = "That means go digging underground, fetch it, and bring it to me!";
+					array[num2++] = "나나나나나나나나 배트피쉬!";
+					array[num2++] = "무슨 뜻인지 알아? 땅파 들어가서 잡아오라구!";
 					flag = true;
-					text = "\n(Caught in Underground & Caverns)";
+					text = "\n(지하와 동굴에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2451:
@@ -10006,11 +10006,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "The subterranean jungles of " + Main.worldName + " have the weirdest things!";
-					array[num2++] = "Like, there's this fish I saw that looked just like a giant bumblebee!";
-					array[num2++] = "I'm allergic to bees, so you have to catch it for me! I bet it'd taste like a tuna and honey sandwich!";
+					array[num2++] = Main.worldName + "의 정글 지하에는 정말 이상한게 있더라고!";
+					array[num2++] = "그러니까, 물고긴데 큰 호박벌같이 생긴거야!";
+					array[num2++] = "난 벌 알레르기가 있거든, 그러니까 네가 잡아와줘! 꿀 !";
 					flag = true;
-					text = "\n(Caught in Honey)";
+					text = "\n(꿀에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2452:
@@ -10020,11 +10020,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "I finally found a jungle cat that likes water! I think it's because it's also part fish.";
-					array[num2++] = "I don't know why this happened, and I don't want to know.";
-					array[num2++] = "I just want it in my hands, and make it snappy!";
+					array[num2++] = "드디어 물을 좋아하는 정글 고양이를 찾았어! 내생각엔 그게 물고기이기도 해서 그런거 같아.";
+					array[num2++] = "왜 그런 물고기가 생겼는지는 몰라, 알고싶지도 않고.";
+					array[num2++] = "그냥 내 수중에 있으면 좋겠어, 빨리!";
 					flag = true;
-					text = "\n(Caught in Jungle Surface)";
+					text = "\n(정글 지표면에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2453:
@@ -10034,11 +10034,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "There's a rumor going around that there are islands that float high up in the sky, and that they have amazing treasure!";
-					array[num2++] = "Who cares about that though, what's even cooler is that sometimes lakes form in the clouds, and in those lakes are fish made out of clouds!";
-					array[num2++] = "I wanna know what it tastes like, so you better go catch it for me!";
+					array[num2++] = "하늘에도 섬이 있는 소문이 돌고 있더라고, 멋진 보물도 함께 있다는걸 말야!";
+					array[num2++] = "근데 누가 그걸 신경이나 쓰겠어, 더 멋진게 뭐냐면 구름 속에 연못이 생긴다는거야, 그리고 그 연못엔 구름으로 만들어진 물고기가 있대!";
+					array[num2++] = "맛이 어떨지 정말 궁금해, 그러니까 가서 잡아와!";
 					flag = true;
-					text = "\n(Caught in Sky Lakes)";
+					text = "\n(하늘 연못에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2454:
@@ -10048,12 +10048,12 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "There's a cursed fish swimming in the waters of the deepest corruption!";
-					array[num2++] = "It was forged of the cursed flames that spread from the fallen horrors that lurk down there.";
-					array[num2++] = "They say not even water can put out this fire, and that it can burn forever.";
-					array[num2++] = "I can think of some awesome things I can do with a fish like that! You gonna go get it for me, or are you too chicken!?";
+					array[num2++] = "깊은 타락한 땅에는 저주받은 물고기가 산다더라고!";
+					array[num2++] = "그 깊은곳을 돌아다니는 타락한 공포들의 저주받은 불꽃으로 만들어진건데.";
+					array[num2++] = "사람들이 말하기를 물도 그 불은 못끈다더라고, 그래서 무한히 탄데.";
+					array[num2++] = "그 물고기라면 멋진 일을 할 수 있을꺼야! 가서 잡아와!";
 					flag = true;
-					text = "\n(Caught in Corruption)";
+					text = "\n(타락한 지형에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2455:
@@ -10063,10 +10063,10 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "I was reeling in the big one when this funny talking zombie burst out of the forest lake and started rambling on about this 'ferocious' species of fish made out of dirt!";
-					array[num2++] = "He says it could suffocate ten blokes his size, or something like that... I want it! NOW!";
+					array[num2++] = "있지, 숲속 연못에서 낚시를 하다 월척을 잡은줄 알았는데 갑자기 좀비가 나오더라고! 그리고는 흙으로 만들어진 특별한 물고기 얘기를 시작하는데";
+					array[num2++] = "자기 몸보다 열배는 더 클수..있다..했던가, 뭐 그런거였는데... 나 그거 가지고싶어! 당장!";
 					flag = true;
-					text = "\n(Caught in Surface, Underground, & Caverns)";
+					text = "\n(지표면과 지하, 동굴에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2456:
@@ -10076,11 +10076,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "The demolitionist was raising cane about losing a stick of dynamite in the lake out in the forest. He has like, so many, so why does one matter?";
-					array[num2++] = "Apparently, because it grew fins and started swimming away! I don't know where he gets his materials to make those things, but that one is clearly possessed!";
-					array[num2++] = "Reel it in and bring it to me, I always wanted a suicide bombing fish! Don't ask why...";
+					array[num2++] = "숲 속의 연못에서 폭탄상인이 지팡이를 들다 다이너마이트를 하나 떨어뜨렸거든. 근데 그 사람한테 다이너마이트가 만잖아,하나가 무슨상관이냐고?";
+					array[num2++] = "듣자하니 지느러미가 생겨서 도망갔다 하더라고! 도데체 그런걸 왜 만들었는진 모르겠지만, 분명 그건 뭔가 씌인게 분명해!";
+					array[num2++] = "잡아서 가져와, 평소에도 자폭하는 물고기가 가지고 싶었거든! 왠지는 묻지마...";
 					flag = true;
-					text = "\n(Caught in Surface)";
+					text = "\n(지표면에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2457:
@@ -10090,11 +10090,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "I bet you're not brave enough to find the Eater of Plankton.";
-					array[num2++] = "A corrupt fish that was mutated from a severed piece of the Eater of Worlds itself!";
-					array[num2++] = "Capture it and bring it to me, and prove to me you're not a wuss!";
+					array[num2++] = "내가 장담하건데, 넌 분명히 플랭크톤을 먹는 자를 잡아올 용기가 없을꺼야.";
+					array[num2++] = "타락한 물고기인데, 세상을 먹는자의 한 부분으로 진화를 했거든!";
+					array[num2++] = "잡아서 가져와봐, 그리구 쪼다가 아니라는걸 증명해봐!";
 					flag = true;
-					text = "\n(Caught in Corruption)";
+					text = "\n(타락한 지역에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2458:
@@ -10104,11 +10104,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "I love collecting those bright yellow stars that fall from the sky! I love it even more when they land on someone's head.";
-					array[num2++] = "But.. but.. nothing beats a star that falls in a foresty lake and turns into a fish!";
-					array[num2++] = "That's just totally rad, and you're just rad enough to get it for me!";
+					array[num2++] = "하늘에서 떨어지는 노란 별을 모으는게 좋아! 다른사람 머리로 떨어지면 더 그렇구!";
+					array[num2++] = "하지만..하지만.. 연못에 떨어져서 물고기로 변하는것보다 멋진건 없어!";
+					array[num2++] = "완전 멋지지 않아? 그리고 넌 그걸 나한테 가져올 만큼 멋지고!";
 					flag = true;
-					text = "\n(Caught in Sky Lakes)";
+					text = "\n(하늘 연못에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2459:
@@ -10118,11 +10118,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "Apparently, Demon Eyes can sometimes be amphibious. They don't fly, they swim!";
-					array[num2++] = "I want to see the look on someone's face when they find it in their bathtub!";
-					array[num2++] = "They hang around the same areas. That means you reel one in for me!";
+					array[num2++] = "듣자하니, 악마의 눈은 수륙양용이더라고. 날지 않으면, 헤엄을 친데!";
+					array[num2++] = "그런걸 욕조에 넣어놓으면 사람들 표정이 어떨지 정말 궁금해!";
+					array[num2++] = "걔내들은 비슷한곳에서 나타난데. 뭔소리냐면 잡아오라는 소리지!";
 					flag = true;
-					text = "\n(Caught in Sky Lakes & Surface)";
+					text = "\n(하늘 연못과 지표면에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2460:
@@ -10132,11 +10132,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "I don't know what's worse, a bone fish or a bone fish with HANDS. This Fish-o-Tron deep in the caverns really freaks me out!";
-					array[num2++] = "I think it's possessed by the same evil spirits that possessed that old man by the dungeon!";
-					array[num2++] = "I double duck dare you to go catch it!";
+					array[num2++] = "뭐가 더 안좋은건지 모르겠어, 뼈생선 아니면 '손이 있는' 뼈 생선. 이 피쇼트론을 깊은 동굴에서 발견했는데 난 정말 놀랬어!";
+					array[num2++] = "던젼 근처의 노인을 홀린 영혼이 이 물고기도 홀린게 분명해!";
+					array[num2++] = "얼렁 가서 잡아야해!";
 					flag = true;
-					text = "\n(Caught in Caverns)";
+					text = "\n(동굴에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2461:
@@ -10146,11 +10146,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "I was trying to sleep by the hill lakeside when this fish swooped down at me. It was flying!";
-					array[num2++] = "It also had the face of a lady and had feathers! I think I screamed louder than she did!";
-					array[num2++] = "Hey you, go make her pay for scaring me like that!";
+					array[num2++] = "호수 근처 언덕에서 잘려고하는데 물고기가 위에서 급강하하더라고! 날고 있었단 말야!";
+					array[num2++] = "어떤 아가씨의 얼굴도 있고 깃털도 있더라고! 그ㄴ...그 물고기보다 내가 더 크게 소리를 지른거 같아!";
+					array[num2++] = "나를 놀래킨 댓가를 그녀...그 물고기한테서 받아와!";
 					flag = true;
-					text = "\n(Caught in Sky Lakes & Surface)";
+					text = "\n(하늘 호수와 지표면에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2462:
@@ -10160,9 +10160,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "There's a piece of the Hunger that morphed from the Wall of Flesh into a small fish-like thing that swims around aimlessly in the underworld and it's gross and it's yucky and I want it now!";
+					array[num2++] = "육체의 벽에서 떨어져 나온것 중에, 물고기처럼 생긴게 나와서 지하를 해집고 다니고 있어, 정말 징그럽고 구역질나고 난 그걸 원해!";
 					flag = true;
-					text = "\n(Caught in Caverns)";
+					text = "\n(동굴에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2463:
@@ -10172,11 +10172,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "Did you know deep in the crimson, some of those creatures make this gross yellow stuff?";
-					array[num2++] = "I overheard a crazy story about a pool of it having melted together into a shape of a fish and it swims around and everything!";
-					array[num2++] = "Fetch it for me, so I can stick it in someone's toilet!";
+					array[num2++] = "그거 알아? 깊은 피투성이 땅에 사는 생명채들이 징그러운 노란 물체를 만드는거?";
+					array[num2++] = "어디서 들은 바보같은 소린데 그게 물고기 같이 뭉쳐져서 헤엄도 치고 다 하는다는거야!";
+					array[num2++] = "잡아와줘, 누군가의 화장실에 붙이게!";
 					flag = true;
-					text = "\n(Caught in Crimson)";
+					text = "\n(피투성이 땅에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2464:
@@ -10186,10 +10186,10 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "Oooooohhh, I'm going to be SO rich! Deep in the caverns, there is a fish made out of gemstones!";
-					array[num2++] = "Don't ask me how, I don't know, all I know is that this fish is totally awesome and you're going to catch it for me!";
+					array[num2++] = "오오오오...  난 부자가 될꺼야! 동굴 깊은곳에 보석들로 만들어진 물고기가 있어!";
+					array[num2++] = "어떻게 그런게 있는지 묻지마, 나도모르고, 내가 아는건 그건 정말 멋지고 네가 잡아올거라는 거야!";
 					flag = true;
-					text = "\n(Caught in Underground & Caverns)";
+					text = "\n(지하와 동굴에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2465:
@@ -10199,11 +10199,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "There's some interesting critters to be found in the deeper Hallows, I tell you!";
-					array[num2++] = "They glow this crazy purple color and it messes with my eyes!";
-					array[num2++] = "It's totally wild, so I want you to catch a fish like that for me!";
+					array[num2++] = "깊은 신성의 땅에 재미있는 생물이 있어, 말해줄게!";
+					array[num2++] = "내 눈을 어지럽히는 보랏빛깔로 빛나는 생물이야!";
+					array[num2++] = "정말 야생스러워, 그러니까 잡아와!";
 					flag = true;
-					text = "\n(Caught in Underground Hallow)";
+					text = "\n(신성한 땅 지하에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2466:
@@ -10213,11 +10213,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "What's white and tan and fluffy and lives in a frozen underground lake? A mutant flinxfin!";
-					array[num2++] = "I wasn't telling a joke, you know, there really is a mutated variety of Flinx that is more adapted to an aquatic lifestyle!";
-					array[num2++] = "I want it to adapt to my fishbowl, so make sure that happens!";
+					array[num2++] = "하얗고 갈색이고 털이 많고 얼어붙은 땅속 연못에 사는게 뭔지 알아? 돌연변이 플링스핀이야!";
+					array[num2++] = "농담아냐, 진짜야, 플링스의 돌연변이는 몇가지가 있고 수중에서 사는데 더 적응되있어!";
+					array[num2++] = "내 어항에도 적응시키고 싶어, 내 소원이 진짜로 일어나게 해줘!";
 					flag = true;
-					text = "\n(Caught in Underground Tundra)";
+					text = "\n(툰드라 지하에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2467:
@@ -10227,10 +10227,10 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "It's a whale! It's a dolphin! No, it's a penguin fish! Oh, and look, it's you!";
-					array[num2++] = "You get to bring me one! You do know they only like cold water, right?";
+					array[num2++] = "아냐 고래야! 아냐 돌고래야! 아니야, 그건 펭귄물고기야! 오, 이게 누구야, 너잖아!";
+					array[num2++] = "하나 가져와! 차가운 물을 좋아하는거 알지, 그렇지?";
 					flag = true;
-					text = "\n(Caught in Tundra)";
+					text = "\n(툰드라에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2468:
@@ -10240,11 +10240,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "There's a really really rare type of pixie that's born with so many wings that it can't actually fly!";
-					array[num2++] = "It swims with the fishes in the lakes surrounded by that blue colored grass.";
-					array[num2++] = "My fish tank needs a lamp, so I want you to catch me that pixie!";
+					array[num2++] = "픽시중에 정말 정말 희귀한 종이 있는데, 날개가 너무 많아서 날수 없는 거야!";
+					array[num2++] = "근처에 파란 풀이 있는 연못 에서 다른 물고기와 헤엄을 친대.";
+					array[num2++] = "내 어항은 광원이 필요하거든, 그래서 그 픽시를 잡아오면 좋겠어!";
 					flag = true;
-					text = "\n(Caught in Hallow)";
+					text = "\n(신성한 땅에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2469:
@@ -10254,11 +10254,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "I saw a fish that had eight legs! Nope! Not happening!";
-					array[num2++] = "You're fishing it for me, so it's not alive when I hold it!";
-					array[num2++] = "That's the last time I go fishing so deep in the cavern!";
+					array[num2++] = "다리가 8개 있는 물고기를 봤어! 아냐! 그건 정말 아닐꺼야!";
+					array[num2++] = "잡아와, 내가 낚시할땐 더이상 살아있지 않도록!";
+					array[num2++] = "그걸 본 이후론 내가 깊은 동굴론 안가는거 알지?";
 					flag = true;
-					text = "\n(Caught in Underground & Caverns)";
+					text = "\n(지하와 동굴에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2470:
@@ -10268,11 +10268,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "You ever wonder why the lakes on the surface of the snowy areas of " + Main.worldName + " never ice over? I don't.";
-					array[num2++] = "The fish, however, do! A fish made out of ice would make a great offering to the mighty and amazing " + str + "!";
-					array[num2++] = "Go, my loyal subject, and bring me this Tundra Trout with haste!";
+					array[num2++] = "왜" + Main.worldName + " 세계의 눈덮인 곳의 연못은 얼지 않는지 궁금하지 않아? 난 안궁금해.";
+					array[num2++] = "근데, 물고기는 얼어!얼음으로 만들어진 물고기는 분명 고결하고 엄청난 " + str + "에게 도움이 될꺼야!";
+					array[num2++] = "가라, 충성된 종아, 그리고 그 툰드라 송어를 어서 잡아오너라, 빨리!";
 					flag = true;
-					text = "\n(Caught in Surface Tundra)";
+					text = "\n(툰드라 지표면에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2471:
@@ -10282,11 +10282,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "Unicorns and rainbows are absolutely great! They're everywhere, even in the water.";
-					array[num2++] = "No, really, I actually saw a unicorn fish in the Hallowed lake!";
-					array[num2++] = "Your job is to reel it up and let me have it as a pet!";
+					array[num2++] = "유니콘과 무지개는 정말 멋져! 어디에나 있어, 심지어 물 속에도 말야.";
+					array[num2++] = "아냐, 진짜야, 신성한 땅 연못에서 내가 유니콘 물고기를 봤다니까!";
+					array[num2++] = "네 일은 그걸 잡아서 내 애완동물로 만드는거야!";
 					flag = true;
-					text = "\n(Caught in Hallow)";
+					text = "\n(신성한 땅에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2472:
@@ -10296,11 +10296,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "Those demons in the underworld really like voodoo dolls, but I think there's a doll out there who was blasted with way too much magic!";
-					array[num2++] = "It turned into a fish and it does stuff on its own. I dare you to go down and get me one!";
-					array[num2++] = "I'd watch out for the boiling lava, because it burns you to death and that won't get me my fish!";
+					array[num2++] = "지하세계의 악마들은 부두인형을 정말 좋아해, 근데 그중 하나는 마법을 너무 많이 먹어서 펑 터져버린게 있어!";
+					array[num2++] = "그게 물고기로 변해버렸어. 내려가서 하나 잡아와!";
+					array[num2++] = "끓는 용암은 피해주길 바래, 분명히 널 태워버릴꺼고 난 내 물고기를 못받을거 같거든!";
 					flag = true;
-					text = "\n(Caught in Caverns)";
+					text = "\n(동굴에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2473:
@@ -10310,11 +10310,11 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "I know something youuuuu don't! Fine, I'll tell you, there's a terrifying creature that flies among the stars! I'm not making this up!";
-					array[num2++] = "It's called a Wyvern! But, but, you knew that already, right? Well what you don't know is that they are born and raised as tadpoles!";
-					array[num2++] = "So, they're actually like.. well, a frog! Hop to it and get me one!";
+					array[num2++] = "나 너어어가 모르는거 하나 알아! 알았어, 얘기해줄게, 별들 속을 날아다니는 아주 무서운 생명채가 있어! 지어내는거 아냐!";
+					array[num2++] = "와이번이라고 불리는 괴물이야! 그치만,그치만 이건 알고있었지, 그치? 글쎄 너가 모르는건 얘내가 원래 올챙이라는거야!";
+					array[num2++] = "결국 걔들은 어.... 개구리 같은거야! 뛰어가서 잡아와!";
 					flag = true;
-					text = "\n(Caught in Sky Lakes)";
+					text = "\n(하늘 연못에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2474:
@@ -10324,10 +10324,10 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "You won't believe it! I caught a fish in the forest at night that was already dead! Then it tried to eat me! I threw it away and ran!";
-					array[num2++] = "Now I want to stick it in someone's dresser to see what happens, so go fish it back up for me will ya?!";
+					array[num2++] = "너 내말을 안믿을껄? 밤에 물고기를 잡았는데, 죽은거였거든, 근데 날 먹으려 들었어! 그래서 난 도망쳣어!";
+					array[num2++] = "지금은 그거 누군가의 옷장에 넣고 무슨일이 일어날지 보고 싶어, 날 위해서 다시 잡아올꺼지?!";
 					flag = true;
-					text = "\n(Caught in Surface)";
+					text = "\n(지표면에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2475:
@@ -10337,9 +10337,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "I found this spectacular place draped in giant glowing mushrooms! Everything was blue! I was picking some of the mushrooms I found next to a glistening blue lake, when one of the mushrooms snapped at me and swam away! I want to give it a taste of its own medicine, and give it a good chompin'! What I mean is, you gotta get it for me!";
+					array[num2++] = "파란 나라를 보았니! 모든게 파랗던데! 버섯을 몇개 따다 보니 옆에 파란 연못이 있더라고, 내 뺨을 치고 도망간 버섯이 있는 연못 말야! 매를 번다고, 맛좀 보여주고 싶어 칼빵도 말야! 무슨 뜻이냐면 잡아오라고!";
 					flag = true;
-					text = "\n(Caught in Glowing Mushroom Fields)";
+					text = "\n(발광버섯 지형에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2476:
@@ -10349,9 +10349,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "Did you know there's magical islands that float up high in the sky? Bet you didn't! They say angels live in the sky, and I believe those angels have fins and gills and swim around! I believe you must catch one for me!";
+					array[num2++] = "하늘에 마법의 섬이 있는거 알아? 몰랐을껄! 하늘엔 천사들이 산다는데, 난 그 천사들이 지느러미와 아가미가 있을꺼라고 믿어! 한마리 잡아와 줄거라는것도 믿고!";
 					flag = true;
-					text = "\n(Caught in Sky Lakes)";
+					text = "\n(하늘 연못에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2477:
@@ -10361,9 +10361,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "Ow! Don't get near me! I got stung by a Bloody Man-O-War! In case you're not smart enough to know what that is, it's the most menacing jellyfish in all of " + Main.worldName + "! Go to that rotten crimson and catch it if you dare! ";
+					array[num2++] = "아우, 가까이 오지마! 피투성이 작은부레관해파리에게 쏘였어! 혹시 충분히 똑똑하지 않을까봐 애기해 주는건데," + Main.worldName + "에서 가장 위험한 해파리야! 할 수 있으면 그 썩은 피투성이 땅에서 잡아봐봐 ! ";
 					flag = true;
-					text = "\n(Caught in Crimson)";
+					text = "\n(피투성이 땅에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2478:
@@ -10373,9 +10373,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "Normally I could care less if I see fishbones floating in the water underground, but this one was swimming! What, you thought that only human skeletons still flailed about in " + Main.worldName + "? Get it for me so I can stick it in someone's bed!";
+					array[num2++] = "보통이라면 지하 연못에 떠있는 생선가시를 무시했겟지만, 내가 본건 헤엄치고 있었어! 왜, 사람 뼈만 " + Main.worldName + "에서 움직이는 줄 알았어? 누군가의 침대에 넣어보고 싶어, 잡아와!";
 					flag = true;
-					text = "\n(Caught in Underground & Caverns)";
+					text = "\n(지하와 동굴에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2479:
@@ -10385,9 +10385,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "Out in the forest, I was fishing right? Well guess what! A bunny hopped up to me! Then another one hopped up, and another... suddenly I'm surrounded by bunnies! One even swam up to me from the water, but it had no legs! I fell outta my chair in surprise and all the bunnies scurried off! I want that bunny fish as a pet, so you better catch it for me! Pronto!";
+					array[num2++] = "숲에 있었는데 낚시를 하고 있었거든? 무슨일이 일어났는지 알아? 토끼가 뛰어왔어! 또 한마리, 또한마리... 갑자기 토끼들한테 둘러싸인거야! 한마리는 수영해오더라고, 근데 다리가 없었어! 난 놀라서 의자에서 떨어졌고 토끼들은 총총거리며 도망갔어! 그래서 잡아 왔어면 좋겠어! 프로도!";
 					flag = true;
-					text = "\n(Caught in Surface)";
+					text = "\n(중간계 지표면에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2480:
@@ -10397,9 +10397,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "Yarr matey! Shiver me timbers! Avast, scallywags! There's a pirate captain who once had a pet fish named Cap'n Tunabeard, but during a big storm the fishbowl fell overboard! It has a hook for a tail, and an eyepatch and everything! You need to fetch me that fish, so I can be as cool as a pirate! Obviously it's out in the ocean somewhere! Duh!";
+					array[num2++] = "야알! 떨어라 나무꾼들! 비켜 겁쟁이들! 한 해적이 있었는데 애완용 물고기가 캡틴 참치수염이였데, 근데 폭풍우때 그만 도망쳣다지 뭐야! 꼬리로는 갈고리가 있고, 눈가리개도 있고 다 있어! 잡아와 나도 멋진 해적이 되게! 물론 바다 어딘가 있겟지!";
 					flag = true;
-					text = "\n(Caught in Ocean)";
+					text = "\n(바다에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2481:
@@ -10409,9 +10409,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "I saw this bright orange and colorful fish by the ocean, and it was looking around frantically as though it was seeking a lost family member! Go catch it for me, so that another one will show up looking frantically for him instead!";
+					array[num2++] = "밝은 주황색의 알락달록한 물고기를 바다에서 봤어, 꼭 잃어버린 가족을 찾아서 돌아다니는것 같더라고! 가서 잡아와, 그럼 다른 하나가 분명 나타날꺼야!";
 					flag = true;
-					text = "\n(Caught in Ocean)";
+					text = "\n(니모를 찾아 바다로 가면 잡을 수 있습니다)";
 				}
 				break;
 			case 2482:
@@ -10421,9 +10421,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "I hear in the underworld, that the King of all demons is actually a fish! Just imagine the absolute power I would have if you caught it for me!";
+					array[num2++] = "지하세계에서는 악마들의 왕은 사실 물고기래! 네가 한마리 잡아준다면 생길 내 절대적인 힘을 상상해봐!";
 					flag = true;
-					text = "\n(Caught in Caverns)";
+					text = "\n(동굴에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2483:
@@ -10433,9 +10433,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "Those Derplings in the jungle are the most scary creatures I've ever seen! Good thing is, sometimes they don't have legs! These ones live in the water and are a lot less scary! Catch me one now so I can see what they taste like without being scared half to death!";
+					array[num2++] = "내가 본것중 더플링들은 가장 무서운 괴물이야! 좋은 소식은, 가끔은 걔들이 다리가 없다는거야! 걔내들은 물 속에 살고 덜 무서워! 반쯤 죽을만큼 무섭지 않으니 걔내들 맛 보고싶어!";
 					flag = true;
-					text = "\n(Caught in Jungle Surface)";
+					text = "\n(정글 지표면에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2484:
@@ -10445,9 +10445,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "There's a legend of a mighty being known as the Fishron! It's part pig, part dragon, and part FISH! I hear it hangs around in the frozen subterranean lakes of the coldest part of the world! I'm not going there, so YOU go catch it and makes sure it lands in my hands! I'm so excited!";
+					array[num2++] = "전설의 존재 피시론을 알아? 한부분은 돼지고 한부분은 용이고 한부분은 물고기야! 아주 추운곳 지하에서 잡힌다는데! 난 안갈꺼야 그러니까, 잡아서 내 손에 가져다 줘! 정말 신나!";
 					flag = true;
-					text = "\n(Caught in Underground Tundra)";
+					text = "\n(툰드라 지하에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2485:
@@ -10457,9 +10457,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "A really long fish that looks like a sword's sheath swims in the murky waters of the corruption! It looks a lot like ebonstone, so don't let it fool you! That's right, you. You're catching it, not me!";
+					array[num2++] = "긴 칼처럼 생긴 긴 물고기가 타락한 땅 흐린 물 속에 산대! 쟃빛 돌처럼 생겼지만 널 속이게 하지마! 어 맞어, 너 말야. 잡아오라고! 내가 잡을거 아냐";
 					flag = true;
-					text = "\n(Caught in Corruption)";
+					text = "\n(타락한 땅에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2486:
@@ -10469,9 +10469,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "Watch your step when wading through jungle waters! Why? No, not because I care about you being eaten by piranhas. I care because you'll step on one of my favorite kinds of fish, the Mud Fish! I also care a lot that you're going to grab me one as a pet!";
+					array[num2++] = "정글 연못을 다닐때는 조심해! 왜냐고? 아냐, 피라냐한테 물리는건 상관없는데. 내가 좋아하는 물고기를 밟는게 싫어, 진흙물고기말야! 하나 잡아서 애완용으로 하면 상관이 있고!";
 					flag = true;
-					text = "\n(Caught in Jungle)";
+					text = "\n(정글에서 잡을 수 있습니다)";
 				}
 				break;
 			case 2487:
@@ -10481,9 +10481,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "In the forest, the slimes are kinda gross. Slimefish are even more so! I don't want to swim with slimes, so yoink one out of the water for me!";
+					array[num2++] = "숲속의 슬라임은 징그러워. 슬라임물고기는 더욱 그렇고! 슬라임이랑 수영하기 싫어, 잡아 꺼내!";
 					flag = true;
-					text = "\n(Caught Anywhere)";
+					text = "\n(어디에서든 잡을 수 있습니다)";
 				}
 				break;
 			case 2488:
@@ -10493,9 +10493,9 @@ public class LN
 				}
 				else
 				{
-					array[num2++] = "Piranhas and sharks are ugly! Soooo ugly! Did you know there's a fish that looks very pretty and still can eat your face off? I would pay 2 platinum to see that happen, by the way... To the point, though, you catchy for me. Just make sure I have it before you lose your face!";
+					array[num2++] = "피라냐와 상어들은 못생겼어! 너어어어무 못생겼어! 예쁘게 생겼고 네 얼굴을 뜯어먹을 수 있는 물고기가 있는거 알아? 그게 정말 일어난다면 백금화 2개를 줘서라도 볼텐... 어쨋든 잡아와! 네 얼굴을 잃기 전에 나한테 보여주는것도 잊지 말고 말야!";
 					flag = true;
-					text = "\n(Caught Jungle Surface)";
+					text = "\n(정글 지표면에서 잡을 수 있습니다)";
 				}
 				break;
 			}
@@ -10552,11 +10552,11 @@ public class LN
 			case 13:
 				result += string.Concat(new string[]
 				{
-					"Oh, great. I can hear ",
+					"살판났군. 저 ",
 					text5,
-					" and ",
+					" 이랑 ",
 					text,
-					" arguing from here."
+					" 이가 싸우는 소리가 여기까지 들리는구만."
 				});
 			case 14:
 				result += "자네 혹시 그걸 본적이 있나?  키툴...시툴.. 채ㅌ...아 아니 그 큰 눈을 말야.";
@@ -10621,7 +10621,7 @@ public class LN
 			case 44:
 				result += "잠시만요, 뽀로로 반창고좀 찾아 올게요...";
 			case 45:
-				result += "남자답게 행동좀 해요, " + Main.player[Main.myPlayer].name + ", 괜찮아 질거에요. 어휴.";
+				result += "남자답게 행동좀 해요, " + Main.player[Main.myPlayer].name + ", 괜찮아 질거에요... 어휴.";
 			case 46:
 				result += "그곳을 누르면 아픈가요? 그럼 누르질 마요.";
 			case 47:
@@ -10643,7 +10643,7 @@ public class LN
 			case 55:
 				result += "전 행복한 결말따위 좋아하지 않아요.";
 			case 56:
-				result += "더이상은 안되요. 성형이라면 모를까.";
+				result += "더이상은 안돼요. 성형이라면 모를까.";
 			case 57:
 				result += "제 시간좀 뺏지 말아요.";
 			case 58:
@@ -10669,7 +10669,7 @@ public class LN
 			case 68:
 				result += "내 물건에서 손때 , 이놈아!";
 			case 69:
-				result += "혹시 타락한 땅 흑단석에 정화가루를  뿌려보셨나요?";
+				result += "혹시 타락한 땅 흑단석에 정화의 가루를  뿌려보셨나요?";
 			case 70:
 				result += "제발 " + text2 + KRTracker.End(text2, "이가") + " 그만 집적대면 좋겠어요. 내가 500살이 넘었다는건 모르나 보죠?";
 			case 71:
@@ -10705,7 +10705,7 @@ public class LN
 			case 86:
 				result += "불쌍한 바보여.  당신이 내 주인을 상대하기엔 희망조차도 못한다오.";
 			case 87:
-				result += "난 당신이 여섯명의 친구와 함께이길 바라오. 당신 혼자겠지만.";
+				result += "당신과 실력이 비슷한 사람이 여섯명만 더 있다면 좋겠지만, 당신 혼자인것 같아 보이는군.";
 			case 88:
 				result += "제발, 하지 마시오 낮선 이여. 당신을 죽이는 일만 될 뿐이라오.";
 			case 89:
@@ -10753,7 +10753,7 @@ public class LN
 			case 110:
 				result += "희미안 기억이지만 한 소자를 묶어 던전 속으로 던진 기억이 자꾸만 나";
 			case 111:
-				result += "... 문제가 생겼소, 밖에 블러드문이!";
+				result += "... 문제가 생겼소, 밖에 혈월이!";
 			case 112:
 				result += "만약 내가 젊었다면" + text + " 간호사를 불러냈을텐데... 소싯적엔 꾀나 여자를 부렸거든.";
 			case 113:
@@ -10845,7 +10845,7 @@ public class LN
 			case 156:
 				result += "고마워요!	이곳 스켈레톤처럼 끝나는건 시간문제였거든요.";
 			case 157:
-				result += "길좀 보고 다녀욧! 조금 전에도 여기였거든요?!";
+				result += "길좀 보고 다녀욧! 계속 빙빙 돌기만 하잖아요!";
 			case 158:
 				result += "잠깐만요, 분명 어디서 와이파이 신호가 잡혔는데...";
 			case 159:
@@ -10855,7 +10855,7 @@ public class LN
 			case 161:
 				result += "전 그저 스위치로...흐흐...... 뭐!";
 			case 162:
-				result += "제가 하나 맞춰볼까요?. 전선을 충분히 안샀죠?. 멍청이.";
+				result += "제가 하나 맞춰볼까요? 전선을 충분히 안샀죠? 멍청이.";
 			case 163:
 				result += "그냥... 그냥 좀... 네? 오케이? 오케이. 어휴.";
 			case 164:
@@ -10878,7 +10878,7 @@ public class LN
 			case 169:
 				result += "혹시 이 집이 더 필요한게 뭔지 알아요? 반짝전구말이에요.";
 			case 170:
-				result += "하늘이 빨갛다면 블러드문이라는 뜻이죠. 무언가가 괴물들을 모여들게 하고 있어요.";
+				result += "하늘이 빨갛다면 혈월이라는 뜻이죠. 무언가가 괴물들을 모여들게 하고 있어요.";
 			case 171:
 				result += "저기 친구. 사망초를 어디서 구하는지 알아요? 아뇨? 이유는 없어요; 그냥 궁금해서, 그게 전부에요.";
 			case 172:
@@ -11026,15 +11026,15 @@ public class LN
 			case 244:
 				result += "개의치 말고, 너한텐 제트팩이 잘 어울리겠는데!"; //뭐라는거야... ("Be it what it would, a jetpack would suit you nicely!")
 			case 245:
-				result += "I'm feeling a bit peevish as of late, so enough with your palaver you ragamuffin!";
+				result += "늦어서 짜증이 조금 나, 네 괜한 법석을 받아줄 정도는 안돼!";
 			case 246:
-				result += "I'm mighty curious about that " + str6 + " fellow. By what manner of consumption does he maintain such locomotion?";
+				result += "난 저 로봇 자식이 정말 궁금해, " + str6 + " 말야. 도데체 어떤 동력으로 움직이는거야?";
 			case 247:
-				result += "That captain fellow seems to me to be 'pretty well over the bay' if you know what I mean!";
+				result += "저 선장은 '부두에서 잘 나가는 '사람 같아. 뭔 말인지 알겠어?";
 			case 248:
 				result += "내게 톱니바퀴를 보여줘...!";
 			case 249:
-				result += "나는 너의 ... 톱니바퀴가 좋아. Does it come in brass?";
+				result += "나는 너의 ... 톱니바퀴가 좋아. 놋쇠 제품이야?";
 			case 250:
 				result += "신성한 땅에 들어가면 하늘에 무지개가 있는걸 볼 수 있어. 그걸 색칠하고 싶으면 도와줄 수 있어.";
 			case 251:
@@ -11054,13 +11054,13 @@ public class LN
 			case 258:
 				result += "어휴, 그리 칙칙한 옷을 입고 다니다니. 옷을 염색하는 법을 배워야겠어!";
 			case 259:
-				result += "The only kind of wood I would bother dyeing is RICH Mahogany. Dyeing any other wood is such a waste.";
+				result += "나무를 염색하려면 난 마호가니 나무만 할꺼야. 다른 나무는 그냥 낭비거든.";
 			case 260:
 				result +=  str7 + "한테 무슨 말좀 해봐요.  여기 왔다 갈때마다 냄새를 빼는데 일주일이나 걸린다구요";
 			case 261:
 				result += "무슨 마술사냐고? 난 주술사야."; // which doctor(어느 의사) 와 witch doctor(주술사) 의 발음이 비슷함을 이용한 말장난
 			case 262:
-				result += "마법의 심장은 자연이야. 심장의 본성은 마법이고."; // nature 이 다른 뜻으로 쓰임 (자연, 마법)을 이용한 말장난
+				result += "마법의 심장은 자연이야. 심장의 본성은 마법이고."; // nature 이 다른 뜻으로 쓰임 (자연, 본성)을 이용한 말장난
 			case 263:
 				result += text + " 간호사는 치료를 도와주지만, 난 너의 몸이 너를 치료를 하게 만들 수 있어.";
 			case 264:
@@ -11096,347 +11096,343 @@ public class LN
 			case 279:
 				result += "*야아아 내가 ㄱ르에서서어 *"; // 술에 취한 상태라네요
 			case 280:
-				result += "And then Unit 492-8 said, 'Who do you think I am, Unit 472-6?' HA. HA. HA.";
+				result += "그리고 492-8 가 말했다, '내가 누군거 같아, 472-6?' 하. 하. 하";
 			case 281:
-				result += "My expedition efficiency was critically reduced when a projectile impacted my locomotive actuator.";
+				result += "어떤 투사체가 내 기압원동기와 접촉했을때 내 탐험 능력은 급격히 줄어들었다.";
 			case 282:
-				result += "This sentence is false , or is it?";
+				result += "이 문장은 '거짓'이다 , 과연 그런가?";
 			case 283:
-				result += "So that 'punk' lookin' chick is an inventor, eh? I think I could show her a thing or two!";
+				result += "그러니까 저 '펑크' 한 계집이 발명가다? 그녀에게 한개나 두개정도 보여줄 것이 있다!";
 			case 284:
-				result += "Sure, me and " + str7 + " are pals, but I hate it when his parrot does his business on me. That stuff's corrosive!";
+				result += "분명 나와 " + str7 + " 은(는) 친구다, 그렇지만 그 앵무새가 나랑 거래할 때는 싫다. 그건 부식성이다!";
 			case 285:
-				result += "I built myself a taste mechanism, so I can drink some ale!";
+				result += "난 미각 시스템을 내가 장착했다. 에일 정도는 마실 수 있다";
 			case 286:
-				result += "Sometimes I come off a bit... Get it? a bit?";
+				result += "비트박스정도는 쉽다... 이해되? '비트'?"; // 원래는 Sometimes I come off a bit... get it?... a bit? 인데 '조금'(a bit)과 컴퓨터 단위 '비트'(bit)가 같음을 이용한 말장난
 			case 287:
-				result += "'Short back and sides' is it?";
+				result += "'옆이랑 뒷마리 짧게, 맞죠?";
 			case 288:
-				result += "Those highlights really bring out your eyes!";
+				result += "역시 하이라이트를 해야 눈이 돋보인다니까요!";
 			case 289:
-				result += "My hands are sticky from all that... wax.";
+				result += "제 손이 끈적 끈적하게 더러워 졌어요... 왁스로요."; //이 드립 조금;;
 			case 290:
-				result += "Tea? Coffee? Or is it just orange juice again?";
+				result += "차? 커피? 아니면 그냥 오렌지 주스요?";
 			case 291:
-				result += "Doll, we seriously need to fix those split ends.";
+				result += "으구 인형같은 우리 언니, 그 머리카락 끝 갈라진 것 좀 어떻게 해야겠어요.";
 			case 292:
-				result += "Gurrllll! You are my favorite gossip ever.";
+				result += "어머머! 언니! 언니랑 수다 떠는게 최고에요.";
 			case 293:
-				result += "Which aftershave can I interest you in today, sir?";
+				result += "오늘은 어떤 에프터쉐이브 로션으로 하시겠어요?";
 			case 294:
-				result += "Sit down for a second and I'll have you steppin' razor.";
+				result += "앉아서 잠시만 기다려주세요, 면도날좀 가져올게요.";
 			case 295:
-				result += "Either you have style, or you get styled.";
+				result += "스타일이 있으시거나, 스타일링 받으시거나.";
 			case 296:
-				result += "For you I think we'll do something... low maintenance.";
+				result += "당신은.. 해야겠어요... 관리요. 손이 많이 안가도록요.";
 			case 297:
-				result += "I tried using one of the Dye Master's products once. Ends fried. Disaster.";
+				result += "염색상의 염료를 써봤는데요.. 머리 끝이 상해버렸어요. 재앙이 따로 없네요.";
 			case 298:
-				result += "Oh you poor, poor thing. Just... just sit down here. It'll be okay. Shhhh.";
+				result += "오..불쌍해라.. 그냥... 그냥 여기 앉아있어요. 괜찮아 질꺼에요. 쉬이이이.";
 			case 299:
-				result += "Check my fresh.";
+				result += "신상 헤어는 어때요?";
 			case 300:
-				result += "Hello sir, I'm " + str8 + ", and I'll be your barber today.";
+				result += "안녕하세요~ 전 " + str8 + "에요. 당신 이발사에요.";
 			case 301:
-				result += "Just a little off the top?  That's no fun...";
+				result += "그냥 다듬어 달라고요? 재미 없는뎁....";
 			case 302:
-				result += "I hope you like what I did to " + text6 + "'s hair!";
+				result += "제가 다듬은" + text6 + "의 헤어가 맘에 드시면 좋겟네요!";
 			case 303:
-				result += "There is nothing I can do for " + str2 + "'s singed head. He's a lost cause.";
+				result += str2 + "의 타버린 모발을 저도 어떻게 할 수가 없어요. 실패작이나 마찬가지에요.";
 			case 304:
-				result += "Tipping IS optional, but remember I have access to scissors and your head.";
+				result += "물론 티핑은 옵션이지만, 가위랑 머리카락은 제 손에 달려있는걸 기억하세요.";
 			case 305:
-				result += "This is a cut-throat razer by the way.";
+				result += "참고로 이거 재래식 면도기에요.";
 			case 306:
-				result += "You better stay outta my hair tonight, hun. I just sharpened my scissors, and I'm looking for an excuse to use them!";
+				result += "오늘은 좀 떨어지는게 좋아요. 방금 가위날을 갈았는데, 사용할 만한 명분거리를 찾고 있거든요!";
 			case 307:
 				result += string.Concat(new string[]
 				{
-					"Mhmm, I heard from ",
+					"흐음, ",
 					text6,
-					" that ",
+					" 한테서 들은게 있는데 ",
 					text5,
-					"'s friend ",
+					"의 친구 ",
 					text,
-					" spent her boyfriend's last paycheck on shoes."
+					" 가 남자친구 월급을 그녀 신발에 다 써버렸다네요."
 				});
 			case 308:
-				result += "One time I put a wig on " + str6 + " just so I could cut his hair. I think he kinda liked it!";
+				result += "한번은 " + str6 + "에게 가발을 씌어줬어요. 머리를 자를 수 있게요. 좋아햇던것 같아요 ";
 			case 309:
-				result += "I tried to visit " + str8 + " one time. She just looked at me and said 'nope.'";
+				result += "언제한번 " + str8 + "을(를) 만나러 갔어. 나를 보자마자 그냥 '아뇨'라고 하더라.'";
 			case 310:
-				result += "I think it is about time I got my hair did!";
+				result += "나 머리를 만질때가 된거 같지 않아?";
 			case 311:
-				result += "Did you even try to brush your hair today?";
+				result += "오늘 머리를 빗기는 한거에요?";
 			case 312:
-				result += "So a pixie cut, would you like to keep some lady burns?";
+				result += "그러니까 픽시컷, 그리구 여성스러움을 강조할까요?";
 			case 313:
-				result += "I have no problem cleaning up ears and eyebrows, but I draw the line at nose hair.";
+				result += "귀와 눈썹은 손질해줄 수 있지만, 코 털은... 사양할게요.";
 			case 314:
-				result += "Alright, you sit and marinate. I'll be back to rinse your color out in 25 minutes...";
+				result += "다 됬어요, 앉아서 조금만 기다려주세요. 25분 있다가 물에 씻어낼게요...";
 			case 315:
-				result += "Thanks hun! Now I can finally do my hair.";
+				result += "고마워요! 드디어 머리 손질좀 하겠네.";
 			case 316:
-				result += "I would have given you a free cut if you'd come earlier.";
+				result += "조금만 더 일찍오셨다면 무료로 손질해드렸을거에요.";
 			case 317:
-				result += "Don't go exploring with scissors, they said. You won't get trapped in a spider's web, they said!";
+				result += "사람들이 말하기를 여행갈때 가위는 가져가지 말라더라구요. 그 사람들이 말하기를 거미줄에는 갇힐일도 없을것이라고도 햇구요!";
 			case 318:
-				result += "Ew, my hair, there's spider web all over it!";
+				result += "으, 내 머리, 온통 거미줄로 가득하잖아!";
 			case 319:
-				result += "Meet me behind " + str4 + "'s house in about three hours, I think I have something you will find very appealing.";
+				result += "3시간 뒤에 " + str4 + "의 집 뒤에서 만나요, 당신이 흥미를 가질만한 물건이 있거든요.";
 			case 320:
-				result += "That " + str + ", he really has no appreciation for a really good deal.";
+				result += "저 " + str + "은(는)요 좋은 거래가 뭔지 정말 모르는 것 같아요.";
 			case 321:
-				result += "I sell only what I can get. " + str3 + " keeps hounding me for exotic clothing.";
+				result += "전 제가 구할 수 있는거만 팔아요. " + str3 + "은(는) 이국적인 옷들 때문에 저를 사냥하려고 들어요.";
 			case 322:
-				result += "Hmm, you look like you could use an Angel Statue! They slice, and dice, and make everything nice!";
+				result += "천사상을 사용하는건 어때요?";
 			case 323:
-				result += "I don't refund for \"buyer's remorse...\" Or for any other reason, really.";
+				result += " \"소비자의 후회...\"라는 명목으로 환불은 안받아요. 다른 이유도 마찬가지구요.";
 			case 324:
-				result += "Buy now and get free shipping!";
+				result += "지금 사면 배송이 무료!";
 			case 325:
-				result += "I sell wares from places that might not even exist!";
+				result += "전 없을것 같은 재료라도 구해서 판다구요!";
 			case 326:
-				result += "You want two penny farthings!? Make it one and we have a deal.";
+				result += "얼마에 원하신다구요? 절반 가격으로 드리죠!";
 			case 327:
-				result += "Combination hookah and coffee maker! Also makes julienne fries!";
+				result += "물담배와 커피머신의 조합! 그리고 줄리엔느도 만들죠!";
 			case 328:
-				result += "Come and have a look! One pound fish! Very, very good! One pound fish!";
+				result += "♬한번만 보고가요! 물고기 1 파운드! 정말 정말 좋은! 물고기 1파운드!";
 			case 329:
-				result += "If you're looking for junk, you've come to the wrong place.";
+				result += "고물을 찾으러 오셨다면, 잘못 찾아오셨어요.";
 			case 330:
-				result += "A thrift shop?  No, I am only selling the highest quality items on the market.";
+				result += "중고품 가계라구요?  아뇨, 정말 좋은 물품들만 가지고 왔다구요.";
 			case 331:
-				result += "Smashing a crimson heart will sometimes cause a meteor to fall out of the sky. crimson hearts can usually be found in the chasms around crimtane areas.";
+				result += "핓빛 심장을 부수면 하늘에서 별똥별이 떨어질 수도 있어요. 핓빛 심장은 피투성이 땅 깊은 틈 속 근처에 있지요.";
 			case 332:
-				result += "Have you tried using purification powder on the crimstone of the crimson?";
+				result += "정화 가루를 피투성이 땅에 있는 핓빛 돌에 써 보셨나요?";
 			case 333:
-				result += "You must cleanse the world of this crimson.";
+				result += "당신은 이 피투성이인 세상을 정화시켜야해요.";
 			case 334:
-				result += "Psst! I might have a job for you. Don't think you can say no, either!";
+				result += "쉿! 네게 시킬일이 있어. 싫다고 말 못할껄!";
 			case 335:
-				result += "I want a fish and you're going to find me one! Ask me about it!";
+				result += "네가 찾아줬으면 하는 물고기가 있어! 물어봐봐!";
 			case 336:
-				result += "Hey! Just the sacrifi- I mean competent fishing master that I've been looking for! ";
+				result += "어이! 찾고 있엇다구 너 말야, 우리의 희생- 내말은 우리 능숙한 낚시꾼 말야! ";
 			case 337:
-				result += str9 + " wants YOU as the official " + Main.worldName + " errand monkey!";
+				result += str9 + "은(는) '너'가 " + Main.worldName + "의 심부름 원숭이가 되길 바래!";
 			case 338:
-				result += "Whaaaat?! Can't you see I'm winding up fishing line??";
+				result += "뭐어어어어?! 지금 낚싯줄 정리하는거 안보이냐??";
 			case 339:
-				result += "I have enough fish! I don't need your help right now!";
+				result += "지금이라면 물고기는 충분해! 너의 도움은 필요없어!";
 			case 340:
-				result += "There's no chefs in all of " + Main.worldName + ", so I have to cook all this fish myself! ";
+				result += "이 세계, " + Main.worldName + "에는 쉐프가 없어서 이 물고기들을 내가 스스로 요리해야되!";
 			case 341:
-				result += "Hey! Watch it! I'm setting up traps for my biggest prank ever! No one will see it coming! Don't you dare tell anyone!";
+				result += "야! 조심해! 나는 내 생에 가장 최고의 장난을 준비중이라고! 아무도 예상 못할껄? 아무한테도 말하지마!";
 			case 342:
-				result += "Let a kid give you some advice, never touch your tongue to an ice block! Wait, forget what I said, I totally want to see you do it!";
+				result += "애로써 충고하는데, 얼음엔 혀를 대지마! 잠깐, 방금 말한건 잊어버려, 너가 그렇게 하는걸 보고싶어!";
 			case 343:
-				result += "Ever heard of a barking fish?! I haven't, I'm just wondering if you did!";
+				result += "혹시 개처럼 짖는 물고기에 관해서 들어본 적이 있어?! 난 없어, 그냥 궁금해서!";
 			case 344:
-				result += Main.worldName + " is filled to the brim with the most outlandish kinds of fish!";
+				result += Main.worldName + " 에는 이상한 물고기가 정말 많아!";
 			case 345:
-				result += "I'm bummed out! There's probably been fish that have gone extinct before I even was born, and that's not fair!";
+				result += "정말 속상해! 내가 태어나기도 전에 멸종된 물고기가 있다니, 불공평해!";
 			case 346:
-				result += "I don't have a mommy or a daddy, but I have a lot of fish! It's close enough!";
+				result += "어.. 아빠랑 엄마는 안계셔, 그렇지만 물고기가 많이 있지! 그게 그거 아냐?";
 			case 347:
-				result += "Heh heh, you shoulda seen the look on " + text3 + "'s face when I stuck that piranha tooth in the chair!";
+				result += "헤헤, 아까 " + text3 + "의 얼굴을 봤어야 했어, 피라냐 이빨을 의자 위에 뒀을때 말이야!";
 			case 348:
-				result += "I have a request for you! No, I don't care that there's a zombie apocalypse right now!";
+				result += "너에게 부탁이 있어! 아니, 지금 좀비 아포칼립스가 일어나고 있다고해도 상관없어!";
 			case 349:
-				result += "Hurry up and listen! I need you to catch something for me right now!";
+				result += "빨리좀 들어봐! 너가 뭐 좀 잡아 줬으면 좋겠어 지금!";
 			case 350:
-				result += "I hate blood moons! I stay up all night because of all the scary noises!";
+				result += "난 블러드문이 싫어! 밤새 무서운 소리 때문에 못 잔단 말이야!";
 			case 351:
-				result += "Blood moon is the worst time to fish! The fish bite, yes, but so do the zombies!";
+				result += "블러드문은 낚시하기 딱 안좋은 날씨야! 입질도 그렇지만, 좀비는 어떻다고!";
 			case 352:
-				result += "There's a bajillion monsters running around out there right now!";
+				result += "저기 어어어엄청 많은 몬스터들이 밖에 있어!";
 			case 353:
-				result += "Thanks, I guess, for saving me or whatever. You'd be a great helper minion!";
+				result += "고마워, 아마도, 날 구해줘서 말이야. 넌 분명히 좋은 하인이 될꺼야!";
 			case 354:
-				result += "Wha? Who might you be? I totally wasn't just drowning or anything!";
+				result += "워? 넌 누구야? 나 여기서 익사한다거나 그런거 아니였어!";
 			case 355:
-				result += "You saved me! You're awful nice, I could use you... er, I mean, totally hire you to do some awesome stuff for me!";
+				result += "날 구하다니! 너 끔직하도록 좋은 사람이구나, 널 이용해서... 어, 그러니까, 고용해서 멋진 일들을 할 수 있을꺼야!";
 			case 356:
-				result += "Got any spare bones for sale? I'm looking to replace my broken hip... again.";
+				result += "혹시 뼈 파는거 있어? 엉덩이 뼈가 부러져서 말야.... 또.";
 			case 357:
-				result += "Excellent! Someone's finally come by to take some of these maggots off my hands.";
+				result += "아싸! 드디어 내 손에서 구더기들을 때줄 사람을 찾았군";
 			case 358:
-				result += "There's no illness or condition that can't be cured by some of my Slime Oil! Trust me, it works, just look at my lively figure!";
+				result += "슬라임 기름으로 고칠 수 없는 병은 어디에도 없지! 믿어도 좋아, 내 몸을 봐!";
 			case 359:
-				result += "You've got a real backbone coming way down here, how 'bout ya buy somethin?";
+				result += "진짜 척추는 이 지하에나 있지, 뭐좀 살래?";
 			case 360:
-				result += "You would not believe some of the things people throw at me... Wanna buy some of it?";
+				result += "사람들이 나에게 뭘 던졌는지 너는 상상도 못할꺼야... 그중 몇개좀 살래?";
 			case 361:
-				result += "I'd lend you a hand, but last time I did that, I didn't get it back for a month";
+				result += "이번엔 손을 빌려줄게, 근데 저번에 그랬을때는, 한달동안이나 못 돌려받았어";
 			case 362:
-				result += "Stay away from the spiders. They'll suck out your insides and leave you a hollow shell of a man. Trust me on this one.";
+				result += "거미들 가까이 가지 마. 안쪽은 모두 빨려 껍데기만 남게 될꺼야. 이번엔 믿어도 좋아.";
 			case 363:
-				result += "The only things constant in this world are death and taxes, I've got both!";
+				result += "이 세계에서 일정한건 두개야. 죽음과 세금이지, 난 둘다 겪어봤고!";
 			case 364:
-				result += "You again? Suppose you want more money!?";
+				result += "또 너야? 돈 받으러 왔지!?";
 			case 365:
-				result += "Must everyone open and shut doors so incredibly noisily around here?!";
+				result += "여기 있는 사람들은 문을 다 쾅쾅 거리며 다녀야 하는거야?!";
 			case 366:
-				result += "I see you're free of time, as usual. Can't imagine what work life would be for your kind of folk.";
+				result += "너 한가해 보이는군, 늘 그렇듯이. 그런 사람들의 삶은 상상도 못하겟군.";
 			case 367:
-				result += "Yes, yes, yes! -- I'll give you your share in just a moment. I'd think you to be a bit more patient, what with me doing all the work and all.";
+				result += "그래, 그래, 그래! -- 네 돈 줄게. 조금만 더 참을성이 있으면 좋겠군.";
 			case 368:
-				result += "What does a man have to do to be left alone in this place? Go bugger someone less busy!";
+				result += "나 큰 놈이 여기 혼자서 뭐하겠어? 덜 바쁜사람한테 찾아가, 꺼져!";
 			case 369:
-				result += "...two barrels of molasses, plus -- Oh, nevermind that, you're here. Here's your money.";
+				result += "...술 두병, 더하기 -- 아, 신경 쓰지마. 돈 여깄어.";
 			case 370:
-				result += "Just between you and me... I have no idea why they're bothering to pay the rent";
+				result += "우리 둘 사이에 말인데... 왜 주민들이 집세 내는데 신경을 안쓰는지 모르겠어 ";
 			case 371:
-				result += "Tried to get " + text3 + " to pay me with favors once, now I have fungus growing in strange places.";
+				result += "가서" + text3 + " 에게 세금 대신 부탁 하나만 들어달라고 해, 이상한 곳에서 버섯이 자란다고.";
 			case 372:
-				result += "Go tell " + text2 + " to stop offering to pay me with ammo, I don't even own a gun.";
+				result += "가서 " + text2 + " 에게 탄약으로 세금을 내지 말라고 해, 총도 없는데 말야 .";
 			case 373:
-				result += "Why don't YOU try collecting money from " + str2 + " and not losing a hand or foot or...";
+				result += "왜 '네가'" + str2 + " 에게서 세금을 받아오지 않는거야? 다리나 팔 하나를 잃지 않으려고 시도 하면서 말야...";
 			case 374:
-				result += "I just came from " + str + "'s. He wanted to know if I took credit cards.";
+				result += "방금 " + str + "네 집에서 오는 길이야. 신용카드를 받는지 궁금해 하더군.";
 			case 380:
-				result += "Here's your cut of the taxes that I've taken from our surplus population!";
+				result += "이 엄청난 인구에서 세금을 받아내려 우리 지도자 분이 오셨군!";
 			case 381:
-				result += "Here you are again, taking all my coin! Just grab it and begone from my sight!";
+				result += "여기 누가 왔는지 봐봐, 내 돈을 가지러 말야! 가져가! !";
 			case 382:
-				result += "Bah! Here, take your shillings and get out of my sight!";
+				result += "프후! 여기, 니 돈은 가져가고 내 시야에서 사라져!";
 			case 383:
-				result += "This is all you're gonna get for now, not a penny more! Take it and spend it wisely.";
+				result += "이게 지금 가져갈 수 있는 전부야, 페니 하나도 더 못줘! 현명하게 쓰길.";
 			case 390:
-				result += "...And people call me greedy? No, I have nothing else for you.";
+				result += "...그리고 사람들이 날 욕심 많다고 부른다고? 없어, 더는 줄것이 없어.";
 			case 391:
-				result += "Oh, so you just see me as a coin sign, eh? 'Cus every time you see me, you ask me.";
+				result += "날 동전 표지판으로 본다 이거냐? 날 볼때마다 물어보잖아.";
 			case 392:
-				result += "Don't you ever stop just to say 'Hi?'";
+				result += "여기 오는 이유가 '안녕하세요?'라고 말 한마디 하지는 못하냐!";
 			case 393:
-				result += "Bah! You again? You just grabbed some of my coin just moments ago, so bugger off and come back later!";
+				result += "프후! 또 너야? 내 동전을 조금전에 가져갔잖아, 꺼져! 나중에 다시와!";
 			case 394:
-				result += "I just gave you half a crown five minutes ago! Scram!";
+				result += "분명히 반 실링을 5분 전에 가져갔잖아! 썩 꺼져!";
 			case 395:
-				result += "Reaching into my moneybags again already!? And you call ME greedy.";
+				result += "내 돈가방까지 손댈꺼야!? 그리고 나보고 욕심이 많다고 하지... 프후.";
 			case 396:
-				result += "You just received your pay, and not a farthing more! Get out!";
+				result += "넌 지금 네 돈을 받았고, 단  파딩 하나도 더 못줘! 나가!";
 			case 397:
-				result += "Money doesn't grow on trees, so don't overpick my fruit! Bah! ";
+				result += "돈은 나무에서 안자라니까, 내 열매까지 따가지는 마! 프후! ";
 			case 398:
-				result += "You already managed to spend every pence I paid you!? Bah, I'm not a charity, go kill a slime!";
+				result += "내가 준 돈은 벌써 다 쓴거야!? 프후, 난 자선사업가가 아니니, 가서 슬라임이나 잡아!";
 			case 399:
-				result += "Not so fast! You got your money, now begone! ";
+				result += "이렇게 이르겐 안돼! 네 돈은 받았으니, 이제 나가! ";
 			case 400:
-				result += "Begging so soon?! Don't look at me like I'll have a change of heart overnight! ";
+				result += "이젠 구걸까지?! 하룻 밤 만에 내가 마음을 바꿀꺼라고 생각하는거야! ";
 			case 401:
-				result += "Make sure to smash any crimson altar you can find. Something good is bound to happen if you do!";
+				result += "핓빛 제단을 찾으면 꼭 부수세요. 무언가 좋은일이 일어날 꺼랍니다!";
 			case 402:
-				result += "Crimson altars can usually be found in the crimson. You will need to be near them to craft some items.";
+				result += "핓빛 제단은 피투성이 땅에서 찾을 수 있어요. 근처에 있으면 몇가지 아이템을 조합할 수 있어요.";
 			case 403:
-				result += "You can create a bloody spine with vertebrae. Make sure you are in a crimtane area before using it.";
+				result += "척추 뼈로 피 묻은 척추를 만들 수 있어요. 쓰기전에 피투성이 땅에 있는지 확인하세요.";
 			default:
-				result += "ERROR";
+				result += "ERROR 404";
 		}
 		
 		return result;
 	}
-	
-	public static string setBonus(int l)
-	{
-		string result = "";
 		
 		switch (l)
 		{
 			case 0:
-				result += "방어 +2";
+				result += "방어력 +2 ";
 			case 1:
-				result += "방어 +3";
+				result += "방어력 +3";
 			case 2:
-				result += "이동속도 +15%";
+				result += "이동속도 +15% 상승";
 			case 3:
 				result += "스페이스 건의 마나 소모 없음";
 			case 4:
-				result += "탄을 쓰지 않을 확률 +20%";
+				result += "탄약을 쓰지 않을 확률 +20%";
 			case 5:
-				result += "16% reduced mana usage";
+				result += "마나 소모 16% 감소";
 			case 6:
 				result += "추가 대미지 +17%";
 			case 7:
 				result += "채광 속도 +30%";
 			case 8:
-				result += "14% reduced mana usage";
+				result += "마나 소모 14% 감소";
 			case 9:
 				result += "공격 속도 +15%";
 			case 10:
-				result += "탄을 쓰지 않을 확률 +20%";
+				result += "탄약을 쓰지 않을 확률 +20%";
 			case 11:
-				result += "17% reduced mana usage";
+				result += "마나 소모 17% 감소";
 			case 12:
-				result += "5% increased melee critical strike chance";
+				result += "근접 무기 치명타 확률 5% 만큼 증가합니다";
 			case 13:
-				result += "20% chance to not consume ammo";
+				result += "탄약을 쓰지 않을 확률 20% ";
 			case 14:
-				result += "19% reduced mana usage";
+				result += "마나 소모 19% 감소";
 			case 15:
-				result += "18% increased melee and movement speed";
+				result += "근접 무기 공격속도와 이동속도 18% 만큼 증가합니다";
 			case 16:
-				result += "25% chance to not consume ammo";
+				result += "탄약을 쓰지 않을 확률 25%";
 			case 17:
-				result += "20% reduced mana usage";
+				result += "마나 소모 20% 감소";
 			case 18:
-				result += "19% increased melee and movement speed";
+				result += "근접 무기 공격속도와 이동속도 19% 만큼 증가합니다";
 			case 19:
-				result += "25% chance to not consume ammo";
+				result += "탄약을 쓰지 않을 확률 25% 만큼 증가합니다";
 			case 20:
-				result += "1 defense";
+				result += "방어력 +1";
 			case 21:
-				result += "Greatly increased life regen";
+				result += "회복 속도 대폭 상승";
 			case 22:
-				result += "Melee and ranged attacks cause frostburn";
+				result += "근접과 원거리 공격이 동상을 입힙니다";
 			case 23:
-				result += "Increases your max number of minions";
+				result += "소환수의 최대 수가 증가합니다";
 			case 24:
-				result += "Greatly increases life regeneration after striking an enemy";
+				result += "적에게 피해 입혔을때 회복속도 대폭 향상됩니다";
 			case 25:
-				result += "Flower petals will fall on your target for extra damage";
+				result += "꽃잎들이 목표에 떨어져 추가 피해를 입힙니다";
 			case 26:
-				result += "Become immune after striking an enemy";
+				result += "적을 공격할 때 잠시동안 무적이 됩니다";
 			case 27:
-				result += "Summons a powerful leaf crystal to shoot at nearby enemies";
+				result += "근처 적을 공격하는 잎사귀 크리스탈을 소환합니다";
 			case 28:
-				result += "10% increased magic critical strike chance";
+				result += "마법공격 피해량과 치명타 확률이 10% 만큼 증가합니다";
 			case 29:
-				result += "Attackers also take full damage";
+				result += "공격자들도 피해를 입습니다";
 			case 30:
-				result += "Magic damage done to enemies heals the player with lowest health";
+				result += "적에게 마법 피해를 입히면 소량의 생명력을 회복합니다";
 			case 31:
-				result += "Not moving puts you in stealth,\nincreasing ranged ability and reducing chance for enemies to target you";
+				result += "움직이지 않으면 은신 상태로 진입합니다\n 원거리 관련 능력이 향상되며 적이 목표로 삼을 확률이 적어집니다";
 			case 32:
-				result += "4 defense";
+				result += "방어력 + 4 ";
 			case 33:
-				result += "10% increased damage";
+				result += "피해량 10% 만큼 증가합니다";
 			case 34:
-				result += "Increases minion damage by 25%";
+				result += "소환수의 피해량이 25% 만큼 증가합니다";
 			case 35:
-				result += "Magic damage done will hurt extra nearby enemies";
+				result += "주변 적들에게는 마법 피해량이 증가합니다";
 			case 36:
-				result += "Increases maximum mana by 60";
+				result += "마나 최대치가 60 증가합니다";
 			case 37:
-				result += "Beetles protect you from damage";
+				result += "딱정벌레의 보호를 받습니다";
 			case 38:
-				result += "Beetles increase your melee damage and speed";
+				result += "딱정벌레들이 근접 피해량과 공격속도를 증가시킵니다";
 			case 39:
-				result += "Increases minion damage by 10%";
+				result += "소환수의 피해량이 10% 만큼 증가합니다";
 			case 40:
-				result += "Increases minion damage by 12%";
+				result += "소환수의 피해량이 12% 만큼 증가합니다";
 			case 41:
-				result += "33% chance to not consume thrown item";
+				result += "소비형 투척 아이템을 쓰지 않을 확률 33%";
 			case 42:
-				result += "50% chance to not consume thrown item";
+				result += "소비형 투척 아이템을 쓰지 않을 확률 50%";
 			case 43:
-				result += "Solar shields generate over time protecting you,\nconsume the shield power to dash, damaging enemies";
+				result += "서서히 태양 방패가 생성됩니다\n태양 방패를 사용해 적에게 피해를 주며 돌진합니다";
 			case 44:
-				result += "Double tap " + (Main.ReversedUpDownArmorSetBonuses ? "UP" : "DOWN") + " to toggle stealth,\nincreasing ranged ability and reducing chance for enemies to target you but slowing movement speed";
+				result += (Main.ReversedUpDownArmorSetBonuses ? "UP" : "DOWN") + " 키를 두번 눌러 은신 상태에 진입합니다  ,\n 은신상태에서는 원거리 능력이 항상되고 적에게 목표가 될 확률이 적어지나 이동속도가 느려집니다";
 			case 45:
-				result += "Hurting enemies has a chance to spawn buff boosters,\npick boosters up to get stacking buffs";
+				result += "적에게 피해를 입히면 버프 부스터를 생성합니다,\n버프 부스터를 획득해 중첩 버프를 획득합니다";
 			case 46:
-				result += "Double tap " + (Main.ReversedUpDownArmorSetBonuses ? "UP" : "DOWN") + " to direct your guardian to a location";
+				result += (Main.ReversedUpDownArmorSetBonuses ? "UP" : "DOWN") + " 키를 두번 눌러 수호자에게 그 자리를 지키도록 합니다";
 		}
 		
 		return result;
@@ -12609,7 +12605,7 @@ public class LN
 			case 532:
 				result += "바실리스크";
 			case 533:
-				result += "사막 망령";
+				result += "사막 정령";
 			case 534:
 				result += "Tortured Soul";
 			case 535:
@@ -12829,19 +12825,19 @@ public class LN
 					l2 = Item.BannerToNPC(249 + l - 3593);
 				}
 				string str = Lang.npcName(l2, false);
-				return "Nearby players get a bonus against: " + str;
+				return "근처 플레이어들은 몬스터를 상대할때 전투력이 향상됩니다. 해당 몬스터: " + str;
 			}
 			if (l >= 3293 && l <= 3308)
 			{
-				return "Increases yoyo range";
+				return "요요 사거리거 증가합니다";
 			}
 			if (l >= 3309 && l <= 3314)
 			{
-				return "Throws a counterweight after hitting an enemy with a yoyo";
+				return "요요로 피해를 입히면 카운터웨이트를 던집니다";
 			}
 			if (l >= 3318 && l <= 3332)
 			{
-				return "Right click to open";
+				return "우클릭으로 열기";
 			}
 			if (l <= 1450)
 			{
@@ -12855,25 +12851,25 @@ public class LN
 							{
 								if (l == 8)
 								{
-									return "Provides light";
+									return "광원을 제공합니다";
 								}
 								switch (l)
 								{
 								case 15:
-									return "Tells the time";
+									return "시간을 알려줍니다";
 								case 16:
-									return "Tells the time";
+									return "시간을 알려줍니다";
 								case 17:
-									return "Tells the time";
+									return "시간을 알려줍니다";
 								case 18:
-									return "Displays depth";
+									return "깊이를 표시합니다";
 								case 19:
 								case 20:
 								case 21:
 								case 22:
 									goto IL_A9EF;
 								case 23:
-									return "'Both tasty and flammable'";
+									return "'맛도 있고 불에도 잘타고!'";
 								default:
 									goto IL_A9EF;
 								}
@@ -12882,24 +12878,24 @@ public class LN
 							{
 								if (l == 29)
 								{
-									return "Permanently increases maximum life by 20";
+									return "영구적으로 생명력이 20 증가합니다";
 								}
 								switch (l)
 								{
 								case 33:
-									return "Used for smelting ore";
+									return "광물을 제련할 때 필요합니다";
 								case 34:
 									goto IL_A9EF;
 								case 35:
-									return "Used to craft items from metal bars";
+									return "금속괴를 사용하는 조합에 필요합니다";
 								case 36:
-									return "Used for basic crafting";
+									return "기본적인 조합에 필요합니다";
 								default:
 									if (l != 43)
 									{
 										goto IL_A9EF;
 									}
-									return "Summons the Eye of Cthulhu";
+									return "크툴후의 눈을 소환합니다";
 								}
 							}
 						}
@@ -12908,9 +12904,9 @@ public class LN
 							switch (l)
 							{
 							case 49:
-								return "Slowly regenerates life";
+								return "서서히 생명력을 재생시킵니다";
 							case 50:
-								return "Gaze in the mirror to return home";
+								return "거울속을 바라보아 집으로 귀한합니다";
 							case 51:
 							case 52:
 							case 55:
@@ -12923,31 +12919,31 @@ public class LN
 							case 69:
 								goto IL_A9EF;
 							case 53:
-								return "Allows the holder to double jump";
+								return "착용자는 더블점프를 사용할 수 있습니다";
 							case 54:
-								return "The wearer can run super fast";
+								return "착용하는 사람은 재빨리 뛸 수 있습니다";
 							case 56:
-								return "'Pulsing with dark energy'";
+								return "'어둠의 에너지가 고동칩니다'";
 							case 57:
-								return "'Pulsing with dark energy'";
+								return "'어둠의 에너지가 고동칩니다'";
 							case 64:
-								return "Summons a vile thorn";
+								return "극도로 불쾌한 가시를 소환합니다";
 							case 65:
-								return "Causes stars to rain from the sky";
+								return "별이 비처럼 하늘에서 내리게 합니다";
 							case 66:
-								return "Cleanses the evil";
+								return "사악을 정화시킵니다";
 							case 67:
 								goto IL_21BF;
 							case 68:
-								return "'Looks tasty!'";
+								return "'맛있어 보이네요!'";
 							case 70:
-								return "Summons the Eater of Worlds";
+								return "세상을 먹는 자를 소환합니다";
 							default:
 								if (l != 75)
 								{
 									goto IL_A9EF;
 								}
-								return "Disappears after the sunrise";
+								return "일출과 함께 사라집니다";
 							}
 						}
 						else
@@ -12955,19 +12951,19 @@ public class LN
 							switch (l)
 							{
 							case 84:
-								return "'Get over here!'";
+								return "'이리오너라!'";
 							case 85:
-								return "Can be climbed on";
+								return "벽을 탈 수 있습니다";
 							case 86:
 							case 87:
 								goto IL_A9EF;
 							case 88:
-								return "Provides light when worn";
+								return "착용하면 빛을 발산합니다";
 							default:
 								switch (l)
 								{
 								case 98:
-									return "33% chance to not consume ammo";
+									return "탄약을 소비하지 않을 확률 33%";
 								case 99:
 								case 104:
 								case 105:
@@ -12982,48 +12978,48 @@ public class LN
 								case 127:
 									goto IL_A9EF;
 								case 100:
-									return "7% increased melee speed";
+									return "7%";
 								case 101:
-									return "7% increased melee speed";
+									return "근접관련 공격속도 증가 7%";
 								case 102:
-									return "7% increased melee speed";
+									return "근접관련 공격속도 증가 7%";
 								case 103:
-									return "Able to mine Hellstone";
+									return "지옥돌을 캘 수 있습니다";
 								case 109:
-									return "Permanently increases maximum mana by 20";
+									return "영구적으로 마나 최대치가 20만큼 증가합니다 ";
 								case 111:
-									return "Increases maximum mana by 20";
+									return "마나 최대치가 20만큼 증가합니다";
 								case 112:
-									return "Throws balls of fire";
+									return "불공을 던집니다";
 								case 113:
-									return "Casts a controllable missile";
+									return "제어가능한 발사체를 소환합니다";
 								case 114:
-									return "Magically moves dirt";
+									return "마법처럼 흙을 이동시킵니다";
 								case 115:
-									return "Creates a magical shadow orb";
+									return "마법적인 그림자 보주를 소환합니다";
 								case 117:
-									return "'Warm to the touch'";
+									return "'만져보니 따스하네요'";
 								case 118:
-									return "Sometimes dropped by Skeletons and Piranha";
+									return "때때로 스켈레톤과 피라냐에게서 발견됩니다";
 								case 120:
-									return "Lights wooden arrows ablaze";
+									return "나무 화살을 불타오르게 합니다";
 								case 121:
-									return "'It's made out of fire!'";
+									return "'그건 불로 이루워져 있어!'";
 								case 123:
-									return "7% increased magic damage";
+									return "마법 피해량이 7% 만큼 증가합니다";
 								case 124:
-									return "7% increased magic damage";
+									return "마법 피해량이 7% 만큼 증가합니다";
 								case 125:
-									return "7% increased magic damage";
+									return "마법 피해량이 7% 만큼 증가합니다";
 								case 128:
-									return "Allows flight";
+									return "비행을 가능케 합니다";
 								default:
 									switch (l)
 									{
 									case 148:
-										return "Holding this may attract unwanted attention";
+										return "이걸 들고 있다면 원하지 않는 주목을 받을 수 있습니다";
 									case 149:
-										return "'It contains strange symbols'";
+										return "'이상한 기호가 그려져 있습니다'";
 									case 150:
 									case 154:
 									case 155:
@@ -13036,25 +13032,25 @@ public class LN
 									case 151:
 										break;
 									case 152:
-										return "5% increased ranged damage.";
+										return "마법 피해량이 5% 만큼 증가합니다.";
 									case 153:
-										return "5% increased ranged damage.";
+										return "마법 피해량이 5% 만큼 증가합니다.";
 									case 156:
-										return "Grants immunity to knockback";
+										return "넉백에 면역이 생깁니다";
 									case 157:
-										return "Sprays out a shower of water";
+										return "물을 솰솰 뿌립니다";
 									case 158:
-										return "Negates fall damage";
+										return "낙하할 때 충격을 완화합니다";
 									case 159:
-										return "Increases jump height";
+										return "점프 높이를 증가시킵니다";
 									case 165:
-										return "Casts a slow moving bolt of water";
+										return "느리게 움직이는 워터볼트를 시전합니다";
 									case 166:
-										return "A small explosion that will destroy some tiles";
+										return "몇몇의 블럭을 부술만한 작은 폭발력을 가지고 있습니다";
 									case 167:
-										return "A large explosion that will destroy most tiles";
+										return "대부분의 블럭을 부술만한 큰 폭발력을 가지고 있습니다";
 									case 168:
-										return "A small explosion that will not destroy tiles";
+										return "블럭을 부수지 못하지만 작은 폭발력을 가지고 있습니다";
 									default:
 										goto IL_A9EF;
 									}
@@ -13070,19 +13066,19 @@ public class LN
 						{
 							if (l == 175)
 							{
-								return "'Hot to the touch'";
+								return "'만져보니 뜨거워요'";
 							}
 							switch (l)
 							{
 							case 186:
-								return "Increases breath time and allows breathing in water";
+								return "잠수 능력을 향상시키며 물속에서 숨을 쉬게 해 줍니다";
 							case 187:
-								return "Grants the ability to swim";
+								return "수영 능력이 생깁니다";
 							case 188:
 							case 189:
 								goto IL_A9EF;
 							case 190:
-								return "Has a chance to poison enemies";
+								return "적을 중독시킬 확률이 있습니다";
 							default:
 								goto IL_A9EF;
 							}
@@ -13091,16 +13087,16 @@ public class LN
 						{
 							if (l == 193)
 							{
-								return "Grants immunity to fire blocks";
+								return "뜨거운 블럭들에게 면역이 생깁니다";
 							}
 							if (l == 197)
 							{
-								return "Shoots fallen stars";
+								return "별을 발사합니다";
 							}
 							switch (l)
 							{
 							case 208:
-								return "'It's pretty, oh so pretty'";
+								return "'아름다워, 오, 정말 아름다워'";
 							case 209:
 							case 210:
 							case 214:
@@ -13114,27 +13110,27 @@ public class LN
 							case 226:
 								goto IL_A9EF;
 							case 211:
-								return "12% increased melee speed";
+								return "근접공격 속도가 12% 만큼 증가합니다";
 							case 212:
-								return "10% increased movement speed";
+								return "이동속도가 10% 만큼 증가합니다";
 							case 213:
-								return "Creates grass and moss on dirt and stone";
+								return "풀과 이끼를 흙과 돌에 생성시킵니다";
 							case 215:
-								return "'May annoy others'";
+								return "'짜증전도자가 되보세요'";
 							case 218:
-								return "Summons a controllable ball of fire";
+								return "제어가능한 불공을 소환합니다";
 							case 222:
-								return "Grows plants";
+								return "식물을 자라게 합니다";
 							case 223:
-								return "6% reduced mana usage";
+								return "마나 소모량이 6% 만큼 감소합니다";
 							case 227:
-								return "Reduced potion cooldown";
+								return "물약 재사용 시간을 줄입니다";
 							case 228:
-								return "Increases maximum mana by 40";
+								return "마나 최대치가 40 만큼 증가합니다";
 							case 229:
-								return "Increases maximum mana by 20";
+								return "마나 최대치가 20 만큼 증가합니다";
 							case 230:
-								return "Increases maximum mana by 20";
+								return "마나 최대치가 20 만큼 증가합니다";
 							default:
 								goto IL_A9EF;
 							}
@@ -13149,18 +13145,18 @@ public class LN
 						case 236:
 							goto IL_A9EF;
 						case 237:
-							return "'Makes you look cool!'";
+							return "'멋잇게 보여요!'";
 						case 238:
-							return "15% increased magic damage";
+							return "마법 피해량이 15% 만큼 증가합니다";
 						default:
 							switch (l)
 							{
 							case 256:
-								return "15% increased throwing velocity";
+								return "투척물의 속도가 15% 만큼 증가합니다";
 							case 257:
-								return "15% increased throwing damage";
+								return "투척물의 피해량이 15% 만큼 증가합니다";
 							case 258:
-								return "10% increased throwing critical strike chance";
+								return "투척물의 치명타 확률이 10% 만큼 증가합니다";
 							case 259:
 							case 262:
 							case 263:
@@ -13182,61 +13178,61 @@ public class LN
 							case 287:
 								goto IL_A9EF;
 							case 260:
-								return "It smells funny...";
+								return "냄새가 웃겨요...";
 							case 261:
-								return "'It's smiling, might be a good snack'";
+								return "'웃고 있다. 좋은 간식이 될 것 같다'";
 							case 266:
-								return "'This is a good idea!'";
+								return "'정말 좋은 아이디어야!'";
 							case 267:
-								return "'You are a terrible person.'";
+								return "'당신 정말 끔찍한 사람이군요.'";
 							case 268:
-								return "Greatly extends underwater breathing";
+								return "잠수 능력이 대폭 향상됩니다";
 							case 272:
-								return "Casts a demon scythe";
+								return "악마의 대낫을 시전합니다";
 							case 281:
-								return "Allows the collection of seeds for ammo";
+								return "씨앗을 탄약으로 모을 수 있게 합니다";
 							case 282:
-								return "Works when wet";
+								return "젖어야 사용할 수 있어요";
 							case 283:
-								return "For use with Blowpipe";
+								return "분관을 사용할때 소모됨";
 							case 285:
-								return "5% increased movement speed";
+								return "이동속도가 5% 만큼 증가합니다";
 							case 288:
-								return "Provides immunity to lava";
+								return "용암에 면역력이 생깁니다";
 							case 289:
-								return "Provides life regeneration";
+								return "생명 회복력이 증가합니다";
 							case 290:
-								return "25% increased movement speed";
+								return "이동속도가 25% 만큼 증가합니다";
 							case 291:
-								return "Breathe water instead of air";
+								return "공기 대신 물로 호흡합니다";
 							case 292:
-								return "Increase defense by 8";
+								return "방어력이 8만큼 증가합니다";
 							case 293:
-								return "Increased mana regeneration";
+								return "마나 회복력이 증가합니다";
 							case 294:
-								return "20% increased magic damage";
+								return "마법 피해량이 20% 만큼 증가합니다";
 							case 295:
-								return "Slows falling speed";
+								return "낙하 속도를 줄여줍니다";
 							case 296:
-								return "Shows the location of treasure and ore";
+								return "보물과 광물의 위치를 표시합니다";
 							case 297:
-								return "Grants invisibility";
+								return "은신 상태에 돌입합니다";
 							case 298:
-								return "Emits an aura of light";
+								return "빛을 발산합니다";
 							case 299:
-								return "Increases night vision";
+								return "야간 시력을 증가시킵니다";
 							case 300:
-								return "Increases enemy spawn rate";
+								return "적이 소환되는 속도를 증가시킵니다";
 							case 301:
-								return "Attackers also take damage";
+								return "공격자도 피해를 입습니다";
 							case 302:
-								return "Allows the ability to walk on water";
+								return "물 위를 걷는 능력을 줍니다";
 							case 303:
-								return "20% increased arrow speed and damage";
+								return "화살의 속도와 피해량이 20% 만큼 증가합니다";
 							case 304:
-								return "Shows the location of enemies";
+								return "적의 위치를 표시합니다";
 							case 305:
-								return "Allows the control of gravity";
+								return "중력을 제어할 수 있게 됩니다";
 							default:
 								goto IL_A9EF;
 							}
@@ -13247,22 +13243,22 @@ public class LN
 					{
 						if (l == 324)
 						{
-							return "'Banned in most places'";
+							return "'대부분의 지역에서 금지되었습니다'";
 						}
 						switch (l)
 						{
 						case 327:
-							return "Opens one Gold or Dungeon Chest";
+							return "금창고나 던전 창고를 열 수 있습니다";
 						case 328:
 							goto IL_A9EF;
 						case 329:
-							return "Opens all Shadow Chests";
+							return "모든 그림자 창고를 열 수 있습니다";
 						default:
 							if (l != 332)
 							{
 								goto IL_A9EF;
 							}
-							return "Used for crafting cloth";
+							return "옷을 만드는데 필요합니다";
 						}
 					}
 				}
@@ -13274,12 +13270,12 @@ public class LN
 						{
 							if (l == 352)
 							{
-								return "Used for brewing ale";
+								return "에일을 양조하는데 사용됩니다";
 							}
 							switch (l)
 							{
 							case 357:
-								return "Minor improvements to all stats";
+								return "모든 스탯을 약간 향상시킵니다 ";
 							case 358:
 							case 359:
 							case 360:
@@ -13306,57 +13302,57 @@ public class LN
 							case 406:
 								goto IL_A9EF;
 							case 361:
-								return "Summons a Goblin Army";
+								return "고블린 군대를 소환합니다";
 							case 363:
-								return "Used for advanced wood crafting";
+								return "나무 관련 조합에 필요합니다";
 							case 367:
-								return "Strong enough to destroy Demon Altars";
+								return "악마의 제단을 부술 수 있을 만큼 충분히 강력합니다";
 							case 371:
-								return "Increases maximum mana by 40";
+								return "마나 최대치가 40 만큼 증가합니다";
 							case 372:
-								return "7% increased movement speed";
+								return "이동속도가 7% 만큼 증가합니다";
 							case 373:
-								return "10% increased ranged damage";
+								return "원거리 공격 피해량이 10% 만큼 증가합니다";
 							case 376:
-								return "Increases maximum mana by 60";
+								return "마나 최대치가 60 만큼 증가합니다";
 							case 377:
-								return "5% increased melee critical strike chance";
+								return "근접공격 치명타 확률이 5% 만큼 증가합니다";
 							case 378:
-								return "12% increased ranged damage";
+								return "원거리공격의 피해량이 12% 만큼 증가합니다";
 							case 385:
-								return "Can mine Mythril and Orichalcum";
+								return "미스릴과 오리칼쿰을 채광할 수 있습니다";
 							case 386:
-								return "Can mine Adamantite and Titanium";
+								return "아다만타이트와 티타늄을 채광할 수 있습니다";
 							case 389:
-								return "Has a chance to confuse";
+								return "상대방에게 혼란을 일으킬 수 있습니다";
 							case 393:
-								return "Displays horizontal position";
+								return "수평의 위치를 표시합니다";
 							case 394:
-								return "Grants the ability to swim";
+								return "수영 능력이 생깁니다";
 							case 395:
-								return "Shows position";
+								return "위치를 표시합니다";
 							case 396:
-								return "Negates fall damage";
+								return "낙하 할 때 충격을 완하합니다";
 							case 397:
-								return "Grants immunity to knockback";
+								return "넉백에 면역력이 생깁니다";
 							case 398:
-								return "Allows the combining of some accessories";
+								return "액세서리를 결합시킬 때 필요합니다";
 							case 399:
-								return "Allows the holder to double jump";
+								return "착용한 사람은 더블 점프를 사용할 수 있게 됩니다";
 							case 400:
-								return "Increases maximum mana by 80";
+								return "마나 최대치가 80 만큼 증가합니다";
 							case 401:
-								return "7% increased melee critical strike chance";
+								return "근접공격 치명타 확률이 7% 만큼 증가합니다 ";
 							case 402:
-								return "14% increased ranged damage";
+								return "원거리공격의 피해량이 14% 만큼 증가합니다";
 							case 403:
-								return "6% increased damage";
+								return "피해량이 6% 만큼 증가합니다";
 							case 404:
-								return "4% increased critical strike chance";
+								return "치명타 확률이 4% 만큼 증가합니다";
 							case 405:
-								return "Allows flight";
+								return "비행을 가능케 합니다";
 							case 407:
-								return "Increases block placement range";
+								return "블럭 배치 사거리가 증가합니다";
 							default:
 								goto IL_A9EF;
 							}
@@ -13366,24 +13362,24 @@ public class LN
 							switch (l)
 							{
 							case 422:
-								return "Spreads the Hallow to some blocks";
+								return "신성이 전파됩니다";
 							case 423:
-								return "Spreads the corruption to some blocks";
+								return "타락성이 전파됩니다";
 							case 424:
 								goto IL_A9EF;
 							case 425:
-								return "Summons a magical fairy";
+								return "마법의 요정을 소환합니다";
 							default:
 								if (l == 434)
 								{
-									return "Three round burst";
+									return "세번 발포";
 								}
 								switch (l)
 								{
 								case 485:
-									return "Turns the holder into a werewolf at night";
+									return "착용한 사람은 밤에 늑대인간으로 변화됩니다";
 								case 486:
-									return "Creates measurement lines on screen for block placement";
+									return "화면상에 블럭 배치를 위한 측량을 표시합니다";
 								case 487:
 								case 488:
 								case 494:
@@ -13439,133 +13435,133 @@ public class LN
 								case 598:
 									goto IL_A9EF;
 								case 489:
-									return "15% increased magic damage";
+									return "마법 피해량이 15% 만큼 증가합니다";
 								case 490:
-									return "15% increased melee damage";
+									return "근접공격의 피해량이 15% 만큼 증가합니다";
 								case 491:
-									return "15% increased ranged damage";
+									return "원거리공격의 피해량이 15% 만큼 증가합니다";
 								case 492:
-									return "Allows flight and slow fall";
+									return "비행과 낙하 속도 감소를 가능케 합니다";
 								case 493:
-									return "Allows flight and slow fall";
+									return "비행과 낙하 속도 감소를 가능케 합니다l";
 								case 495:
-									return "Casts a controllable rainbow";
+									return "제어 가능한 무지개를 소환합니다";
 								case 496:
-									return "Summons a block of ice";
+									return "얼음 블럭을 소환합니다";
 								case 497:
-									return "Transforms the holder into merfolk when entering water";
+									return "물 속에 들어갈때 착용한 사람을 머포크로 변화시킵니다";
 								case 506:
-									return "Uses gel for ammo";
+									return "젤을 탄약으로 사용합니다";
 								case 509:
-									return "Places red wire";
+									return "빨간 전선을 설치합니다";
 								case 510:
-									return "Removes wire";
+									return "전선을 제거합니다";
 								case 515:
-									return "Creates several crystal shards on impact";
+									return "충격을 받을 때 크리스탈 조각을 생성합니다"
 								case 516:
-									return "Summons falling stars on impact";
+									return "충돌을 받을 때 별똥별을 소환합니다";
 								case 517:
-									return "A magical returning dagger";
+									return "마력으로 돌아오는 칼을 소환합니다";
 								case 518:
-									return "Summons rapid fire crystal shards";
+									return "크리스탈 조각을 빠르게 쏩니다";
 								case 519:
-									return "Summons unholy fire balls";
+									return "불경스러운 불공을 소환합니다";
 								case 520:
-									return "'The essence of light creatures'";
+									return "'빛의 생명의 정수'";
 								case 521:
-									return "'The essence of dark creatures'";
+									return "'어둠의 생명의 정수'";
 								case 522:
-									return "'Not even water can put the flame out'";
+									return "'물도 이 불을 끄지는 못합니다'";
 								case 523:
-									return "Can be placed in water";
+									return "물 속에도 설치할 수 있습니다";
 								case 524:
-									return "Used to smelt adamantite and titanium ore";
+									return "아드만타이트와 티타늄 광물을 제련할 때 쓰입니다";
 								case 525:
-									return "Used to craft items from mythril, orichalcum, adamantite, and titanium bars";
+									return "미스릴, 오리칼쿰, 아다만타이트, 티타늄 괴를 사용하는 조합에 필요합니다";
 								case 526:
-									return "'Sharp and magical!'";
+									return "'마법적이고 날카로운!'";
 								case 527:
-									return "'Sometimes carried by creatures in corrupt deserts'";
+									return "'타락한 사막의 생명체에서 가끔 발견됩니다'";
 								case 528:
-									return "'Sometimes carried by creatures in light deserts'";
+									return "'신성한 사막의 생명체에서 가끔 발견됩니다'";
 								case 529:
-									return "Activates when stepped on";
+									return "밟으면 작동합니다";
 								case 531:
-									return "Can be enchanted";
+									return "강화될 수 있습니다";
 								case 532:
-									return "Causes stars to fall when injured";
+									return "다치면 하늘에서 별이 떨어집니다";
 								case 533:
-									return "50% chance to not consume ammo";
+									return "탄약을 50% 확률로 사용하지 않습니다";
 								case 534:
-									return "Fires a spread of bullets";
+									return "분산되는 총알을 발포합니다";
 								case 535:
-									return "Reduces the cooldown of healing potions";
+									return "치료 물약의 재사용 시간이 감소합니다";
 								case 536:
-									return "Increases melee knockback";
+									return "근접공격 넉백이 증가합니다";
 								case 541:
-									return "Activates when stepped on";
+									return "밟으면 작동합니다";
 								case 542:
-									return "Activates when a player steps on it";
+									return "플레이어가 밟을 경우 작동합니다";
 								case 543:
-									return "Activates when a player steps on it";
+									return "플레이어가 밟을 경우 작동합니다";
 								case 544:
-									return "Summons The Twins";
+									return "쌍둥이를 소환합니다";
 								case 547:
-									return "'The essence of pure terror'";
+									return "'순수한 공포의 정수'";
 								case 548:
-									return "'The essence of the destroyer'";
+									return "'파괴자의 정수'";
 								case 549:
-									return "'The essence of omniscient watchers'";
+									return "'관찰자의 정수'";
 								case 551:
-									return "7% increased critical strike chance";
+									return "치명타 확률이 7% 만큼 증가합니다";
 								case 552:
-									return "7% increased damage";
+									return "피해량이 7% 만큼 증가합니다";
 								case 553:
-									return "15% increased ranged damage";
+									return "원거리공격의 피해량이 15% 만큼 증가합니다";
 								case 554:
-									return "Increases length of invincibility after taking damage";
+									return "피해를 받고 난 뒤 무적시간이 소폭 증가합니다";
 								case 555:
-									return "8% reduced mana usage";
+									return "마나 소모량이 8% 만큼 감소합니다";
 								case 556:
-									return "Summons Destroyer";
+									return "파괴자를 소환합니다";
 								case 557:
-									return "Summons Skeletron Prime";
+									return "스켈레트론 프라임을 소환합니다";
 								case 558:
-									return "Increases maximum mana by 100";
+									return "마나 최대치가 100 만큼 증가합니다";
 								case 559:
-									return "10% increased melee damage and critical strike chance";
+									return "근접공격의 피해량과 치명타 확률이 10% 만큼 증가합니다";
 								case 560:
-									return "Summons King Slime";
+									return "왕 슬라임을 소환합니다";
 								case 561:
-									return "Stacks up to 5";
+									return "다섯개 까지 겹쳐집니다";
 								case 575:
-									return "'The essence of powerful flying creatures'";
+									return "'강력한 비행 생물의 정수'";
 								case 576:
-									return "Has a chance to record songs";
+									return "노래를 녹음할수도 있습니다";
 								case 579:
-									return "'Not to be confused with a picksaw'";
+									return "'톱괭이랑 헷갈리지 마세요'";
 								case 580:
-									return "Explodes when activated";
+									return "작동되면 폭발합니다";
 								case 581:
-									return "Sends water to outlet pumps";
+									return "출구 펌프로 물을 받아냅니다";
 								case 582:
-									return "Receives water from inlet pumps";
+									return "입구 펌프에서 물을 받아옵니다";
 								case 583:
-									return "Activates every second";
+									return "매 초마다 작동됩니다";
 								case 584:
-									return "Activates every 3 seconds";
+									return "매 3초마다 작동됩니다";
 								case 585:
-									return "Activates every 5 seconds";
+									return "매 5초마다 작동됩니다";
 								case 599:
-									return "Right click to open";
+									return "우클릭으로 열기";
 								case 600:
-									return "Right click to open";
+									return "우클릭으로 열기";
 								case 601:
-									return "Right click to open";
+									return "우클릭으로 열기";
 								case 602:
-									return "Summons the Frost Legion";
+									return "한기의 군단을 소환합니다";
 								case 603:
-									return "Summons a pet bunny";
+									return "애완용 토끼을 소환합니다";
 								default:
 									goto IL_A9EF;
 								}
@@ -13583,12 +13579,12 @@ public class LN
 						case 668:
 							goto IL_3341;
 						case 669:
-							return "Summons a baby penguin";
+							return "새끼팽귄을 소환합니다";
 						default:
 							switch (l)
 							{
 							case 676:
-								return "Shoots an icy bolt";
+								return "아이스볼트를 쏘아냅니다";
 							case 677:
 							case 679:
 							case 680:
@@ -13596,15 +13592,15 @@ public class LN
 							case 682:
 								goto IL_A9EF;
 							case 678:
-								return "Only for those who are worthy";
+								return "돈좀 있는 사람들만 사용하세요";
 							case 683:
-								return "Summons the Devil's trident";
+								return "악마의 삼지창을 소환합니다";
 							case 684:
-								return "16% increased melee and ranged damage";
+								return "근접과 원거리 공격의 피해량이 16% 만큼 증가합니다";
 							case 685:
-								return "11% increased melee and ranged critical strike chance";
+								return "근접과 원거리 공격의 치명타 확률이 11% 만큼 증가합니다";
 							case 686:
-								return "8% increased movement speed";
+								return "이동속도가 8% 만큼 증가합니다";
 							default:
 								goto IL_A9EF;
 							}
@@ -13616,26 +13612,26 @@ public class LN
 						switch (l)
 						{
 						case 707:
-							return "Tells the time";
+							return "시간을 알려줍니다";
 						case 708:
-							return "Tells the time";
+							return "시간을 알려줍니다";
 						case 709:
-							return "Tells the time";
+							return "시간을 알려줍니다";
 						default:
 							if (l == 716)
 							{
-								return "Used to craft items from metal bars";
+								return "금속괴를 사용하는 조합에 필요합니다";
 							}
 							switch (l)
 							{
 							case 723:
-								return "Shoots a beam of light";
+								return "빛줄기를 발사합니다";
 							case 724:
-								return "Shoots an icy bolt";
+								return "아이스볼트를 발사합니다";
 							case 725:
-								return "Shoots frost arrows";
+								return "얼어붙은 화살을 발사합니다";
 							case 726:
-								return "Shoots a stream of frost";
+								return "숲의 줄기를 발사합니다";
 							default:
 								goto IL_A9EF;
 							}
@@ -13650,45 +13646,45 @@ public class LN
 						switch (l)
 						{
 						case 748:
-							return "Allows flight and slow fall";
+							return "비행과 낙하속도 감소를 가능케 합니다";
 						case 749:
-							return "Allows flight and slow fall";
+							return "비행과 낙하속도 감소를 가능케 합니다";
 						default:
 							if (l != 753)
 							{
 								goto IL_A9EF;
 							}
-							return "Summons a pet turtle";
+							return "애완용 거북이를 소환합니다";
 						}
 					}
 					else
 					{
 						if (l == 761)
 						{
-							return "Allows flight and slow fall";
+							return "비행과 낙하속도 감소를 가능케 합니다";
 						}
 						switch (l)
 						{
 						case 779:
-							return "Creates and destroys biomes when sprayed";
+							return "바이옴을 변화시킵니다";
 						case 780:
-							return "Used by the Clentaminator";
+							return "정화오염장치에 의해 사용가능합니다";
 						case 781:
-							return "Used by the Clentaminator";
+							return "정화오염장치에 의해 사용가능합니다";
 						case 782:
-							return "Used by the Clentaminator";
+							return "정화오염장치에 의해 사용가능합니다";
 						case 783:
-							return "Used by the Clentaminator";
+							return "정화오염장치에 의해 사용가능합니다";
 						case 784:
-							return "Used by the Clentaminator";
+							return "정화오염장치에 의해 사용가능합니다";
 						case 785:
-							return "Allows flight and slow fall";
+							return "비행과 낙하속도 감소를 가능케 합니다";
 						case 786:
-							return "Allows flight and slow fall";
+							return "비행과 낙하속도 감소를 가능케 합니다";
 						case 787:
-							return "Strong enough to destroy Demon Altars";
+							return "악마의 제단을 부술 수 있을만큼 강력합니다";
 						case 788:
-							return "Summons a thorn spear";
+							return "가시창을 소환합니다";
 						case 789:
 						case 790:
 						case 791:
@@ -13697,22 +13693,22 @@ public class LN
 						case 797:
 							goto IL_A9EF;
 						case 792:
-							return "2% increased damage";
+							return "피해량이 2% 만큼 증가합니다";
 						case 793:
-							return "2% increased damage";
+							return "피해량이 2% 만큼 증가합니다";
 						case 794:
-							return "2% increased damage";
+							return "피해량이 2% 만큼 증가합니다";
 						case 798:
-							return "Able to mine Hellstone";
+							return "지옥돌을 채광할 수 있습니다";
 						default:
 							switch (l)
 							{
 							case 821:
-								return "Allows flight and slow fall";
+								return "비행과 낙하속도 감소를 가능케 합니다";
 							case 822:
-								return "Allows flight and slow fall";
+								return "비행과 낙하속도 감소를 가능케 합니다";
 							case 823:
-								return "Allows flight and slow fall";
+								return "비행과 낙하속도 감소를 가능케 합니다";
 							default:
 								goto IL_A9EF;
 							}
@@ -13724,28 +13720,28 @@ public class LN
 				{
 					if (l == 832)
 					{
-						return "Places living wood";
+						return "생나무를 설치합니다";
 					}
 					switch (l)
 					{
 					case 849:
-						return "Enables solid blocks to be toggled on and off";
+						return "고체 블럭을 활성화 하거나 비활성화 할 수 있습니다";
 					case 850:
-						return "Places blue wire";
+						return "파란 전선을 설치합니다";
 					case 851:
-						return "Places green wire";
+						return "녹색 전선을 설치합니다";
 					case 852:
-						return "Activates when a player steps on it";
+						return "플레이어가 밟았을 때 작동합니다";
 					case 853:
-						return "Activates when anything but a player steps on it";
+						return "플레이어를 제외한 다른 것들이 밟았을 때 작동합니다";
 					case 854:
-						return "Shops have lower prices";
+						return "상점이 낮은 가격에 물건을 내놓게 됩니다";
 					case 855:
-						return "Hitting enemies will sometimes drop extra coins";
+						return "적을 공격하면 추가로 동전을 획득할 확률이 증가합니다";
 					case 856:
-						return "'Having a wonderful time!'";
+						return "'아주 멋진 시간을 보내고 있어요!'";
 					case 857:
-						return "Allows the holder to do an improved double jump";
+						return "착용자가 향상된 더블 점프를 사용할 수 있게 됩니다";
 					case 858:
 					case 859:
 					case 864:
@@ -13822,162 +13818,162 @@ public class LN
 					case 999:
 						goto IL_A9EF;
 					case 860:
-						return "Provides life regeneration and reduces the cooldown of healing potions";
+						return "생명 회복력이 향상되고 회복 물약의 재사용 시간이 감소합니다 ";
 					case 861:
-						return "Turns the holder into a werewolf at night and a merfolk when entering water";
+						return "착용자를 밤에는 늑대인간으로, 물속에 들어가면 머포크로 변화시킵니다";
 					case 862:
-						return "Causes stars to fall and increases length of invincibility after taking damage";
+						return "피해를 입을때 별이 떨어지고 무적시간이 소폭 증가합니다";
 					case 863:
-						return "Provides the ability to walk on water";
+						return "물 위를 걸을 수 있는 능력을 줍니다";
 					case 885:
-						return "Immunity to Bleeding";
+						return "출혈에 면역이 생깁니다";
 					case 886:
-						return "Immunity to Broken Armor";
+						return "부서진 갑옷에 면역이 생깁니다";
 					case 887:
-						return "Immunity to Poison";
+						return "독에 면역이 생깁니다";
 					case 888:
-						return "Immunity to Darkness";
+						return "암흑에 면역이 생깁니다";
 					case 889:
-						return "Immunity to Slow";
+						return "둔화에 면역이 생깁니다";
 					case 890:
-						return "Immunity to Silence";
+						return "침묵에 면역이 생깁니다";
 					case 891:
-						return "Immunity to Curse";
+						return "저주에 면역이 생깁니다";
 					case 892:
-						return "Immunity to Weakness";
+						return "약화에 면역이 생깁니다";
 					case 893:
-						return "Immunity to Confusion";
+						return "혼란에 면역이 생깁니다";
 					case 897:
-						return "Increases melee knockback";
+						return "근접공격 넉백이 증가합니다";
 					case 898:
-						return "Allows flight";
+						return "비행을 가능케 합니다";
 					case 899:
-						return "Increases all stats if worn during the day";
+						return "착용자는 낮동안 모든 스탯이 소폭 상승합니다";
 					case 900:
-						return "Increases all stats if worn during the night";
+						return "착용자는 밤동안 모든 스탯이 소폭 상승합니다";
 					case 901:
-						return "Immunity to Weakness and Broken Armor";
+						return "약화와 부서진 갑옷에 면역이 생깁니다";
 					case 902:
-						return "Immunity to Poison and Bleeding";
+						return "독과 출혈에 면역이 생깁니다";
 					case 903:
-						return "Immunity to Slow and Confusion";
+						return "둔화와 혼란에 면역이 생깁니다";
 					case 904:
-						return "Immunity to Silence and Curse";
+						return "침묵과 저주에 면역이 생깁니다";
 					case 905:
-						return "Uses coins for ammo";
+						return "돈을 탄약처럼 사용합니다";
 					case 906:
-						return "Provides 7 seconds of immunity to lava";
+						return "7초동안 용암에 면역이 생깁니다";
 					case 907:
-						return "Provides the ability to walk on water";
+						return "물 위를 걸을 수 있는 능력이 생깁니다";
 					case 908:
-						return "Provides the ability to walk on water and lava";
+						return "물과 용암 위를 걸을 수 있는 능력이 생깁니다";
 					case 932:
-						return "Places bone";
+						return "뼈를 설치합니다";
 					case 933:
-						return "Places leaves";
+						return "나뭇잎을 설치합니다";
 					case 934:
-						return "Allows the owner to float for a few seconds";
+						return "소지자를 몇초동안 공중에 뜨게 합니다";
 					case 935:
-						return "12% increased damage";
+						return "피해량이 12% 만큼 증가합니다";
 					case 936:
-						return "Increases melee knockback";
+						return "근접공격 넉백을 증가시킵니다";
 					case 937:
-						return "Explodes when stepped on";
+						return "밟으면 폭발합니다";
 					case 938:
-						return "Absorbs 25% of damage done to players on your team";
+						return "팀원에게 주어진 데미지의 25% 의 피해를 흡수합니다";
 					case 946:
-						return "You will fall slower while holding this";
+						return "이것을 들고 있을때 낙하속도가 감소합니다";
 					case 947:
-						return "'Reacts to the light'";
+						return "'빛과 반응합니다'";
 					case 948:
-						return "Allows flight and slowfall";
+						return "비행과 낙하속도 감소를 가능케 합니다";
 					case 950:
-						return "Provides extra mobility on ice";
+						return "얼음 위의 기동성을 증가시킵니다";
 					case 951:
-						return "Rapidly launches snowballs";
+						return "빠르게 눈뭉치를 발사합니다";
 					case 953:
-						return "Allows the ability to slide down walls";
+						return "벽을 타고 내려갈 수 있게 됩니다";
 					case 956:
-						return "7% increased melee speed";
+						return "근접공격 속도가 7%만큼 증가합니다";
 					case 957:
-						return "7% increased melee speed";
+						return "근접공격 속도가 7%만큼 증가합니다";
 					case 958:
-						return "7% increased melee speed";
+						return "근접공격 속도가 7%만큼 증가합니다";
 					case 959:
 						break;
 					case 960:
-						return "Increases maximum mana by 40";
+						return "마나 최대치가 40 만큼 증가합니다";
 					case 961:
-						return "Increases maximum mana by 20";
+						return "마나 최대치가 20 만큼 증가합니다";
 					case 962:
-						return "Increases maximum mana by 20";
+						return "마나 최대치가 20 만큼 증가합니다";
 					case 963:
-						return "Gives a chance to dodge attacks";
+						return "일정 확률로 공격을 회피할수 있습니다";
 					case 964:
-						return "Fires a spread of bullets";
+						return "분산되는 탄약을 발사합니다";
 					case 965:
-						return "Can be climbed on";
+						return "타고 올라갈 수 있습니다";
 					case 966:
-						return "Life regen is increased when near a campfire";
+						return "캠프파이어 근처에서는 생명력 회복이 향상됩니다";
 					case 967:
-						return "Put it on a stick and roast over a campfire";
+						return "나뭇가지 위에 올려 캠프파이어에서 구워보세요";
 					case 968:
-						return "Roast it over a campfire!";
+						return "캠프파이어에서 구워보세요!";
 					case 969:
-						return "Minor improvements to all stats";
+						return "모든 스텟이 소폭 향상됩니다";
 					case 975:
-						return "Allows the ability to slide down walls";
+						return "벽을 타고 내려갈 수 있게 됩니다";
 					case 976:
-						return "Allows the ability to climb walls";
+						return "벽을 탈 수 있게 됩니다";
 					case 977:
-						return "Allows the ability to dash";
+						return "돌진할 수 있게 됩니다";
 					case 982:
-						return "Increases maximum mana by 20";
+						return "마나 최대치가 20 만큼 증가합니다";
 					case 983:
-						return "Allows the holder to double jump";
+						return "착용자는 더블점프를 사용할 수 있습니다";
 					case 984:
-						return "Allows the ability to climb walls and dash";
+						return "벽타기와 돌진을 할 수 있게 됩니다";
 					case 985:
-						return "Throw to create a climbable line of rope";
+						return "올라 탈 수 있는 밧줄을 던집니다 ";
 					case 986:
-						return "Allows the collection of seeds for ammo";
+						return "탄약을 위한 씨앗을 모을 수 있게 됩니다";
 					case 987:
-						return "Allows the holder to double jump";
+						return "착용자는 더블점프를 사용할 수 있습니다";
 					case 989:
-						return "Shoots an enchanted sword beam";
+						return "강화된 검기를 날립니다";
 					case 990:
-						return "'Not to be confused with a hamdrill'";
+						return "'망드릴과 헷갈리지 마세요'";
 					case 994:
-						return "Summons a Baby Eater of Souls";
+						return "새끼 영혼을 먹는 자를 소환합니다";
 					case 995:
-						return "Used to craft objects";
+						return "조합에 필요합니다";
 					case 996:
-						return "Used to craft objects";
+						return "조합에 필요합니다";
 					case 997:
-						return "Turns silt/slush/fossils into something more useful";
+						return "모래덩어리/진창 눈/화석을 더 쓸모 있는 것으로 바꿉니다";
 					case 998:
-						return "Used to craft objects";
+						return "조합에 필요합니다";
 					case 1000:
-						return "Shoots confetti everywhere!";
+						return "꽃가루를 뿌립니다!";
 					case 1001:
-						return "16% increased melee damage";
+						return "근접공격의 피해량이 16% 상승합니다";
 					case 1002:
-						return "16% increased ranged damage";
+						return "원거리공격의 피해량이 16% 상승합니다";
 					case 1003:
-						return "Increases maximum mana by 80 and reduces mana usage by 17%";
+						return "마나 최대치가 80 만큼 증가하고 마나 소모량이 17%가 감사합니다";
 					case 1004:
-						return "5% increased damage";
+						return "피해량이 5% 만큼 증가합니다합니다";
 					case 1005:
-						return "8% increased critical strike chance";
+						return "치명타 확률이 8% 만큼 증가합니다합니다";
 					case 1006:
-						return "Reacts to the light";
+						return "빛에 반응합니다";
 					default:
 						switch (l)
 						{
 						case 1071:
-							return "Used with paint to color blocks";
+							return "페인트를 사용하여 블럭을 색칠합니다";
 						case 1072:
-							return "Used with paint to color walls";
+							return "페인트를 사용하여 벽을 색칠합니다";
 						default:
 							goto IL_A9EF;
 						}
@@ -13989,7 +13985,7 @@ public class LN
 					switch (l)
 					{
 					case 1100:
-						return "Used to remove paint";
+						return "페인트를 지울 때 사용합니다";
 					case 1101:
 					case 1102:
 					case 1103:
@@ -14104,292 +14100,292 @@ public class LN
 					case 1342:
 						goto IL_A9EF;
 					case 1107:
-						return "Used to make Teal Dye";
+						return "틸 청록색 염료를 만드는데 쓰입니다";
 					case 1108:
-						return "Used to make Green Dye";
+						return "초록색 염료를 만드는데 쓰입니다";
 					case 1109:
-						return "Used to make Sky Blue Dye";
+						return "하늘색 염료를 만드는데 쓰입니다";
 					case 1110:
-						return "Used to make Yellow Dye";
+						return "노란색 염료를 만드는데 쓰입니다";
 					case 1111:
-						return "Used to make Blue Dye";
+						return "파란색 염료를 만드는데 쓰입니다";
 					case 1112:
-						return "Used to make Lime Dye";
+						return "연두색 염료를 만드는데 쓰입니다";
 					case 1113:
-						return "Used to make Pink Dye";
+						return "핑크색 염료를 만드는데 쓰입니다";
 					case 1114:
-						return "Used to make Orange Dye";
+						return "주황색 염료를 만드는데 쓰입니다";
 					case 1115:
-						return "Used to make Red Dye";
+						return "빨간색 염료를 만드는데 쓰입니다";
 					case 1116:
-						return "Used to make Cyan Dye";
+						return "시안 청록색 염료를 만드는데 쓰입니다";
 					case 1117:
-						return "Used to make Violet Dye";
+						return "제비꽃 색 염료를 만드는데 쓰입니다";
 					case 1118:
-						return "Used to make Purple Dye";
+						return "보라색 염료를 만드는데 쓰입니다";
 					case 1119:
-						return "Used to make Black Dye";
+						return "검은색 염료를 만드는데 쓰입니다";
 					case 1120:
-						return "Used to Craft Dyes";
+						return "염료를 만들때 쓰입니다";
 					case 1121:
-						return "Shoots bees that will chase your enemy";
+						return "적을 쫓아가는 벌들을 쏘아냅니다";
 					case 1122:
-						return "Chases after your enemy";
+						return "적들을 쫓아갑니다";
 					case 1123:
-						return "Summons killer bees after striking your foe";
+						return "적을 공격하면 적을 쫓아가는 살인벌을 소환합니다";
 					case 1129:
-						return "Places Hives";
+						return "벌집을 설치합니다";
 					case 1130:
-						return "Explodes into a swarm of bees";
+						return "터질때 벌 때를 소환합니다";
 					case 1131:
-						return "Allows the holder to reverse gravity";
+						return "소유자는 중력을 바꿀 수 있습니다";
 					case 1132:
-						return "Releases bees when damaged";
+						return "피해를 입으면 벌들을 소환합니다";
 					case 1133:
-						return "Summons the Queen Bee";
+						return "여왕벌을 소환합니다";
 					case 1141:
-						return "Opens the jungle temple door";
+						return "정글 신전의 문을 엽니다";
 					case 1145:
-						return "Used for basic crafting";
+						return "기본적인 조합에 필요합니다";
 					case 1151:
-						return "Activates when a player steps on it";
+						return "플레이어가 밟으면 작동합니다";
 					case 1156:
-						return "Latches on to enemies for continuous damage";
+						return "적을 물어 지속적인 피해를 입힙니다";
 					case 1157:
-						return "Summons a Pygmy to fight for you";
+						return "피그미를 소환하여 싸우게 합니다";
 					case 1158:
-						return "Increases your max number of minions";
+						return "소환수의 최대수가 증가합니다";
 					case 1159:
-						return "Increases your max number of minions";
+						return "소환수의 최대수가 증가합니다";
 					case 1160:
-						return "Increases your max number of minions";
+						return "소환수의 최대수가 증가합니다";
 					case 1161:
-						return "Increases your max number of minions";
+						return "소환수의 최대수가 증가합니다";
 					case 1162:
-						return "Allows flight and slow fall";
+						return "비행과 낙하속도 감소를 가능케 합니다";
 					case 1163:
-						return "Allows the holder to double jump";
+						return "착용자는 더블점프를 사용할 수 있습니다";
 					case 1164:
-						return "Allows the holder to quadruple jump";
+						return "착용자는 쿼드라점프를 사용할 수 있습니다";
 					case 1165:
-						return "Allows flight and slow fall";
+						return "비행과 낙하속도 감소를 가능케 합니다";
 					case 1167:
-						return "Increases the damage of your minions by 15%";
+						return "소환수의 피해를 15% 만큼 증가합니다시킵니다";
 					case 1169:
-						return "Summons a Baby Skeletron Head";
+						return "새끼 스켈레트론의 머리를 소환합니다";
 					case 1170:
-						return "Summons a Baby Hornet";
+						return "새끼 말벌을 소환합니다";
 					case 1171:
-						return "Summons a Tiki Spirit";
+						return "티키의 영혼을 소환합니다";
 					case 1172:
-						return "Summons a Pet Lizard";
+						return "애완용 도마뱀을 소환합니다";
 					case 1178:
-						return "Rapidly shoots razor sharp leaves";
+						return "날카로운 나뭇잎을 빠르게 쏘아냅니다";
 					case 1179:
-						return "Chases after your enemy";
+						return "적을 쫓아갑니다";
 					case 1180:
-						return "Summons a Pet Parrot";
+						return "애완용 앵무새를 소환합니다";
 					case 1181:
-						return "Summons a Baby Truffle";
+						return "새끼 트러플을 소환합니다";
 					case 1182:
-						return "Summons a Pet Sapling";
+						return "애완용 묘목을 소환합니다";
 					case 1183:
-						return "Summons a Wisp to provide light";
+						return "빛을 발산하는 위습을 소환합니다";
 					case 1188:
-						return "Can mine Mythril and Orichalcum";
+						return "미스릴과 오리칼쿰을 채광할 수 있습니다";
 					case 1189:
-						return "Can mine Mythril and Orichalcum";
+						return "미스릴과 오리칼쿰을 채광할 수 있습니다";
 					case 1195:
-						return "Can mine Adamantite and Titanium";
+						return "아다만타이트와 티타늄을 채광할 수 있습니다";
 					case 1196:
-						return "Can mine Adamantite and Titanium";
+						return "아다만타이트와 티타늄을 채광할 수 있습니다";
 					case 1205:
-						return "8% increased melee damage";
+						return "근접공격의 피해량이 8% 만큼 증가합니다";
 					case 1206:
-						return "9% increased ranged damage";
+						return "원거리공격의 피해량이 9% 만큼 증가합니다";
 					case 1207:
-						return "7% increased magic damage and critical strike chance";
+						return "마법공격 피해량과 치명타 확률이 7% 만큼 증가합니다";
 					case 1208:
-						return "3% increased damage";
+						return "피해량이 3% 만큼 증가합니다";
 					case 1209:
-						return "2% increased damage";
+						return "피해량이 2% 만큼 증가합니다";
 					case 1210:
-						return "7% increased melee damage";
+						return "근접공격의 피해량이 7% 만큼 증가합니다";
 					case 1211:
-						return "15% increased ranged critical strike chance";
+						return "원거리공격의 피해량과 치명타 확률이 15% 만큼 증가합니다";
 					case 1212:
-						return "18% increased magic critical strike chance";
+						return "마법공격 피해량과 치명타 확률이 18% i만큼 증가합니다";
 					case 1213:
-						return "6% increased critical strike chance";
+						return "치명타 확률이 6% 만큼 증가합니다";
 					case 1214:
-						return "11% increased movement speed";
+						return "이동속도가 11% 만큼 증가합니다";
 					case 1215:
-						return "8% increased melee damage and critical strike chance";
+						return "근접공격의 피해량과 치명타 확률이 8% 만큼 증가합니다";
 					case 1216:
-						return "16% increased ranged damage";
+						return "원거리공격의 피해량이 16% 상승합니다";
 					case 1217:
-						return "16% increased magic damage and 7% increased magic critical strike chance";
+						return "마법피해량이 16% 만큼 증가하고 치명타 확률이 7% 만큼 증가합니다";
 					case 1218:
-						return "4% increased damage";
+						return "피해량이 4% 만큼 증가합니다";
 					case 1219:
-						return "3% increased damage and critical strike chance";
+						return "피해량과 치명타 확률이 3% 만큼 증가합니다";
 					case 1220:
-						return "Used to craft items from mythril, orichalcum, adamantite, and titanium bars";
+						return "미스릴, 오리칼쿰, 아다만타이트, 티타늄 괴를 사용하는 조합에 필요합니다";
 					case 1221:
-						return "Used to smelt adamantite and titanium ore";
+						return "아다만타이트와 티타늄 광석을 제련할 때 쓰입니다";
 					case 1226:
-						return "Shoots a powerful orb";
+						return "강력한 오브를 쏘아냅니다";
 					case 1227:
-						return "Shoots a spore cloud";
+						return "포자구름을 쏘아냅니다";
 					case 1228:
-						return "Shoots a spore cloud";
+						return "포자구름을 쏘아냅니다";
 					case 1235:
-						return "Bounces back after hitting a wall";
+						return "벽에 튕깁니다";
 					case 1242:
-						return "Summons a Baby Dinosaur";
+						return "새끼 공룡을 소환합니다";
 					case 1244:
-						return "Summons a cloud to rain down on your foes";
+						return "적을 공격하는 먹구름을 소환합니다";
 					case 1247:
-						return "Causes stars to fall and releases bees when injured";
+						return "다칠 경우 별이 떨어지고 벌들이 소환됩니다";
 					case 1248:
-						return "10% increased critical strike chance";
+						return "치명타 확률이 10% 만큼 증가합니다합니다";
 					case 1249:
-						return "Increases jump height";
+						return "뛰는 높이가 증가합니다";
 					case 1250:
-						return "Allows the holder to double jump";
+						return "착용자는 더블점프를 사용할 수 있습니다";
 					case 1251:
-						return "Allows the holder to double jump";
+						return "착용자는 더블점프를 사용할 수 있습니다";
 					case 1252:
-						return "Allows the holder to double jump";
+						return "착용자는 더블점프를 사용할 수 있습니다";
 					case 1253:
-						return "Puts a shell around the owner when below 50% life that reduces damage";
+						return "생명력이 50% 이하로 떨어질 경우 충격을 줄여주는 방어막이 생성됩니다";
 					case 1254:
-						return "Shoots a powerful, high velocity bullet";
+						return "강력하고 속도가 빠른 탄환을 발포합니다";
 					case 1255:
-						return "Shoots a powerful, high velocity bullet";
+						return "강력하고 속도가 빠른 탄환을 발포합니다";
 					case 1256:
-						return "Summons a cloud to rain blood on your foes";
+						return "적을 공격하는 먹구름을 소환합니다";
 					case 1258:
-						return "Shoots an explosive bolt";
+						return "폭발하는 탄환을 발포합니다";
 					case 1259:
-						return "Shoots razor sharp flower petals at nearby enemies";
+						return "주변 적에게 날카로운 꽃잎을 쏘아냅니다";
 					case 1260:
-						return "Shoots a rainbow that does continuous damage";
+						return "지속적인 피해를 가하는 무지개를 쏩니다";
 					case 1261:
-						return "Explodes into deadly shrapnel";
+						return "폭발하여 치명적인 파편들을 쏘아냅니다";
 					case 1264:
-						return "Shoots a ball of frost";
+						return "한기의 구체를 쏘아냅니다";
 					case 1265:
-						return "Shoots a powerful, high velocity bullet";
+						return "강력하고 속도가 빠른 탄환을 발포합니다";
 					case 1282:
-						return "Increases maximum mana by 20";
+						return "마나 최대치가 20 만큼 증가합니다";
 					case 1283:
-						return "Increases maximum mana by 40";
+						return "마나 최대치가 40 만큼 증가합니다";
 					case 1284:
-						return "Increases maximum mana by 40";
+						return "마나 최대치가 40 만큼 증가합니다";
 					case 1285:
-						return "Increases maximum mana by 60";
+						return "마나 최대치가 60 만큼 증가합니다";
 					case 1286:
-						return "Increases maximum mana by 60";
+						return "마나 최대치가 60 만큼 증가합니다";
 					case 1287:
-						return "Increases maximum mana by 80";
+						return "마나 최대치가 80 만큼 증가합니다";
 					case 1290:
-						return "Increases movement speed after being struck";
+						return "피해를 입으면 순간적으로 이동속도가 빨라집니다";
 					case 1291:
-						return "Permanently increases maximum life by 5";
+						return "생명력이 영구적으로 5 증가합니다";
 					case 1293:
-						return "Used at the Lihzahrd Altar";
+						return "리자드 제단에 쓰입니다";
 					case 1294:
-						return "Capable of mining Lihzahrd Bricks";
+						return "리자드 블럭을 캘 수 있습니다";
 					case 1295:
-						return "Shoots a piercing ray of heat";
+						return "관통하는 열의 광선을 발포합니다";
 					case 1296:
-						return "Summons a powerful boulder";
+						return "강력한 바위를 소환합니다 ";
 					case 1297:
-						return "Punches with the force of a golem";
+						return "골렘의 힘으로 주먹질을 합니다";
 					case 1299:
-						return "Increases view range when held";
+						return "들면 시야가 늘어납니다";
 					case 1300:
-						return "Increases view range for guns";
+						return "총을 위한 시야가 늘어납니다";
 					case 1301:
-						return "10% increased damage";
+						return "피해량이 10% 만큼 늘어납니다";
 					case 1303:
-						return "Provides light under water";
+						return "수중에서 빛을 발산합니다";
 					case 1306:
-						return "Shoots an icy sickle";
+						return "얼음의 대낫을 쏘아냅니다";
 					case 1307:
-						return "'You are a terrible person'";
+						return "'당신은 정말 최악이군요'";
 					case 1308:
-						return "Shoots a poison fang that pierces multiple enemies";
+						return "적을 관통하는 독이빨을 소환합니다";
 					case 1309:
-						return "Summons a baby slime to fight for you";
+						return "적을 공격하는 새끼 슬라임을 소환합니다";
 					case 1310:
-						return "Inflicts poison on enemies";
+						return "적에게 독을 입힙니다";
 					case 1311:
-						return "Summons an eyeball spring";
+						return "눈알 용수철을 소환합니다";
 					case 1312:
-						return "Summons a baby snowman";
+						return "새끼 눈사람을 소환합니다";
 					case 1313:
-						return "Shoots a skull";
+						return "해골을 쏘아냅니다";
 					case 1314:
-						return "Shoots a boxing glove";
+						return "권투글러브를 쏩니다";
 					case 1315:
-						return "Summons a pirate invasion";
+						return "해적을 소환합니다";
 					case 1316:
-						return "6% increased melee damage";
+						return "근접공격의 피해량이 6% 만큼 늘어납니다";
 					case 1317:
-						return "8% increased melee damage and critical strike chance";
+						return "근접공격의 피해량과 치명타 확률이 8% 만큼 늘어납니다";
 					case 1318:
-						return "4% increased melee critical strike chance";
+						return "근접공격의 피해량과 치명타 확률이 4% 만큼 늘어납니다";
 					case 1321:
-						return "Increases damage by 10% and greatly increases arrow speed";
+						return "피해량이 10% 만큼 늘어나고 화살의 속도가 대폭 상승합니다";
 					case 1322:
-						return "Inflicts fire damage on attack";
+						return "공격에 화염 피해를 추가합니다";
 					case 1323:
-						return "Reduces damage from touching lava";
+						return "용암의 피해량을 줄입니다";
 					case 1326:
-						return "Teleports you to the position of the mouse";
+						return "마우스커서로 순간이동합니다";
 					case 1327:
-						return "Shoots a deathly sickle";
+						return "죽음의 대낫을 쏘아냅니다";
 					case 1331:
-						return "Summons the Brain of Cthulhu";
+						return "크툴후의 뇌를 소환합니다";
 					case 1332:
-						return "'The blood of gods'";
+						return "'신의 피'";
 					case 1333:
-						return "Can be placed in water";
+						return "물 속에도 설치할 수 있습니다";
 					case 1334:
-						return "Decreases target's defense";
+						return "목표의 방어력이 감소합니다";
 					case 1335:
-						return "Decreases target's defense";
+						return "목표의 방어력이 감소합니다";
 					case 1336:
-						return "Sprays a shower of ichor";
+						return "이코르 줄기를 뿌립니다";
 					case 1343:
-						return "Increases melee knockback and inflicts fire damage on attack";
+						return "근접공격 넉백을 증가시키며 공격에 화염피해가 붙습니다";
 					default:
 						switch (l)
 						{
 						case 1430:
-							return "Used to craft weapon imbuement flasks";
+							return "투척용 플라스크를 만들 때 필요합니다";
 						case 1431:
 							goto IL_A9EF;
 						case 1432:
-							return "Used to craft various types of ammo";
+							return "많은 종류의 탄약을 만드는데 사용됩니다";
 						default:
 							switch (l)
 							{
 							case 1444:
-								return "Creates a shadow beam that bounces off walls";
+								return "벽에 튕기는 그림자광선을 쏩니다";
 							case 1445:
-								return "Launches a ball of fire that explodes into a raging inferno";
+								return "불타오르는 지옥으로 변하는 불공을 쏩니다";
 							case 1446:
-								return "Summons a lost soul to chase your foes";
+								return "적을 공격하는 길잃은 영혼을 소환합니다 ";
 							case 1447:
 							case 1448:
 								goto IL_A9EF;
 							case 1449:
-								return "Blows bubbles";
+								return "비눗방울을 만듭니다";
 							case 1450:
-								return "Blows bubbles";
+								return "비눗방울을 만듭니다";
 							default:
 								goto IL_A9EF;
 							}
@@ -14398,7 +14394,7 @@ public class LN
 						break;
 					}
 				}
-				return "5% increased ranged damage.";
+				return "원거리공격의 피해량이 5% 만큼 늘어납니다 .";
 			}
 			if (l > 2535)
 			{
@@ -14410,12 +14406,12 @@ public class LN
 						{
 							if (l == 2551)
 							{
-								return "Summons spiders to fight for you";
+								return "적을 공격하는 거미들을 소환합니다";
 							}
 							switch (l)
 							{
 							case 2584:
-								return "Summons pirates to fight for you";
+								return "적을 공격하는 해적들을 소환합니다";
 							case 2585:
 							case 2588:
 							case 2589:
@@ -14423,9 +14419,9 @@ public class LN
 							case 2586:
 								break;
 							case 2587:
-								return "Summons a mini minotaur";
+								return "미니 미노타우를 소환합니다";
 							case 2590:
-								return "A small explosion that puts enemies on fire";
+								return "작은 폭발력을 가지고 있으며 적에게 불을 붙입니다";
 							default:
 								goto IL_A9EF;
 							}
@@ -14435,28 +14431,28 @@ public class LN
 							switch (l)
 							{
 							case 2609:
-								return "Allows flight and slow fall";
+								return "비행과 낙하속도 감소를 가능케 합니다";
 							case 2610:
-								return "Squirts a harmless stream of slime";
+								return "피해가 없는 슬라임 줄기를 쏩니다";
 							case 2611:
-								return "Spews homing bubbles";
+								return "유도성이 있는 방울을 쏩니다";
 							default:
 								switch (l)
 								{
 								case 2621:
-									return "Summons sharknados to fight for you";
+									return "적을 공격하는 샤크네이도를 소환합니다";
 								case 2622:
-									return "Casts fast moving razorwheels";
+									return "빠르게 움직이는 날카로운 태풍을 쏘아냅니다";
 								case 2623:
-									return "Rapidly shoots forceful bubbles";
+									return "강력한 방울들을 빠르게 쏘아냅니다";
 								case 2624:
-									return "Shoots 5 arrows at a time";
+									return "화살 다섯개를 동시에 쏩니다";
 								default:
 									if (l != 2699)
 									{
 										goto IL_A9EF;
 									}
-									return "Right click to place item on weapon rack";
+									return "우클릭으로 무기를 무기 선반에 올립니다";
 								}
 								break;
 							}
@@ -14467,7 +14463,7 @@ public class LN
 						switch (l)
 						{
 						case 2739:
-							return "Hammer to change direction";
+							return "방향을 바꾸려면 망치질을 하세요";
 						case 2740:
 						case 2741:
 						case 2742:
@@ -14486,35 +14482,35 @@ public class LN
 						case 2766:
 							goto IL_A9EF;
 						case 2749:
-							return "Summons a UFO to fight for you";
+							return "적을 공격하는 UFO를 소환합니다";
 						case 2750:
-							return "Showers meteors";
+							return "메테오를 시전합니다";
 						case 2757:
-							return "16% increased ranged damage";
+							return "원거리공격의 피해량이 16% 상승합니다";
 						case 2758:
-							return "12% increased ranged damage and critical strike chance";
+							return "원거리공격의 피해량과 치명타 확률이 12% 만큼 증가합니다";
 						case 2759:
-							return "8% increased ranged damage and critical strike chance";
+							return "원거리공격의 피해량과 치명타 확률이 8% 만큼 증가합니다";
 						case 2760:
-							return "Increases maximum mana by 60 and reduces mana usage by 15% ";
+							return "마나 최대치가 60 만큼 증가하고 마나 소모량이 15% 만큼 감소합니다";
 						case 2761:
-							return "9% increased magic damage and critical strike chance";
+							return "마법공격의 피해량과 치명타 확률이 9% 만큼 증가합니다";
 						case 2762:
-							return "10% increased magic damage";
+							return "마법공격의 피해량이 10% 만큼 증가합니다";
 						case 2763:
-							return "17% increased melee critical strike chance";
+							return "근접공격의 피해량과 치명타 확률이 17% 만큼 증가합니다";
 						case 2764:
-							return "22% increased melee damage";
+							return "근접공격의 피해량이 22% 만큼 증가합니다";
 						case 2765:
-							return "15% increased movement and melee speed";
+							return "이동속도와 근접공격 속도가 15% 만큼 증가합니다";
 						case 2767:
-							return "Summons the Eclipse";
+							return "일식을 소환합니다";
 						case 2768:
 							return "Summons a rideable Drill mount";
 						case 2769:
-							return "Summons a rideable UFO mount";
+							return "탈 수 있는 UFO를 소환합니다";
 						case 2770:
-							return "Allows flight and slow fall";
+							return "비행과 낙하속도 감소를 가능케 합니다";
 						case 2771:
 							return "Summons a rideable Scutlix mount";
 						default:
@@ -14522,7 +14518,7 @@ public class LN
 							{
 								goto IL_A9EF;
 							}
-							return "Creates measurement lines on screen for block placement";
+							return "화면상에 블럭 배치를 위한 측량을 표시합니다";
 						}
 					}
 					else
@@ -14534,7 +14530,7 @@ public class LN
 						case 2887:
 							goto IL_A9EF;
 						case 2888:
-							return "Wooden arrows turn into a column of bees";
+							return "나무 화살이 벌로 바뀝니다";
 						default:
 							if (l == 2896)
 							{
@@ -14543,17 +14539,17 @@ public class LN
 							switch (l)
 							{
 							case 2997:
-								return "Teleports you to a party member";
+								return "팀 멤버에게로 순간이동합니다";
 							case 2998:
-								return "15% increased summon damage";
+								return "소환수의 피해량이 15% 만큼 증가합니다";
 							case 2999:
-								return "Right click to have more minions";
+								return "소환수를 늘리려면 우클릭하세요";
 							case 3000:
-								return "33% chance to not consume potion crafting ingredients";
+								return "물약 재료가 33% 의 확률로 소모되지 않습니다";
 							case 3001:
-								return "'It looks and smells terrible'";
+								return "'보기도 그렇고 냄새도 엄청나요'";
 							case 3002:
-								return "Exposes nearby treasure";
+								return "주변에 보물을 노출시킵니다";
 							case 3003:
 							case 3007:
 							case 3008:
@@ -14616,129 +14612,129 @@ public class LN
 							case 3114:
 								goto IL_A9EF;
 							case 3004:
-								return "'Emits a deathly glow'";
+								return "'죽음처럼 빛납니다'";
 							case 3005:
-								return "Throw to create a climbable line of vine rope";
+								return "오를 수 있는 덩굴더미를 던집니다";
 							case 3006:
-								return "Drains life from enemies";
+								return "적에게서 피를 흡수합니다";
 							case 3014:
-								return "Summons a wall of cursed flames";
+								return "저주받은 불꽃의 벽을 세웁니다";
 							case 3015:
-								return "Enemies are less likely to target you";
+								return "적들이 목표로 삼을 확률이 적어집니다";
 							case 3016:
-								return "Enemies are more likely to target you";
+								return "적들이 목표로 삼을 확률이 늘어납니다";
 							case 3017:
-								return "Flowers grow on the grass you walk on";
+								return "풀 위를 지나가면 꽃이 피어납니다";
 							case 3019:
-								return "Wooden arrows turn into flaming bats";
+								return "나무 화살이 불타는 박쥐로 바뀝니다";
 							case 3024:
 								goto IL_3341;
 							case 3029:
-								return "Shoots arrows from the sky";
+								return "하늘에서 화살이 떨어집니다";
 							case 3030:
-								return "Throws a controllable flying knife";
+								return "제어가능한 나는 칼을 던집니다";
 							case 3031:
-								return "Contains an endless amount of water";
+								return "끝이 없는 양의 물을 가지고 있습니다";
 							case 3032:
-								return "Capable of soaking up an endless amount of water";
+								return "물을 끝없이 빨아드릴 수 있습니다";
 							case 3033:
-								return "Increases coin pickup range";
+								return "돈을 줍는 사거리가 증가합니다";
 							case 3034:
-								return "Increases coin pickup range";
+								return "돈을 줍는 사거리가 증가합니다";
 							case 3035:
-								return "Increases coin pickup range and shops have lower prices";
+								return "돈을 줍는 사거리가 증가하고 상점이 낮은 가격에 물건을 내놓게 됩니다";
 							case 3036:
-								return "Displays weather, moon phase, and fishing information";
+								return "날씨, 달 형상과 낚시정보를 표시합니다";
 							case 3037:
-								return "Displays the weather";
+								return "날씨를 표시합니다";
 							case 3043:
-								return "Summons a magic lantern that exposes nearby treasure";
+								return "주변 보물을 보여주는 마법의 랜턴을 소환합니다";
 							case 3046:
-								return "Life regen is increased when near a campfire";
+								return "캠프파이어 근처에서는 생명력 회복이 향상됩니다";
 							case 3047:
-								return "Life regen is increased when near a campfire";
+								return "캠프파이어 근처에서는 생명력 회복이 향상됩니다";
 							case 3048:
-								return "Life regen is increased when near a campfire";
+								return "캠프파이어 근처에서는 생명력 회복이 향상됩니다";
 							case 3049:
-								return "Life regen is increased when near a campfire";
+								return "캠프파이어 근처에서는 생명력 회복이 향상됩니다";
 							case 3050:
-								return "Life regen is increased when near a campfire";
+								return "캠프파이어 근처에서는 생명력 회복이 향상됩니다";
 							case 3051:
-								return "Summons a massive crystal spike";
+								return "크리스탈 가시를 소환합니다";
 							case 3052:
-								return "Shoots Shadowflame Arrows";
+								return "그림자불꽃 화살을 쏩니다";
 							case 3053:
-								return "Summons Shadowflame tentacles to strike your foe";
+								return "적을 공격하는 그림자불꽃 촉수를 소환합니다";
 							case 3054:
-								return "Inflicts Shadowflame on hit";
+								return "공격에 그림자불꽃 피해가 붙습니다";
 							case 3060:
-								return "Summons a Baby Face Monster";
+								return "새끼 얼굴 괴물을 소환합니다";
 							case 3061:
-								return "Increases tile and wall placement speed and reach";
+								return "블럭과 벽을 쌓는 속도와 거리가 증가합니다";
 							case 3062:
-								return "Summons a heart to provide light";
+								return "빛을 발산하는 심장을 소환합니다";
 							case 3064:
-								return "Allows time to fast forward one day per week";
+								return "한 주마다 하루를 빨리 돌릴 수 있습니다";
 							case 3068:
-								return "Allows the collection of Vine Rope from vines";
+								return "덩굴을 채집할 수 있습니다";
 							case 3069:
-								return "Shoots a small spark";
+								return "작은 불꽃을 쏩니다";
 							case 3084:
-								return "Detects enemies around you";
+								return "주변 적들을 감지합니다";
 							case 3085:
-								return "Right click to open";
+								return "우클릭으로 열기";
 							case 3090:
-								return "Slimes become friendly";
+								return "슬라임이 우호적이게 됩니다";
 							case 3091:
-								return "'Charged with the essence of many souls'";
+								return "'많은 영혼의 정수로 채워져 있습니다'";
 							case 3092:
-								return "'Charged with the essence of many souls'";
+								return "'많은 영혼의 정수로 채워져 있습니다'";
 							case 3093:
-								return "Right click to open";
+								return "우클릭으로 열기";
 							case 3095:
-								return "Displays how many monsters have been killed";
+								return "얼마나 많은 괴물을 죽였는지 표시합니다";
 							case 3096:
-								return "Displays the phase of the moon";
+								return "달의 형상을 표시합니다";
 							case 3097:
-								return "Allows the player to dash into the enemy";
+								return "적에게 돌진할 수 있는 능력을 줍니다";
 							case 3098:
-								return "Sparks emit from struck enemies";
+								return "불꽃이 부딛힌 적에게 튑니다";
 							case 3099:
-								return "Displays how fast the player is moving";
+								return "플레이어가 얼마나 빠른지 표시합니다";
 							case 3102:
-								return "Displays the most valuable ore around you";
+								return "주변 광물중 가장 가치있는 광물을 표시합니다";
 							case 3106:
-								return "Allows you to go into stealth mode";
+								return "은신 상태로 진입할 수 있게 해 줍니다";
 							case 3109:
-								return "Improves vision";
+								return "시야를 넓혀줍니다";
 							case 3110:
-								return "Turns the holder into a werewolf at night and a merfolk when entering water";
+								return "착용자를 밤에는 늑대인간으로, 물속에 들어가면 머포크로 변화시킵니다";
 							case 3111:
-								return "'Bouncy and sweet!'";
+								return "'달콤하고 통통 튀어요!'";
 							case 3112:
-								return "Works when wet";
+								return "젖으면 작동합니다";
 							case 3113:
-								return "Very bouncy";
+								return "아주 잘 튀어요";
 							case 3115:
-								return "A small explosion that will destroy some tiles";
+								return "몇몇의 블럭을 부술만한 작은 폭발력을 가지고 있습니다";
 							case 3116:
-								return "A small explosion that will not destroy tiles";
+								return "블럭을 부수지 못하지만 작은 폭발력을 가지고 있습니다";
 							case 3117:
-								return "Makes surrounding creatures less hostile";
+								return "주변 생명들을 덜 적대적이게 만듭니다";
 							case 3118:
-								return "Displays the name of rare creatures around you";
+								return "주변의 희귀한 생명체를 표시합니다";
 							case 3119:
-								return "Displays your damage per second";
+								return "초당 피해량을 표시합니다";
 							case 3120:
-								return "Displays fishing information";
+								return "낚시 정보를 표시합니다";
 							case 3121:
-								return "Displays movement speed, damage per second, and valuable ore";
+								return "이동속도, 초당 피해량과 가장 귀한 광물을 표시합니다";
 							case 3122:
-								return "Displays number of monsters, kill count, and rare creatures";
+								return "적의 숫자, 죽인 횟수와 희귀한 생명체를 표시합니다";
 							case 3123:
-								return "Displays everything";
+								return "모든 정보를 표시합니다";
 							case 3124:
-								return "Displays everything";
+								return "모든 정보를 표시합니다";
 							default:
 								goto IL_A9EF;
 							}
@@ -14753,9 +14749,9 @@ public class LN
 						switch (l)
 						{
 						case 3195:
-							return "Minor improvements to all stats";
+							return "모든 스텟이 소폭 향상됩니다";
 						case 3196:
-							return "A small explosion that will destroy some tiles";
+							return "몇몇의 블럭을 부술만한 작은 폭발력을 가지고 있습니다";
 						case 3197:
 						case 3202:
 						case 3214:
@@ -14781,53 +14777,53 @@ public class LN
 						case 3240:
 							goto IL_A9EF;
 						case 3198:
-							return "Increases armor penetration for melee weapons";
+							return "근접 무기의 방어구 관통력을 증가시킵니다";
 						case 3199:
-							return "Gaze in the mirror to return home";
+							return "거울속을 바라보아 집으로 귀한합니다";
 						case 3200:
-							return "The wearer can run super fast";
+							return "착용자는 정말 빨리 달릴 수 있습니다";
 						case 3201:
-							return "Allows the holder to double jump";
+							return "착용자는 더블점프를 사용할 수 있습니다";
 						case 3203:
-							return "Right click to open";
+							return "우클릭으로 열기";
 						case 3204:
-							return "Right click to open";
+							return "우클릭으로 열기";
 						case 3205:
-							return "Right click to open";
+							return "우클릭으로 열기";
 						case 3206:
-							return "Right click to open";
+							return "우클릭으로 열기";
 						case 3207:
-							return "Right click to open";
+							return "우클릭으로 열기";
 						case 3208:
-							return "Right click to open";
+							return "우클릭으로 열기";
 						case 3209:
-							return "Shoots an explosive crystal charge";
+							return "폭발성의 크리스탈을 발사합니다";
 						case 3210:
-							return "Spits toxic bubbles";
+							return "독성의 방울을 뱉어냅니다";
 						case 3211:
-							return "Spits an Ichor stream on contact";
+							return "피해를 입으면 이코르를 쏘아냅니다";
 						case 3212:
-							return "Increases armor penetration by 5";
+							return "방어력 관통을 5만큼 증가시킵니다";
 						case 3213:
-							return "Summons a flying piggy bank to store your items";
+							return "나는 돼지 저금통을 소환합니다";
 						case 3223:
-							return "May confuse nearby enemies after being struck";
+							return "피해를 입으면 적이 혼란 상태에 빠질 수 있습니다";
 						case 3224:
-							return "Reduces damage taken by 17%";
+							return "입은 피해량이 17% 만큼 감소합니다";
 						case 3225:
-							return "Increases jump height";
+							return "뛰는 높이가 증가합니다";
 						case 3226:
 						case 3227:
 						case 3228:
 							goto IL_3341;
 						case 3241:
-							return "Increases jump height";
+							return "뛰는 높이가 증가합니다";
 						default:
 							if (l != 3245)
 							{
 								goto IL_A9EF;
 							}
-							return "Throws empowered bones";
+							return "강력한 뼈를 던집니다";
 						}
 					}
 					else
@@ -14836,13 +14832,13 @@ public class LN
 						{
 						case 3250:
 						case 3252:
-							return "Allows the holder to double jump";
+							return "착용자는 더블점프를 사용할 수 있습니다";
 						case 3251:
-							return "Releases bees when damaged";
+							return "피해를 입었을때 벌을 쏘아냅니다";
 						default:
 							if (l == 3260)
 							{
-								return "Summons a rideable unicorn mount";
+								return "탈 수 있는 유니콘을 소환합니다";
 							}
 							switch (l)
 							{
@@ -14863,15 +14859,15 @@ public class LN
 						switch (l)
 						{
 						case 3456:
-							return "'Swirling energies emanate from this fragment'";
+							return "'이 조각에서 빙빙 도는 힘이 느껴집니다'";
 						case 3457:
-							return "'The power of a galaxy resides within this fragment'";
+							return "'이 조각에는 은하계의 힘이 존재합니다'";
 						case 3458:
-							return "'The fury of the universe lies within this fragment'";
+							return "'이 조각에는 우주의 분노가 있습니다'";
 						case 3459:
-							return "'Entrancing particles revolve around this fragment'";
+							return "'이 조각 근처에는 어떤 입자가 돌고 있습니다'";
 						case 3460:
-							return "'A pebble of the heavens'";
+							return "'천국의 조약돌'";
 						case 3461:
 						case 3462:
 						case 3463:
@@ -14891,29 +14887,29 @@ public class LN
 						case 3490:
 							goto IL_A9EF;
 						case 3467:
-							return "'It vibrates with luminous celestial energy'";
+							return "'빛을 발하는 천체의 에너지와 고동칩니다'";
 						case 3468:
-							return "Allows flight and slow fall";
+							return "비행과 낙하속도 감소를 가능케 합니다";
 						case 3469:
-							return "Allows flight and slow fall";
+							return "비행과 낙하속도 감소를 가능케 합니다";
 						case 3470:
-							return "Allows flight and slow fall";
+							return "비행과 낙하속도 감소를 가능케 합니다";
 						case 3471:
-							return "Allows flight and slow fall";
+							return "비행과 낙하속도 감소를 가능케 합니다";
 						case 3473:
-							return "'Strike with the fury of the sun'";
+							return "'태양의 분노로 적을 공격합니다'";
 						case 3474:
 							return "Summons a stardust cell to fight for you";
 						case 3475:
-							return "66% chance to not consume ammo";
+							return "탄약을 66% 확률로 사용하지 않습니다";
 						case 3476:
-							return "'Conjure masses of astral energy to chase down your foes'";
+							return "'적을 쫓아가는 마술성의 별에너지 덩어리를 소환합니다'";
 						case 3477:
-							return "Spreads the crimson to some blocks";
+							return "몇몇 블럭을 핓빛으로 오염시킵니다";
 						case 3478:
-							return "'Wuv... twue wuv...'";
+							return "'아랑... 진일된 아랑...'"; //사랑 진실된 사랑
 						case 3479:
-							return "'Mawwiage...'";
+							return "'결온...'"; //결혼
 						case 3485:
 						case 3491:
 							break;
@@ -14940,7 +14936,7 @@ public class LN
 							case 3531:
 								return "Summons a stardust dragon to fight for you";
 							case 3532:
-								return "Minor improvements to all stats";
+								return "모든 스텟이 소폭 향상됩니다";
 							case 3536:
 								return "'Wield a small amount of power from the Vortex Tower'";
 							case 3537:
@@ -14950,17 +14946,17 @@ public class LN
 							case 3539:
 								return "'Wield a small amount of power from the Solar Tower'";
 							case 3540:
-								return "66% chance to not consume ammo";
+								return "탄약을 66% 확률로 사용하지 않습니다";
 							case 3541:
-								return "'Fire a lifeform disintegration rainbow'";
+								return "'생명분해무지개를 쏩니다'";
 							case 3542:
-								return "'From Orion's belt to the palm of your hand'";
+								return "'오리온의 허리띠부터 당신의 손까지'";
 							case 3543:
-								return "'Rend your foes asunder with a spear of light!'";
+								return "'빛의 창으로 적들을 갈갈이 찢어버리세요!'";
 							case 3545:
-								return "'Guts... and Gory!'";
+								return "'용기... 그리고 폭력이 난무하는!'";
 							case 3547:
-								return "'This will prove to be terrible idea'";
+								return "'이건 좀 안좋은 아이디어 같은데요'";
 							case 3548:
 								goto IL_30D1;
 							case 3549:
@@ -14969,9 +14965,9 @@ public class LN
 								switch (l)
 								{
 								case 3567:
-									return "'Line 'em up and knock 'em down...'";
+									return "'줄세워서 때려부수고...'";
 								case 3568:
-									return "'Shooting them down at the speed of sound!'";
+									return "'음속으로 발포!'";
 								case 3569:
 									return "Summons a lunar portal to shoot lasers at your enemies";
 								case 3570:
@@ -14979,7 +14975,7 @@ public class LN
 								case 3571:
 									return "Summons a radiant crystal that banishes your enemies";
 								case 3572:
-									return "'You want the moon? Just grapple it and pull it down!'";
+									return "'달을 원한다고? 붙잡고 끌어내려!'";
 								case 3573:
 								case 3574:
 								case 3575:
@@ -15012,7 +15008,7 @@ public class LN
 								case 3599:
 									goto IL_3341;
 								case 3601:
-									return "Summons the Impending Doom";
+									return "곧 임박할 종말을 소환합니다";
 								default:
 									goto IL_A9EF;
 								}
@@ -15020,34 +15016,34 @@ public class LN
 							}
 							break;
 						}
-						return "Can mine Meteorite";
+						return "운석을 캘 수 있습니다";
 					}
 					switch (l)
 					{
 					case 3333:
-						return "Increases the strength of friendly bees";
+						return "우호적인 벌들을 강력하게 만듭니다";
 					case 3334:
-						return "Allows the use of two yoyos at once";
+						return "두 요요를 한번에 쓸 수 있게 됩니다";
 					case 3335:
-						return "Permanently increases the number of accessory slots";
+						return "엑세서리슬롯을 영구적으로 하나 늘려줍니다 ";
 					case 3336:
-						return "Summons spores over time that will damage enemies";
+						return "적에게 데미지를 주는 포자를 소환합니다";
 					case 3337:
-						return "Greatly increases life regen when not moving";
+						return "움직이지 않을때 생명력 회복이 대폭 상승합니다";
 					default:
 						switch (l)
 						{
 						case 3360:
-							return "Places living rich mahogany";
+							return "생마호가니를 설치합니다";
 						case 3361:
-							return "Places rich mahogany leaves";
+							return "생마호가니 나뭇잎을 설치합니다";
 						default:
 							switch (l)
 							{
 							case 3366:
-								return "Gives the user master yoyo skills";
+								return "착용자는 요요 마스터가 됩니다";
 							case 3367:
-								return "Attracts a legendary creature which flourishes in water & combat";
+								return "물속에 산다는 전설의 생명체의 관심을 끌지도 모릅니다";
 							case 3368:
 							case 3369:
 							case 3370:
@@ -15061,22 +15057,22 @@ public class LN
 							case 3384:
 								goto IL_A9EF;
 							case 3374:
-								return "20% increased throwing velocity";
+								return "투척물의 속도가 20% 만큼 증가합니다";
 							case 3375:
-								return "20% increased throwing damage";
+								return "투척물의 피해량이 20% 만큼 증가합니다";
 							case 3376:
-								return "15% increased throwing critical strike chance";
+								return "투척물의 치명타 확률이 15% 만큼 증가합니다";
 							case 3381:
-								return "Increases your max number of minions";
+								return "소환수의 최대수가 증가합니다";
 							case 3382:
-								return "Increases your max number of minions";
+								return "소환수의 최대수가 증가합니다";
 							case 3383:
-								return "Increases your max number of minions";
+								return "소환수의 최대수가 증가합니다";
 							case 3385:
 							case 3386:
 							case 3387:
 							case 3388:
-								return "Can be traded for rare dyes";
+								return "희귀한 염료와 바꿀 수 있습니다";
 							default:
 								goto IL_A9EF;
 							}
@@ -15086,7 +15082,7 @@ public class LN
 					}
 				}
 				IL_30D1:
-				return "A small explosion that will not destroy tiles";
+				return "블럭을 부수지 못하지만 작은 폭발력을 가지고 있습니다";
 			}
 			if (l <= 1931)
 			{
@@ -15097,11 +15093,11 @@ public class LN
 						switch (l)
 						{
 						case 1503:
-							return "40% decreased magic damage";
+							return "마법 피해량이 40% 만큼 증가합니다";
 						case 1504:
-							return "7% increased magic damage and critical strike chance";
+							return "마법 피해량과 치명타 확률이 7% 만큼 증가합니다";
 						case 1505:
-							return "8% increased magic damage";
+							return "마법 피해량이 8% 만큼 증가합니다";
 						case 1506:
 						case 1507:
 						case 1508:
@@ -15157,51 +15153,51 @@ public class LN
 						case 1611:
 							goto IL_A9EF;
 						case 1513:
-							return "A powerful returning hammer";
+							return "귀소 본능이 있는 망치를 던집니다";
 						case 1515:
-							return "Allows flight and slow fall";
+							return "비행과 낙하속도 감소를 가능케 합니다";
 						case 1522:
-							return "For Capture the Gem. It drops when you die";
+							return "보석 뺏기 대회를 위한 아이템. 죽으면 드롭됩니다";
 						case 1523:
-							return "For Capture the Gem. It drops when you die";
+							return "보석 뺏기 대회를 위한 아이템. 죽으면 드롭됩니다";
 						case 1524:
-							return "For Capture the Gem. It drops when you die";
+							return "보석 뺏기 대회를 위한 아이템. 죽으면 드롭됩니다";
 						case 1525:
-							return "For Capture the Gem. It drops when you die";
+							return "보석 뺏기 대회를 위한 아이템. 죽으면 드롭됩니다";
 						case 1526:
-							return "For Capture the Gem. It drops when you die";
+							return "보석 뺏기 대회를 위한 아이템. 죽으면 드롭됩니다";
 						case 1527:
-							return "For Capture the Gem. It drops when you die";
+							return "보석 뺏기 대회를 위한 아이템. 죽으면 드롭됩니다";
 						case 1533:
-							return "Unlocks a Jungle Chest in the dungeon";
+							return "던전 속 정글 상자를 열 수 있습니다";
 						case 1534:
-							return "Unlocks a Corruption Chest in the dungeon";
+							return "던전 속 타락한 상자를 열 수 있습니다";
 						case 1535:
-							return "Unlocks a Crimson Chest in the dungeon";
+							return "던전 속 진홍색 상자를 열 수 있습니다";
 						case 1536:
-							return "Unlocks a Hallowed Chest in the dungeon";
+							return "던전 속 신성한 상자를 열 수 있습니다";
 						case 1537:
-							return "Unlocks a Frozen Chest in the dungeon";
+							return "던전 속 얼어붙은 상자를 열 수 있습니다";
 						case 1543:
-							return "Used with paint to color blocks";
+							return "페인트를 사용하여 블럭을 색칠합니다";
 						case 1544:
-							return "Used with paint to color walls";
+							return "페인트를 사용하여 벽을 색칠합니다";
 						case 1545:
-							return "Used to remove paint";
+							return "페인트를 지울 때 사용합니다";
 						case 1546:
-							return "15% increased arrow damage";
+							return "화살공격의 피해량이 15% 만큼 증가합니다";
 						case 1547:
-							return "15% increased bullet damage";
+							return "탄환공격의 피해량이 15% 만큼 증가합니다";
 						case 1548:
-							return "15% increased rocket damage";
+							return "로켓공격의 피해량이 15% 만큼 증가합니다";
 						case 1549:
-							return "13% increased ranged critical strike chance";
+							return "원거리공격의 치명타 확률이 13% 만큼 증가합니다";
 						case 1550:
-							return "7% increased ranged critical strike chance";
+							return "원거리공격의 치명타 확률이 7% 만큼 증가합니다";
 						case 1551:
-							return "Converts Chlorophyte Bars into Shroomite Bars";
+							return "녹조류 괴를 슈루마이트괴로 바꿉니다";
 						case 1553:
-							return "50% chance to not consume ammo";
+							return "탄약을 50% 확률로 소모하지 않습니다";
 						case 1554:
 						case 1555:
 						case 1556:
@@ -15228,27 +15224,27 @@ public class LN
 						case 1588:
 							goto IL_3341;
 						case 1569:
-							return "Rapidly throw life stealing daggers";
+							return "생명을 흡수하는 단검을 빠르게 던집니다";
 						case 1571:
-							return "A powerful javelin that unleashes tiny eaters";
+							return "자그마한 먹는자를 소환하는 강력한 자벨린을 던집니다";
 						case 1572:
-							return "Summons a powerful frost hydra to spit ice at your enemies";
+							return "적에게 얼음으로 공격하는 강력한 얼어붙은 히드라를 소환합니다";
 						case 1578:
-							return "Releases bees and increases movement speed when damaged";
+							return "공격받으면 벌을 쏘고 이동속도가 대폭 향상됩니다";
 						case 1579:
-							return "The wearer can run super fast";
+							return "착용자는 엄청 빨리 달릴 수 있습니다";
 						case 1595:
-							return "Increases maximum mana by 20";
+							return "마나 최대치가 20 만큼 증가합니다";
 						case 1612:
-							return "Grants immunity to most debuffs";
+							return "대부분의 상태이상에 면역을 가집니다";
 						case 1613:
-							return "Grants immunity to knockback and fire blocks";
+							return "넉백과 뜨거운 블럭에 면역이 생깁니다";
 						default:
 							if (l != 1724)
 							{
 								goto IL_A9EF;
 							}
-							return "Allows the holder to double jump";
+							return "착용자는 더블점프를 사용할 수 있습니다";
 						}
 					}
 					else
@@ -15256,20 +15252,20 @@ public class LN
 						switch (l)
 						{
 						case 1767:
-							return "To me it look like a leprechaun to me";
+							return "레프라훈 같이 생겼는데?";
 						case 1768:
-							return "I just wanna know where the gold at!";
+							return "금은 도데체 어디있는거야!";
 						case 1769:
-							return "I want the gold. I want the gold. I want the gold. Gimme the gold!";
+							return "금을원해. 금을원해. 금을원해. 금을 내놔!";
 						default:
 							if (l == 1774)
 							{
-								return "Right click to open";
+								return "우클릭으로 열기";
 							}
 							switch (l)
 							{
 							case 1782:
-								return "33% chance to not consume ammo";
+								return "탄약을 33% 확률로 소비하지 않습니다";
 							case 1783:
 							case 1784:
 							case 1785:
@@ -15285,34 +15281,34 @@ public class LN
 							case 1800:
 							case 1808:
 								goto IL_A9EF;
-							case 1786:
-								return "Allows the collection of hay from grass";
+							case 1786: 
+								return "";
 							case 1787:
-								return "Minor improvements to all stats";
+								return "모든 스텟이 소폭 향상됩니다";
 							case 1797:
-								return "Allows flight and slow fall";
+								return "비행과 낙하속도 감소를 가능케 합니다";
 							case 1798:
-								return "Summons a pet spider";
+								return "애완용 거미를 소환합니다";
 							case 1799:
-								return "Summons a pet squashling";
+								return "애완용 스쿼실링을 소환합니다";
 							case 1801:
-								return "Summons bats to attack your enemies";
+								return "적을 공격하는 박쥐들을 소환합니다";
 							case 1802:
-								return "Summons a raven to fight for you";
+								return "적을 공격하는 까마귀를 소환합니다";
 							case 1803:
-								return "Used for crafting a Jungle Key";
+								return "정글 열쇠를 만드는데 필요합니다";
 							case 1804:
-								return "Used for crafting a Corruption Key";
+								return "타락한 열쇠를 만드는데 필요합니다";
 							case 1805:
-								return "Used for crafting a Crimson Key";
+								return "진홍색 열쇠를 만드는데 필요합니다";
 							case 1806:
-								return "Used for crafting a Hallowed Key";
+								return "신성한 열쇠를 만드는데 필요합니다";
 							case 1807:
-								return "Used for crafting a Frozen Key";
+								return "얼어붙은 열쇠를 만드는데 필요합니다";
 							case 1809:
-								return "Best used for pranking townsfolk";
+								return "주민들에게 장난을 치는데 이게 딱이죠!";
 							case 1810:
-								return "Summons a black kitty";
+								return "애완용 검은 고양이를 소환합니다";
 							default:
 								goto IL_A9EF;
 							}
@@ -15325,26 +15321,26 @@ public class LN
 					switch (l)
 					{
 					case 1826:
-						return "Summons Pumpkin heads to attack your enemies";
+						return "적을 공격하는 호박 머리들을 소환합니다";
 					case 1827:
 					case 1828:
 					case 1829:
 					case 1831:
 						goto IL_A9EF;
 					case 1830:
-						return "Allows flight and slow fall";
+						return "비행과 낙하속도 감소를 가능케 합니다";
 					case 1832:
-						return "Increases your max number of minions";
+						return "소환수의 최대수가 증가합니다";
 					case 1833:
-						return "Increases your max number of minions";
+						return "소환수의 최대수가 증가합니다";
 					case 1834:
-						return "Increases your max number of minions";
+						return "소환수의 최대수가 증가합니다";
 					default:
 						if (l != 1837)
 						{
 							goto IL_A9EF;
 						}
-						return "Summons a cursed sapling to follow you";
+						return "당신을 따라다니는 저주받은 묘목을 소환합니다";
 					}
 				}
 				else
@@ -15352,45 +15348,45 @@ public class LN
 					switch (l)
 					{
 					case 1844:
-						return "Summons the Pumpkin Moon";
+						return "호박 달을 소환합니다";
 					case 1845:
-						return "Increases your max number of minions";
+						return "소환수의 최대수가 증가합니다";
 					default:
 						switch (l)
 						{
 						case 1858:
-							return "Increases view range for guns (right click to zoom out)";
+							return "총을 착용할 경우 시야를 늘려줍니다 (우클릭으로 사용)";
 						case 1859:
 						case 1867:
 						case 1868:
 							goto IL_A9EF;
 						case 1860:
-							return "Grants the ability to swim and greatly extends underwater breathing";
+							return "수영을 가능케 하고 잠수 능력이 대폭 상승됩니다";
 						case 1861:
-							return "Grants the ability to swim and greatly extends underwater breathing";
+							return "수영을 가능케 하고 잠수 능력이 대폭 상승됩니다";
 						case 1862:
-							return "Allows flight, super fast running, and extra mobility on ice";
+							return "비행을 가능케하고, 엄청 빨리 달릴 수 있으며, 얼음 위에서 기동성이 증가합니다";
 						case 1863:
-							return "Allows the holder to double jump";
+							return "착용자는 더블점프를 사용할 수 있습니다";
 						case 1864:
-							return "Increases your max number of minions";
+							return "소환수의 최대수가 증가합니다";
 						case 1865:
-							return "Minor increase to damage, melee speed, critical strike chance,";
+							return "피해량, 근접 공격속도와 치명타 확률이 소폭 상승합니다,";
 						case 1866:
-							return "Allows flight and slow fall";
+							return "비행과 낙하속도 감소를 가능케 합니다";
 						case 1869:
-							return "Right click to open";
+							return "우클릭으로 열기";
 						case 1870:
-							return "'Don't shoot your eye out!'";
+							return "'총구를 똑바로 바라보지 마세요!'";
 						case 1871:
-							return "Allows flight and slow fall";
+							return "비행과 낙하속도 감소를 가능케 합니다";
 						default:
 							switch (l)
 							{
 							case 1910:
-								return "Uses gel for ammo";
+								return "젤을 탄약으로 사용합니다";
 							case 1911:
-								return "Minor improvements to all stats";
+								return "모든 스텟이 소폭 향상됩니다";
 							case 1912:
 							case 1913:
 							case 1915:
@@ -15401,29 +15397,29 @@ public class LN
 							case 1926:
 								goto IL_A9EF;
 							case 1914:
-								return "Summons a rideable reindeer";
+								return "탈 수 있는 사슴을 소환합니다";
 							case 1917:
-								return "Can mine Meteorite";
+								return "운석을 채광할 수 있습니다";
 							case 1919:
-								return "Minor improvements to all stats";
+								return "모든 스텟이 소폭 향상됩니다";
 							case 1920:
-								return "Minor improvements to all stats";
+								return "모든 스텟이 소폭 향상됩니다";
 							case 1921:
-								return "Provides immunity to chill and freezing effects";
+								return "얼어붙음과 추움에 면역이 생깁니다";
 							case 1922:
-								return "'You've been naughty this year'";
+								return "'넌 이번 해에는 착하게 굴지 않았어'";
 							case 1923:
-								return "Increases item placement and tool range by 1";
+								return "블럭 배치 사거리와 도구 사용 거리가 1 늘어납니다";
 							case 1927:
-								return "Summons a Puppy";
+								return "애완용 강아지를 소환합니다";
 							case 1928:
-								return "Shoots Christmas ornaments";
+								return "크리스마스 장식을 쏘아냅니다";
 							case 1929:
-								return "50% chance to not consume ammo";
+								return "탄약을 50% 확률로 소모하지 않습니다";
 							case 1930:
-								return "Shoots razor sharp pine needles";
+								return "날카로운 솔잎을 쏘아냅니다";
 							case 1931:
-								return "Showers an area with icicles";
+								return "고드름 비를 쏟아냅니다";
 							default:
 								goto IL_A9EF;
 							}
@@ -15440,16 +15436,16 @@ public class LN
 					switch (l)
 					{
 					case 1946:
-						return "Launches homing missiles";
+						return "유도성 미사일을 쏘아냅니다";
 					case 1947:
-						return "Shoots an icy spear that rains snowflakes";
+						return "눈꽃이 떨어지는 얼음창을 던집니다";
 					default:
 						switch (l)
 						{
 						case 1958:
-							return "Summons the Frost Moon";
+							return "얼어붙은 달을 소환합니다";
 						case 1959:
-							return "Summons a Baby Grinch";
+							return "새끼 그린치를 소환합니다";
 						default:
 							goto IL_A9EF;
 						}
@@ -15460,12 +15456,12 @@ public class LN
 				{
 					if (l == 1988)
 					{
-						return "'Fezzes are cool'";
+						return "'페즈 모자들은 정말 멋져!'";
 					}
 					switch (l)
 					{
 					case 2172:
-						return "Used for advanced crafting";
+						return "향상된 조합에 쓰입니다";
 					case 2173:
 					case 2174:
 					case 2175:
@@ -15484,59 +15480,59 @@ public class LN
 					case 2191:
 						goto IL_A9EF;
 					case 2177:
-						return "Reduces ammo usage by 20%";
+						return "탄약을 20%만큼 사용하지 않습니다";
 					case 2188:
-						return "Shoots a venom fang that pierces multiple enemies";
+						return "적들을 관통하는 독 송곳니를 쏩니다";
 					case 2189:
-						return "Increases maximum mana by 60 and reduces mana usage by 13%";
+						return "마나 최대치가 60 만큼 증가하고 마나소모가 13% 만큼 감소합니다";
 					case 2192:
-						return "Used for special crafting";
+						return "특별한 조합에 사용됩니다";
 					case 2193:
-						return "Used for special crafting";
+						return "특별한 조합에 사용됩니다";
 					case 2194:
-						return "Used for special crafting";
+						return "특별한 조합에 사용됩니다";
 					case 2195:
-						return "Used for special crafting";
+						return "특별한 조합에 사용됩니다";
 					case 2196:
-						return "Used for special crafting";
+						return "특별한 조합에 사용됩니다";
 					case 2197:
-						return "Used for special crafting";
+						return "특별한 조합에 사용됩니다";
 					case 2198:
-						return "Used for special crafting";
+						return "특별한 조합에 사용됩니다";
 					case 2199:
-						return "6% increased melee damage";
+						return "근접공격 피해량이 6% 만큼 증가합니다";
 					case 2200:
-						return "8% increased melee damage and critical strike chance";
+						return "근접공격 피해량과 치명타 확률이 8% 만큼 증가합니다";
 					case 2201:
-						return "5% increased melee damage and critical strike chance";
+						return "근접공격 피해량과 치명타 확률이 5% 만큼 증가합니다";
 					case 2202:
-						return "6% increased movement and melee speed";
+						return "이동속도와 근접공격 속도가 6% 만큼 증가합니다";
 					case 2203:
-						return "Used for special crafting";
+						return "특별한 조합에 사용됩니다";
 					case 2204:
-						return "Used for special crafting";
+						return "특별한 조합에 사용됩니다";
 					default:
 						switch (l)
 						{
 						case 2214:
-							return "Increases tile placement speed";
+							return "블럭 배치속도가 대폭 상승합니다";
 						case 2215:
-							return "Increases tile reach";
+							return "블럭 배치 사거리가 상승합니다";
 						case 2216:
-							return "Automatically paints placed objects";
+							return "자동으로 설치된 물건을 칠합니다";
 						case 2217:
-							return "Increases wall placement speed";
+							return "벽 배치속도가 대폭 상승합니다";
 						case 2218:
 						case 2222:
 							goto IL_A9EF;
 						case 2219:
-							return "Increases pickup range for mana stars";
+							return "마나별 획득 사거리가 증가합니다";
 						case 2220:
-							return "Increases pickup range for mana stars";
+							return "마나별 획득 사거리가 증가합니다";
 						case 2221:
-							return "Increases pickup range for mana stars";
+							return "마나별 획득 사거리가 증가합니다";
 						case 2223:
-							return "Shoots a charged arrow";
+							return "차지된 화살을 발사합니다";
 						default:
 							goto IL_A9EF;
 						}
@@ -15549,9 +15545,9 @@ public class LN
 				switch (l)
 				{
 				case 2267:
-					return "Minor improvements to all stats";
+					return "모든 스텟이 소폭 향상됩니다";
 				case 2268:
-					return "Minor improvements to all stats";
+					return "모든 스텟이 소폭 향상됩니다";
 				case 2269:
 				case 2271:
 				case 2273:
@@ -15560,22 +15556,22 @@ public class LN
 				case 2278:
 					goto IL_A9EF;
 				case 2270:
-					return "50% chance to not consume ammo";
+					return "탄약을 50% 확률로 쏘지 앟ㄴ습니다";
 				case 2272:
-					return "Squirts a harmless stream of water";
+					return "피해가 없는 물줄기를 찍 발사합니다";
 				case 2275:
-					return "7% increased magic damage and critical strike chance";
+					return "마법공격 피해량과 치명타 확률이 7% 만큼 증가합니다";
 				case 2277:
-					return "5% increased damage and critical strike chance";
+					return "피해량과 치명타 확률이 5% 만큼 증가합니다";
 				case 2279:
-					return "6% increased magic damage and critical strike chance";
+					return "마법 공격 피해량과 치명타 확률이 6% 만큼 증가합니다";
 				case 2280:
-					return "Allows flight and slow fall";
+					return "비행과 낙하속도 감소를 가능케 합니다";
 				default:
 					switch (l)
 					{
 					case 2302:
-						return "'Its colorful scales could sell well.'";
+						return "'그 화려한 비늘들 말인데 잘 팔리겠네요'";
 					case 2303:
 					case 2304:
 					case 2305:
@@ -15608,114 +15604,114 @@ public class LN
 					case 2360:
 						goto IL_A9EF;
 					case 2308:
-						return "Quite shiny.  This will probably sell well.";
+						return "꽤 빛나는데.. 잘 팔리겠는데요";
 					case 2322:
-						return "Increases mining speed by 25%";
+						return "채굴 속도가 25% 만큼 증가합니다";
 					case 2323:
-						return "Increases pickup range for life hearts";
+						return "생명의 하트를 획득하는 사거리가 늘어납니다";
 					case 2324:
-						return "Reduces enemy aggression";
+						return "적의 공격성이 감소합니다";
 					case 2325:
-						return "Increases placement speed and range";
+						return "설치 속도와 거리가 증가합니다";
 					case 2326:
-						return "Increases knockback";
+						return "넉백이 증가합니다";
 					case 2327:
-						return "Lets you move swiftly in liquids";
+						return "물 속에서 민첩하게 움직일 수 있습니다";
 					case 2328:
-						return "Increases your max number of minions";
+						return "소환수의 최대수가 증가합니다";
 					case 2329:
-						return "Allows you to see nearby danger sources";
+						return "주변의 위험 요소를 볼 수 있게 합니다";
 					case 2334:
-						return "Right click to open";
+						return "우클릭으로 열기";
 					case 2335:
-						return "Right click to open";
+						return "우클릭으로 열기";
 					case 2336:
-						return "Right click to open";
+						return "우클릭으로 열기";
 					case 2340:
-						return "Hammer end piece to change bumper style";
+						return "끝부분을 망치질하여 스타일을 바꿀 수 있습니다";
 					case 2343:
-						return "Let's ride the rails";
+						return "철도를 타자!";
 					case 2344:
-						return "20% chance to not consume ammo";
+						return "탄약이 20% 확률로 소모되지 않습니다";
 					case 2345:
-						return "Increases max life by 20%";
+						return "생명력이 일시적으로 20% 증가합니다";
 					case 2346:
-						return "Reduces damage taken by 10%";
+						return "받는 피해량이 10% 감소합니다";
 					case 2347:
-						return "Increases critical chance by 10%";
+						return "치명타 확률이 10% 증가합니다";
 					case 2348:
-						return "Ignites nearby enemies";
+						return "주변 적들을 점화시킵니다";
 					case 2349:
-						return "Increases damage by 10%";
+						return "주는 피해량이 10% 증가합니다";
 					case 2350:
-						return "Teleports you home";
+						return "집으로 순간이동합니다";
 					case 2351:
-						return "Teleports you to a random location";
+						return "무작위 위치로 순간이동시킵니다";
 					case 2352:
-						return "Throw this to make someone fall in love";
+						return "누군가를 사랑에 빠지게 하세요";
 					case 2353:
-						return "Throw this to make someone smell terrible";
+						return "누군가를 냄새나게 하세요";
 					case 2354:
-						return "Increases fishing skill";
+						return "낚시 기술이 향상됩니다";
 					case 2355:
-						return "Detects hooked fish";
+						return "무엇이 낚였는지 표시합니다";
 					case 2356:
-						return "Increases chance to get a crate";
+						return "상자를 낚을 확률이 증가합니다";
 					case 2359:
-						return "Reduces damage from cold sources";
+						return "차가운 근원에서 온 피해가 감소합니다";
 					case 2361:
-						return "Increases minion damage by 4%";
+						return "소환수 피해량이 4% 만큼 증가합니다";
 					case 2362:
-						return "Increases minion damage by 4%";
+						return "소환수 피해량이 4% 만큼 증가합니다";
 					case 2363:
-						return "Increases minion damage by 5%";
+						return "소환수 피해량이 5% 만큼 증가합니다";
 					case 2364:
-						return "Summons a hornet to fight for you";
+						return "적을 공격하는 말벌을 소환합니다";
 					case 2365:
-						return "Summons an imp to fight for you";
+						return "적을 공격하는 도깨비를 소환합니다";
 					case 2366:
-						return "Summons a spider queen to spit eggs at your enemies";
+						return "적에게 알을 뱉어 공격하는 여왕거미를 소환합니다";
 					case 2367:
-						return "Increases fishing level";
+						return "낚시 능력이 향상됩니다";
 					case 2368:
-						return "Increases fishing level";
+						return "낚시 능력이 향상됩니다";
 					case 2369:
-						return "Increases fishing level";
+						return "낚시 능력이 향상됩니다";
 					case 2370:
-						return "Increases your max number of minions";
+						return "소환수의 최대수가 증가합니다";
 					case 2371:
-						return "Increases your max number of minions";
+						return "소환수의 최대수가 증가합니다";
 					case 2372:
-						return "Increases your max number of minions";
+						return "소환수의 최대수가 증가합니다";
 					case 2373:
-						return "Fishing line will never break";
+						return "낚싯줄이 끊어지지 않습니다";
 					case 2374:
-						return "Increases fishing skill";
+						return "낚시 능력이 향상됩니다";
 					case 2375:
-						return "Decreases chance of bait consumption";
+						return "미끼가 소모될 확률이 감소합니다";
 					default:
 						switch (l)
 						{
 						case 2420:
-							return "Summons a pet Zephyr Fish";
+							return "산들바람 물고기를 소환합니다";
 						case 2421:
 						case 2422:
 						case 2424:
 							goto IL_A9EF;
 						case 2423:
-							return "Increases jump speed and allows auto-jump";
+							return "점프 속도를 늘이며 자동점프가 가능케 합니다";
 						case 2425:
-							return "Minor improvements to all stats";
+							return "모든 스텟이 소폭 향상됩니다";
 						case 2426:
-							return "Minor improvements to all stats";
+							return "모든 스텟이 소폭 향상됩니다";
 						case 2427:
-							return "Minor improvements to all stats";
+							return "모든 스텟이 소폭 향상됩니다";
 						case 2428:
-							return "Summons a rideable Bunny mount";
+							return "탈 수 있는 토끼를 소환합니다";
 						case 2429:
-							return "Summons a rideable Pigron mount";
+							return "탈 수 있는 피그론을 소환합니다";
 						case 2430:
-							return "Summons a rideable Slime mount";
+							return "탈 수 있는 슬라임을 소환합니다";
 						default:
 							goto IL_A9EF;
 						}
@@ -15729,31 +15725,31 @@ public class LN
 				switch (l)
 				{
 				case 2491:
-					return "Summons a rideable Turtle mount";
+					return "탈 수 있는 거북이를 소환합니다";
 				case 2492:
-					return "Not for use on slopes";
+					return "빗면에선 사용하지 못합니다";
 				case 2493:
 					goto IL_A9EF;
 				case 2494:
-					return "Allows flight and slow fall";
+					return "비행과 낙하속도 감소를 가능케 합니다";
 				default:
 					if (l == 2502)
 					{
-						return "Summons a rideable Bee mount";
+						return "탈 수 있는 벌을 소환합니다";
 					}
 					if (l != 2535)
 					{
 						goto IL_A9EF;
 					}
-					return "Summons twins to fight for you";
+					return "적을 공격하는 쌍둥이를 소환합니다";
 				}
 			}
 			IL_21BF:
-			return "Banishes the Hallow";
+			return "신성함을 사라지게 만듭니다";
 			IL_233F:
-			return "'Tossing may be difficult.'";
+			return "'던지는게 좀 어려울껄요?'";
 			IL_3341:
-			return "'Great for impersonating devs!'";
+			return "'개발자인 척 하기 딱 좋아요!'";
 		}
 	}
 	
@@ -15772,27 +15768,27 @@ public class LN
 						{
 							if (l == 65)
 							{
-								return "'Forged with the fury of heaven'";
+								return "'천국의 분노로 제련됬어요'";
 							}
 							if (l == 98)
 							{
-								return "'Half shark, half gun, completely awesome.'";
+								return "'상어 반, 총 반, 완벽하게 엄청나죠.'";
 							}
 						}
 						else
 						{
 							if (l == 213)
 							{
-								return "Increases alchemy plant collection when used to gather";
+								return "연금술 약재를 캐는데 쓰면 더 많이 캘 수 있어요";
 							}
 							switch (l)
 							{
 							case 228:
-								return "4% increased magic critical strike chance";
+								return "마법 피해량과 치명타 확률이 4% 만큼 증가합니다";
 							case 229:
-								return "4% increased magic critical strike chance";
+								return "마법 피해량과 치명타 확률이 4% 만큼 증가합니다";
 							case 230:
-								return "4% increased magic critical strike chance";
+								return "마법 피해량과 치명타 확률이 4% 만큼 증가합니다";
 							}
 						}
 					}
@@ -15801,25 +15797,25 @@ public class LN
 						switch (l)
 						{
 						case 371:
-							return "9% increased magic critical strike chance";
+							return "마법 피해량과 치명타 확률이 9% 만큼 증가합니다";
 						case 372:
-							return "12% increased melee speed";
+							return "근접공격 속도가 12% 만큼 증가합니다";
 						case 373:
-							return "6% increased ranged critical strike chance";
+							return "원거리 피해량과 치명타 확률이 6% 증가합니다";
 						case 374:
-							return "3% increased critical strike chance";
+							return "치명타 확률이 3% 만큼 증가합니다";
 						case 375:
-							return "10% increased movement speed";
+							return "이동속도가 10% 만큼 증가합니다";
 						case 376:
-							return "15% increased magic damage";
+							return "마법 공격 피해량이 15% 만큼 증가합니다";
 						case 377:
-							return "10% increased melee damage";
+							return "근접 공격 피해량이 10% 만큼 증가합니다";
 						case 378:
-							return "7% increased ranged critical strike chance";
+							return "원거리 피해량과 치명타 확률이 7% 증가합니다";
 						case 379:
-							return "5% increased damage";
+							return "피해량이 5% 만큼 증가합니다";
 						case 380:
-							return "3% increased critical strike chance";
+							return "치명타 확률이 3% 만큼 증가합니다";
 						case 381:
 						case 382:
 						case 383:
@@ -15836,31 +15832,31 @@ public class LN
 						case 403:
 							break;
 						case 389:
-							return "'Find your inner pieces'";
+							return "'내면의 평화...는 무슨'"; //원래 peace (평화) 와 piece(조각)을 이용한 말장난
 						case 394:
-							return "Greatly extends underwater breathing";
+							return "잠수 시간을 대폭 늘려줍니다";
 						case 395:
-							return "Tells the time";
+							return "시간을 알려줍니다";
 						case 396:
-							return "Grants immunity to fire blocks";
+							return "뜨거운 블럭에 면역이 생깁니다";
 						case 397:
-							return "Grants immunity to fire blocks";
+							return "뜨거운 블럭에 면역이 생깁니다";
 						case 399:
-							return "Increases jump height";
+							return "점프 높이가 증가합니다";
 						case 400:
-							return "11% increased magic damage and critical strike chance";
+							return "마법공격의 피해량과 치명타 확률이 11% 만큼 증가합니다";
 						case 401:
-							return "14% increased melee damage";
+							return "근접공격의 피해량이 14% 만큼 증가합니다";
 						case 402:
-							return "8% increased ranged critical strike chance";
+							return "원거리공격의 피해량과 치명타 확류이 8% 만큼 증가합니다";
 						case 404:
-							return "5% increased movement speed";
+							return "이동속도가 5% 만큼 증가합니다";
 						case 405:
-							return "The wearer can run super fast";
+							return "착용자는 빨리 달릴 수 있습니다";
 						default:
 							if (l == 434)
 							{
-								return "Only the first shot consumes ammo";
+								return "첫발만 탄약을 소비합니다";
 							}
 							break;
 						}
@@ -15869,20 +15865,20 @@ public class LN
 					{
 						if (l == 533)
 						{
-							return "'Minishark's older brother'";
+							return "'미니샤크의 형'";
 						}
 						switch (l)
 						{
 						case 552:
-							return "8% increased movement speed";
+							return "이동속도가 8% 만큼 증가합니다";
 						case 553:
-							return "8% increased ranged critical strike chance";
+							return "원거리 공격과 치명타 확률이 8% 만큼 증가합니다";
 						case 555:
-							return "Automatically use mana potions when needed";
+							return "마나물약이 필요할때마다 자동으로 사용됩니다";
 						case 558:
-							return "12% increased magic damage and critical strike chance";
+							return "마법 공격 피해량과 치명타 확률이 12% 만큼 증가합니다";
 						case 559:
-							return "10% increased melee haste";
+							return "근접공격 속도가 10% 만큼 증가합니다";
 						}
 					}
 				}
@@ -15892,11 +15888,11 @@ public class LN
 					{
 						if (l == 686)
 						{
-							return "7% increased melee attack speed";
+							return "근접공격 속도가 7% 증가합니다";
 						}
 						if (l == 748)
 						{
-							return "Hold UP to rocket faster";
+							return "'위'키를 눌러 재빨리 올라가세요";
 						}
 					}
 					else
@@ -15904,40 +15900,40 @@ public class LN
 						switch (l)
 						{
 						case 771:
-							return "Small blast radius. Will not destroy tiles";
+							return "작은 폭발력을 가지고 있습니다. 블럭은 부술 수 없습니다";
 						case 772:
-							return "Small blast radius. Will destroy tiles";
+							return "작은 폭발력을 가지고 있습니다. 블럭을 부술 수 있습니다";
 						case 773:
-							return "Large blast radius. Will not destroy tiles";
+							return "큰 폭발력을 가지고 있습니다. 블럭은 부술 수 없습니다";
 						case 774:
-							return "Large blast radius. Will destroy tiles";
+							return "큰 폭발력을 가지고 있습니다. 블럭을 부술 수 있습니다";
 						case 775:
-							return "Increases running speed";
+							return "달리는 속도가 증가합니다 ";
 						case 776:
-							return "Can mine Mythril and Orichalcum";
+							return "미스릴과 오리칼쿰을 채광할 수 있습니다";
 						case 777:
-							return "Can mine Adamantite and Titanium";
+							return "아다만타이트와 티타늄을 채광할 수 있습니다";
 						case 778:
 							break;
 						case 779:
-							return "Uses colored solution";
+							return "색 용액을 사용합니다";
 						case 780:
-							return "Spreads the Purity";
+							return "정화를 퍼뜨립니다";
 						case 781:
-							return "Spreads the Hallow";
+							return "신성함으로 물들입니다";
 						case 782:
-							return "Spreads the Corruption";
+							return "타락함을 퍼뜨립니다";
 						case 783:
-							return "Spreads Glowing Mushrooms";
+							return "발광버섯으로 물들입니다";
 						case 784:
-							return "Spreads the Crimson";
+							return "핓빛으로 물들입니다";
 						default:
 							switch (l)
 							{
 							case 897:
-								return "12% increased melee speed";
+								return "근접공격 속도가 12% 증가합니다";
 							case 898:
-								return "The wearer can run incredibly fast";
+								return "착용자는 믿을수 없을 정도로 빠르게 달릴 수 있습니다";
 							}
 							break;
 						}
@@ -15948,17 +15944,17 @@ public class LN
 					switch (l)
 					{
 					case 905:
-						return "Higher valued coins do more damage";
+						return "높은 가치의 돈은 피해량이 더 높습니다";
 					case 906:
 						break;
 					case 907:
-						return "Grants immunity to fire blocks";
+						return "뜨거운 블럭에 면역이 생깁니다";
 					case 908:
-						return "Grants immunity to fire blocks and 7 seconds of immunity to lava";
+						return "뜨거운 블럭에 면역이 생기고 용암에 7초 면역이 생깁니다";
 					default:
 						if (l == 929)
 						{
-							return "For use with cannon";
+							return "대포에 사용합니다 ";
 						}
 						break;
 					}
@@ -15968,19 +15964,19 @@ public class LN
 					switch (l)
 					{
 					case 936:
-						return "12% increased damage and melee speed";
+						return "근접공격의 피해량과 공격속도가 12% 만큼 증가합니다";
 					case 937:
 						break;
 					case 938:
-						return "Only active above 25% life";
+						return "생명력이  25% 이상일 때만 작동합니다";
 					default:
 						if (l == 950)
 						{
-							return "Ice will not break when you fall on it";
+							return "얼음 위에 떨어져도 부서지지 않습니다";
 						}
 						if (l == 953)
 						{
-							return "Improved ability if combined with Shoe Spikes";
+							return "못박힌 신발과 함께 사용하면 효과가 상승합니다";
 						}
 						break;
 					}
@@ -15995,18 +15991,18 @@ public class LN
 						switch (l)
 						{
 						case 960:
-							return "4% increased magic critical strike chance";
+							return "마법 피해량과 치명타 확률이 4% 만큼 증가합니다";
 						case 961:
-							return "4% increased magic critical strike chance";
+							return "마법 피해량과 치명타 확률이 4% 만큼 증가합니다";
 						case 962:
-							return "4% increased magic critical strike chance";
+							return "마법 피해량과 치명타 확률이 4% 만큼 증가합니다";
 						default:
 							switch (l)
 							{
 							case 975:
-								return "Improved ability if combined with Climbing Claws";
+								return "등산용 발톱과 함께 사용하면 효과과 상승됩니다";
 							case 977:
-								return "Double tap a direction";
+								return "방향키를 두번 누르세요";
 							}
 							break;
 						}
@@ -16016,26 +16012,26 @@ public class LN
 						switch (l)
 						{
 						case 982:
-							return "Increases mana regeneration rate";
+							return "마나 회복력을 증가시킵니다";
 						case 983:
-							return "Increases jump height";
+							return "점프 높이가 증가합니다";
 						case 984:
-							return "Gives a chance to dodge attacks";
+							return "일정 확률로 공격을 회피할수 있습니다";
 						default:
 							switch (l)
 							{
 							case 997:
-								return "'To use: Place silt/slush/fossils in the extractinator'";
+								return "'사용법: 모래덩어리/진창/화석을 추출기에 설치하십시오'";
 							case 1001:
-								return "6% increased melee critical strike chance";
+								return "근접 공격 치명타 확률이 6% 만큼 증가합니다";
 							case 1002:
-								return "20% chance to not consume ammo";
+								return "탄약을 20% 확률로 사용하지 않습니다";
 							case 1003:
-								return "16% increased magic damage";
+								return "마법공격 피해량이 16% 만큼 증가합니다";
 							case 1004:
-								return "7% increased critical strike chance";
+								return "치명타 확률이 7% 만큼 증가합니다";
 							case 1005:
-								return "5% increased movement speed";
+								return "이동속도가 5% 만큼 증가합니다";
 							}
 							break;
 						}
@@ -16045,11 +16041,11 @@ public class LN
 				{
 					if (l == 1123)
 					{
-						return "Small chance to cause confusion";
+						return "혼란을 일으킬 확률이 조금 있습니다";
 					}
 					if (l == 1131)
 					{
-						return "Press UP to change gravity";
+						return "'위'키를 눌러 중력을 바꾸세요";
 					}
 				}
 				else
@@ -16057,66 +16053,66 @@ public class LN
 					switch (l)
 					{
 					case 1159:
-						return "Increases minion damage by 10%";
+						return "소환수 피해량이 10% 만큼 증가합니다";
 					case 1160:
-						return "Increases minion damage by 10%";
+						return "소환수 피해량이 10% 만큼 증가합니다";
 					case 1161:
-						return "Increases minion damage by 10%";
+						return "소환수 피해량이 10% 만큼 증가합니다";
 					case 1162:
 					case 1165:
 					case 1166:
 						break;
 					case 1163:
-						return "Increases jump height";
+						return "점프 높이가 증가합니다";
 					case 1164:
-						return "Increases jump height";
+						return "점프 높이가 증가합니다";
 					case 1167:
-						return "Increases the knockback of your minions";
+						return "소환수의 넉백을 증가시킵니다";
 					default:
 						switch (l)
 						{
 						case 1205:
-							return "12% increased melee speed";
+							return "근접공격 속도가 12% 만큼 증가합니다";
 						case 1206:
-							return "9% increased ranged critical strike chance";
+							return "치명타 확률이 9% 만큼 증가합니다";
 						case 1207:
-							return "Increases maximum mana by 60";
+							return "마나 최대치가 60 만큼 증가합니다";
 						case 1208:
-							return "2% increased critical strike chance";
+							return "치명타 확률이 2% 만큼 증가합니다";
 						case 1209:
-							return "1% increased critical strike chance";
+							return "치명타 확률이 1% 만큼 증가합니다";
 						case 1210:
-							return "7% increased movement and melee speed";
+							return "이동속도와 근접공격 속도가 7% 만큼 증가합니다";
 						case 1211:
-							return "8% increased movement speed";
+							return "이동속도가 8% 만큼 증가합니다";
 						case 1212:
-							return "Increases maximum mana by 80";
+							return "마나 최대치가 80 만큼 증가합니다";
 						case 1213:
 						case 1214:
 							break;
 						case 1215:
-							return "8% increased melee speed";
+							return "이동속도가 8% 만큼 증가합니다";
 						case 1216:
-							return "7% increased ranged critical strike chance";
+							return "원거리 피해량과 치명타 확률이 7% 증가합니다";
 						case 1217:
-							return "Increases maximum mana by 100";
+							return "마나 최대량이 100 만큼 증가합니다";
 						case 1218:
-							return "3% increased critical strike chance";
+							return "치명타 확률이 3% 만큼 증가합니다";
 						case 1219:
-							return "6% increased movement speed";
+							return "이동속도가 6% 만큼 증가합니다";
 						default:
 							switch (l)
 							{
 							case 1249:
-								return "Releases bees when damaged";
+								return "피해를 받으면 벌들을 쏩니다";
 							case 1250:
-								return "Increases jump height and negates fall damage";
+								return "점프 높이가 증가하고 낙하 피해가 무효화됩니다";
 							case 1251:
-								return "Increases jump height and negates fall damage";
+								return "점프 높이가 증가하고 낙하 피해가 무효화됩니다";
 							case 1252:
-								return "Increases jump height and negates fall damage";
+								return "점프 높이가 증가하고 낙하 피해가 무효화됩니다";
 							case 1254:
-								return "Right click to zoom out";
+								return "우클릭으로 축소하세요";
 							}
 							break;
 						}
@@ -16131,21 +16127,21 @@ public class LN
 					switch (l)
 					{
 					case 1282:
-						return "Reduces mana usage by 5%";
+						return "마나 소모가 5% 만큼 감소합니다";
 					case 1283:
-						return "Reduces mana usage by 7%";
+						return "마나 소모가 7% 만큼 감소합니다";
 					case 1284:
-						return "Reduces mana usage by 9%";
+						return "마나 소모가 9% 만큼 감소합니다";
 					case 1285:
-						return "Reduces mana usage by 11%";
+						return "마나 소모가 11% 만큼 감소합니다";
 					case 1286:
-						return "Reduces mana usage by 13%";
+						return "마나 소모가 13% 만큼 감소합니다";
 					case 1287:
-						return "Reduces mana usage by 15%";
+						return "마나 소모가 15% 만큼 감소합니다";
 					default:
 						if (l == 1295)
 						{
-							return "'Oolaa!!'";
+							return "'올라!!'";
 						}
 						break;
 					}
@@ -16155,20 +16151,20 @@ public class LN
 					switch (l)
 					{
 					case 1300:
-						return "Right click to zoom out";
+						return "우클릭으로 축소하세요";
 					case 1301:
-						return "8% increased critical strike chance";
+						return "치명타 확률이 8% 만큼 증가합니다";
 					default:
 						switch (l)
 						{
 						case 1316:
-							return "Enemies are more likely to target you";
+							return "적들이 목표로 삼을 확률이 늘어납니다";
 						case 1317:
-							return "Enemies are more likely to target you";
+							return "적들이 목표로 삼을 확률이 늘어납니다";
 						case 1318:
-							return "Enemies are more likely to target you";
+							return "적들이 목표로 삼을 확률이 늘어납니다";
 						case 1321:
-							return "20% chance to not consume arrows";
+							return "화살을 20% 확률로 소비하지 않습니다";
 						}
 						break;
 					}
@@ -16179,7 +16175,7 @@ public class LN
 				switch (l)
 				{
 				case 1336:
-					return "Decreases target's defense";
+					return "목표의 방어력을 떨어뜨립니다";
 				case 1337:
 				case 1344:
 				case 1345:
@@ -16188,43 +16184,43 @@ public class LN
 				case 1348:
 					break;
 				case 1338:
-					return "For use with bunny cannon";
+					return "토끼 대포에 쓰입니다";
 				case 1339:
-					return "'Extremely toxic'";
+					return "'매우 독함'";
 				case 1340:
-					return "Melee attacks inflict Venom on enemies";
+					return "근접 공격이 적을 맹독으로 중독시킵니다";
 				case 1341:
-					return "Inflicts target with Venom";
+					return "적을 맹독으로 중독시킵니다";
 				case 1342:
-					return "Inflicts target with Venom";
+					return "적을 맹독으로 중독시킵니다";
 				case 1343:
-					return "10% increased melee damage and speed";
+					return "근접공격 속도와 이동속도가 10% 만큼 증가합니다";
 				case 1349:
-					return "Explodes into confetti on impact";
+					return "충격에 터지며 꽃가루를 뿌립니다";
 				case 1350:
-					return "Causes confusion";
+					return "혼란을 일으킵니다";
 				case 1351:
-					return "Explodes on impact";
+					return "충격에 터집니다";
 				case 1352:
-					return "Enemies killed will drop more money";
+					return "적들이 죽으면 돈을 더 떨어뜨릴것입니다";
 				case 1353:
-					return "Melee attacks inflict enemies with cursed flames";
+					return "근접공격이 저주받은 불꽃을 일으킵니다";
 				case 1354:
-					return "Melee attacks set enemies on fire";
+					return "근접공격이 적에 불을 붙입니다";
 				case 1355:
-					return "Melee attacks make enemies drop more gold";
+					return "근접공격이 적의 돈을 더 떨어뜨립니다";
 				case 1356:
-					return "Melee attacks decrease enemies defense";
+					return "근접공격이 적의 방어력을 낮춥니다";
 				case 1357:
-					return "Melee attacks confuse enemies";
+					return "근접공격이 적을 혼란시킵니다";
 				case 1358:
-					return "Melee attacks cause confetti to appear";
+					return "근접공격이 꽃가루를 뿌립니다";
 				case 1359:
-					return "Melee attacks poison enemies";
+					return "근접공격이 적을 중독시킵니다";
 				default:
 					if (l == 1505)
 					{
-						return "8% increased movement speed";
+						return "이동속도가 8% 증가합니다";
 					}
 					break;
 				}
@@ -16234,28 +16230,28 @@ public class LN
 				switch (l)
 				{
 				case 1546:
-					return "5% increased ranged critical strike chance";
+					return "원거리 피해량과 치명타 확률이 5% 만큼 증가합니다";
 				case 1547:
-					return "5% increased ranged critical strike chance";
+					return "원거리 피해량과 치명타 확률이 5% 만큼 증가합니다";
 				case 1548:
-					return "5% increased ranged critical strike chance";
+					return "원거리 피해량과 치명타 확률이 5% 만큼 증가합니다";
 				case 1549:
-					return "20% chance to not consume ammo";
+					return "탄약을 20% 확률로 소모하지 않습니다";
 				case 1550:
-					return "12% increased movement speed";
+					return "이동속도가 12% 만큼 증가합니다";
 				case 1551:
 				case 1552:
 					break;
 				case 1553:
-					return "'It came from the edge of space'";
+					return "'우주의 끝에서 왔습니다'";
 				default:
 					if (l == 1595)
 					{
-						return "Restores mana when damaged";
+						return "피해를 입으면 마나가 회복됩니다";
 					}
 					if (l == 1613)
 					{
-						return "Grants immunity to most debuffs";
+						return "많은 상태이상에 면역이 생깁니다";
 					}
 					break;
 				}
@@ -16272,15 +16268,15 @@ public class LN
 						switch (l)
 						{
 						case 1832:
-							return "Increases minion damage by 11%";
+							return "소환수 피해량이 11% 만큼 증가합니다";
 						case 1833:
-							return "Increases minion damage by 11%";
+							return "소환수 피해량이 11% 만큼 증가합니다";
 						case 1834:
-							return "Increases minion damage by 11%";
+							return "소환수 피해량이 11% 만큼 증가합니다";
 						default:
 							if (l == 1845)
 							{
-								return "Increases minion damage by 10%";
+								return "소환수 피해량이 10% 만큼 증가합니다";
 							}
 							break;
 						}
@@ -16290,27 +16286,27 @@ public class LN
 						switch (l)
 						{
 						case 1858:
-							return "10% increased ranged damage and critical strike chance";
+							return "원거리공격의 피해량과 치명타 확률이 10% 만큼 늘어납니다";
 						case 1859:
 							break;
 						case 1860:
-							return "Provides light under water";
+							return "수중에서 빛을 발합니다";
 						case 1861:
-							return "Provides light under water and extra mobility on ice";
+							return "수중에서 빛을 발하고 얼음 위에서 기동성이 증가합니다";
 						case 1862:
-							return "7% increased movement speed";
+							return "이동속도가 7% 증가합니다";
 						case 1863:
-							return "Increases jump height";
+							return "점프 높이가 증가합니다";
 						case 1864:
-							return "Increases the damage and knockback of your minions";
+							return "소환수의 피해량과 넉백을 늘려줍니다";
 						case 1865:
-							return "life regeneration, defense, pick speed, and minion knockback";
+							return "생명 회복력, 방어력, 줍는 속도, 그리고 소환수 넉백까지";
 						case 1866:
-							return "Hold DOWN and JUMP to hover";
+							return "아래키를 누르고 점프를 하면 허공을 날 수 있습니다";
 						default:
 							if (l == 2189)
 							{
-								return "5% increased magic damage and critical strike chance";
+								return "마법공격 피해량과 치명타 확률이 5% 만큼 증가합니다 ";
 							}
 							break;
 						}
@@ -16321,20 +16317,20 @@ public class LN
 					switch (l)
 					{
 					case 2199:
-						return "Enemies are more likely to target you";
+						return "적들이 목표로 삼을 확률이 늘어납니다";
 					case 2200:
-						return "6% increased movement and melee speed";
+						return "이동속도와 물리공격속도가 6% 만큼 증가합니다";
 					case 2201:
-						return "Enemies are more likely to target you";
+						return "적들이 목표로 삼을 확률이 늘어납니다";
 					case 2202:
-						return "Enemies are more likely to target you";
+						return "적들이 목표로 삼을 확률이 늘어납니다";
 					default:
 						switch (l)
 						{
 						case 2220:
-							return "15% increased magic damage";
+							return "마법공격 피해량이 15% 만큼 증가합니다";
 						case 2221:
-							return "Restores mana when damaged";
+							return "공격을 받으면 마나가 회복됩니다";
 						}
 						break;
 					}
@@ -16343,20 +16339,20 @@ public class LN
 				{
 					if (l == 2270)
 					{
-						return "Highly inaccurate";
+						return "정말 부정확해요";
 					}
 					switch (l)
 					{
 					case 2277:
-						return "10% increased melee and movement speed";
+						return "근접공격 속도와 이동속도가 10% 만큼 증가합니다";
 					case 2278:
 						break;
 					case 2279:
-						return "Reduces mana usage by 10%";
+						return "마나 소모량이 10% 만큼 감소합니다 ";
 					default:
 						if (l == 2340)
 						{
-							return "Hammer intersections to change direction";
+							return "교차지점을 망치질하여 방향을 바꾸세요";
 						}
 						break;
 					}
@@ -16369,18 +16365,18 @@ public class LN
 					switch (l)
 					{
 					case 2361:
-						return "Increases your max number of minions";
+						return "소환수의 최대수가 증가합니다";
 					case 2362:
-						return "Increases your max number of minions";
+						return "소환수의 최대수가 증가합니다";
 					default:
 						switch (l)
 						{
 						case 2370:
-							return "Increases minion damage by 6%";
+							return "소환수 피해량이 6% 만큼 증가합니다";
 						case 2371:
-							return "Increases minion damage by 6%";
+							return "소환수 피해량이 6% 만큼 증가합니다";
 						case 2372:
-							return "Increases minion damage by 6%";
+							return "소환수 피해량이 6% 만큼 증가합니다";
 						}
 						break;
 					}
@@ -16389,11 +16385,11 @@ public class LN
 				{
 					if (l == 2423)
 					{
-						return "Increases fall resistance";
+						return "낙하 피해의 저항을 높입니다";
 					}
 					if (l == 2586)
 					{
-						return "'Tossing may be difficult.'";
+						return "'던지는게 꽤 까다로울껄요?'";
 					}
 				}
 			}
@@ -16401,11 +16397,11 @@ public class LN
 			{
 				if (l == 2590)
 				{
-					return "Lights nearby area on fire for a while";
+					return "어느정도 시간이 흐를동안 주변 지역에 불을 붙입니다 ";
 				}
 				if (l == 2609)
 				{
-					return "Allows quick travel in water";
+					return "수중에서 빨리 탐험할 수 있게 합니다";
 				}
 			}
 			else
@@ -16413,36 +16409,36 @@ public class LN
 				switch (l)
 				{
 				case 2757:
-					return "7% increased ranged critical strike chance";
+					return "원거리 피해량과 치명타 확률이 7% 증가합니다";
 				case 2758:
-					return "25% chance not to consume ammo";
+					return "탄약을 25% 확률로 소모하지 않습니다";
 				case 2759:
-					return "10% increased movement speed";
+					return "이동속도가 10% 만큼 증가납니다";
 				case 2760:
-					return "7% increased magic damage and critical strike chance";
+					return "마법공격의 피해량과 치명타 확률이 7% 만큼 증가납니다";
 				case 2761:
 					break;
 				case 2762:
-					return "10% increased movement speed";
+					return "이동속도가 10% 만큼 증가납니다";
 				case 2763:
-					return "Enemies are more likely to target you";
+					return "적들이 목표로 삼을 확률이 늘어납니다";
 				case 2764:
-					return "Enemies are more likely to target you";
+					return "적들이 목표로 삼을 확률이 늘어납니다";
 				case 2765:
-					return "Enemies are more likely to target you";
+					return "적들이 목표로 삼을 확률이 늘어납니다";
 				default:
 					switch (l)
 					{
 					case 2995:
-						return "'In loving memory'";
+						return "'사랑하는 기억으로'";
 					case 2996:
 						break;
 					case 2997:
-						return "Click their head on the fullscreen map";
+						return "전체화면 지도에서 다른사람의 머리를 눌러보세요";
 					default:
 						if (l == 3015)
 						{
-							return "5% increased damage and critical strike chance";
+							return "피해량과 치명타 확률이 5% 만큼 증가합니다";
 						}
 						break;
 					}
@@ -16459,13 +16455,13 @@ public class LN
 					switch (l)
 					{
 					case 3034:
-						return "Hitting enemies will sometimes drop extra coins";
+						return "적을 공격하면 추가로 동전을 획득할 확률이 증가합니다";
 					case 3035:
-						return "Hitting enemies will sometimes drop extra coins";
+						return "적을 공격하면 추가로 동전을 획득할 확률이 증가합니다";
 					default:
 						if (l == 3061)
 						{
-							return "Automatically paints placed objects";
+							return "자동으로 설치된 물건들을 색칠합니다";
 						}
 						break;
 					}
@@ -16474,11 +16470,11 @@ public class LN
 				{
 					if (l == 3085)
 					{
-						return "Requires a Golden Key";
+						return "금 열쇠가 필요합니다";
 					}
 					if (l == 3097)
 					{
-						return "Double tap a direction";
+						return "방향키를 두번 누르세요";
 					}
 				}
 			}
@@ -16486,34 +16482,34 @@ public class LN
 			{
 				if (l == 3110)
 				{
-					return "Minor increases to all stats";
+					return "모든 스탯이 소폭 상승합니다";
 				}
 				switch (l)
 				{
 				case 3115:
-					return "Very bouncy";
+					return "매우 잘 튀어요";
 				case 3116:
-					return "Very bouncy";
+					return "매우 잘 튀어요";
 				}
 			}
 			else
 			{
 				if (l == 3124)
 				{
-					return "Allows you to return home at will";
+					return "원할때 집으로 보내줍니다";
 				}
 				switch (l)
 				{
 				case 3226:
-					return "Become the wind, ride the lightning.";
+					return "바람이 되어 번개를 타거라.";
 				case 3227:
-					return "Bejeweled and elegant for soaring through the thundering skies";
+					return "보석으로 장식되어 천둥치는 번개 속에서 나아오기에 매우 우아하죠";
 				case 3228:
-					return "The Valkyrie Satellite Barrier Platform is totally safe. Most of the time.";
+					return "발키리위성방어막플랫폼은 매우 안전해요. 주로 말이에요.";
 				default:
 					if (l == 3241)
 					{
-						return "Allows the holder to double jump";
+						return "착용자는 더블점프를 사용할 수 있습니다";
 					}
 					break;
 				}
@@ -16525,30 +16521,30 @@ public class LN
 			{
 				if (l == 3245)
 				{
-					return "33% chance to not consume bone";
+					return "뼈가 33% 확률로 소모되지 않습니다";
 				}
 				switch (l)
 				{
 				case 3250:
 				case 3251:
 				case 3252:
-					return "Increases jump height and negates fall damage";
+					return "점프 높이가 증가하고 낙하 피해가 무효화됩니다";
 				}
 			}
 			else
 			{
 				if (l == 3368)
 				{
-					return "'I didn't get this off of a Schmoo'";
+					return "'정체모를 물질로 만든거 아냐!'";
 				}
 				switch (l)
 				{
 				case 3381:
-					return "Increases minion damage by 22%";
+					return "소환수 피해량이 22%만큼 증가합니다";
 				case 3382:
-					return "Increases minion damage by 22%";
+					return "소환수 피해량이 22%만큼 증가합니다";
 				case 3383:
-					return "Increases minion damage by 22%";
+					return "소환수 피해량이 22%만큼 증가합니다";
 				}
 			}
 		}
@@ -16557,16 +16553,16 @@ public class LN
 			switch (l)
 			{
 			case 3474:
-				return "'Cultivate the most beautiful cellular infection'";
+				return "'가장 아름다운 세포 감염을 구축하라'";
 			case 3475:
-				return "'The catastrophic mixture of pew pew and boom boom.'";
+				return "''피웅 피웅'과 '붐붐' 의 비극적인 혼합물'";
 			default:
 				switch (l)
 				{
 				case 3531:
-					return "'Who needs a horde of minions when you have a giant dragon?'";
+					return "'드래곤이 있다면 소환수 무리가 무슨 소용이지?'";
 				case 3532:
-					return "'Bacon? Bacon.'";
+					return "'베이컨? 베이컨.'";
 				}
 				break;
 			}
@@ -16575,30 +16571,30 @@ public class LN
 		{
 			if (l == 3571)
 			{
-				return "'The colors, Duke, the colors!'";
+				return "'색좀 보세요, 장군님! 색이요!'";
 			}
 			switch (l)
 			{
 			case 3577:
-				return "'I know what you're thinking....'";
+				return "'난 네가 무슨생각 하는지 알아...'";
 			case 3578:
 			case 3579:
 				break;
 			case 3580:
-				return "Whatever this accessory does to you is not a bug!";
+				return "이 엑세서리가 뭘 하든간에 버그는 아니에요!";
 			case 3581:
-				return "If you see this you should probably run away...";
+				return "이걸 보고 있다면 도망쳐야 할껄...";
 			default:
 				switch (l)
 				{
 				case 3589:
-					return "Disorder came from order, fear came from courage, weakness came from strength";
+					return "무질서는 질서에서 왔고, 두려움은 용기에서 왔으며, 나약함은 강함에서 나왔노라";
 				case 3590:
-					return "Know thy self, know thy enemy. A thousand battles, a thousand victories…";
+					return "지피지기면 백전백승";
 				case 3591:
-					return "Wheels of justice grind slow but grind fine.";
+					return "정의의 바퀴는 천천히 돈다.";
 				case 3592:
-					return "Let your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt.";
+					return "네 전략을 밤처럼 어둡고 눈 앞이 안보이게 하되 움직일 땐 번개처럼 빨라야 한다.";
 				}
 				break;
 			}
@@ -16616,13 +16612,13 @@ public class LN
 			text = string.Concat(new object[]
 			{
 				Main.worldName,
-				" is ",
+				" 은(는) ",
 				tGood,
-				"% hallow, ",
+				"% 만큼 신성하구요, ",
 				tEvil,
-				"% corrupt, and ",
+				"% 만큼 타락했고 ",
 				tBlood,
-				"% crimson."
+				"% 만큼 피투성이로 물들었어요."
 			});
 		}
 		else if (tGood > 0 && tEvil > 0)
@@ -16630,11 +16626,11 @@ public class LN
 			text = string.Concat(new object[]
 			{
 				Main.worldName,
-				" is ",
+				" 은(는) ",
 				tGood,
-				"% hallow and ",
+				"% 만큼 신성하구 ",
 				tEvil,
-				"% corrupt."
+				"% 만큼 타락했어요."
 			});
 		}
 		else if (tGood > 0 && tBlood > 0)
@@ -16642,11 +16638,11 @@ public class LN
 			text = string.Concat(new object[]
 			{
 				Main.worldName,
-				" is ",
+				" 은(는) ",
 				tGood,
-				"% hallow and ",
+				"% 만큼 신성하구 ",
 				tBlood,
-				"% crimson."
+				"% 만큼 피투성이에요."
 			});
 		}
 		else if (tEvil > 0 && tBlood > 0)
@@ -16654,11 +16650,11 @@ public class LN
 			text = string.Concat(new object[]
 			{
 				Main.worldName,
-				" is ",
+				" 은(는) ",
 				tEvil,
-				"% corrupt and ",
+				"% 만큼 타락했고 ",
 				tBlood,
-				"% crimson."
+				"% 만큼 피투성이에요."
 			});
 		}
 		else if (tEvil > 0)
@@ -16666,9 +16662,9 @@ public class LN
 			text = string.Concat(new object[]
 			{
 				Main.worldName,
-				" is ",
+				" 은(는) ",
 				tEvil,
-				"% corrupt."
+				"% 만큼 타락했어요."
 			});
 		}
 		else if (tBlood > 0)
@@ -16676,44 +16672,44 @@ public class LN
 			text = string.Concat(new object[]
 			{
 				Main.worldName,
-				" is ",
+				" 은(는) ",
 				tBlood,
-				"% crimson."
+				"% 만큼 피투성이에요."
 			});
 		}
 		else
 		{
 			if (tGood <= 0)
 			{
-				return Main.worldName + " is completely pure. You have done an amazing job!";
+				return Main.worldName + " 은(는) 완벽하게 순수해요! 정말 엄청난 일을 해내셨군요!";
 			}
 			text = string.Concat(new object[]
 			{
 				Main.worldName,
-				" is ",
+				" 은(는) ",
 				tGood,
-				"% hallow."
+				"% 만큼 신성으로 뒤덮여 있어요."
 			});
 		}
 		if ((double)tGood * 1.2 >= (double)(tEvil + tBlood) && (double)tGood * 0.8 <= (double)(tEvil + tBlood))
 		{
-			text += " The world is in balance.";
+			text += " 이 세계는 균형잡혀 있어요.";
 		}
 		else if (tGood >= tEvil + tBlood)
 		{
-			text += " We are living in a fairy tale.";
+			text += "우린 지금 동화의 세계에서 살고 있어요.";
 		}
 		else if (tEvil + tBlood > tGood + 20)
 		{
-			text += " Things are grim indeed...";
+			text += " 많은게 음침해요...";
 		}
 		else if (tEvil + tBlood > 10)
 		{
-			text += " You have a lot of work to do.";
+			text += " 당신 할일이 많군요.";
 		}
 		else
 		{
-			text += " You are so close!";
+			text += " 조금만 더 힘내요!";
 		}
 		return text;
 	}
@@ -16727,13 +16723,13 @@ public class LN
 			switch (Main.rand.Next(3))
 			{
 			case 0:
-				result = "Brilliant, my dear! You have brought me an exquisite sample of the world's beautiful colors and aroma. In exchange, you may take this special bottle of dye.";
+				result = "멋지군, 친구! 이 세계의 아로마와 아름다운 색들의 정교한 표본을 가져와서 고마워. 그 답례로 이 특별한 염색약을 줄게.";
 				break;
 			case 1:
-				result = "You bring me a beautiful, rare flower... yes, yes? Take this bottle of special dye for your troubles, friend!";
+				result = "아름답고, 희귀한 꽃들을 더 가져올꺼지... 그치, 그치? 그래서 말인데 이 특별한 염색약을 가져가 , 친구!";
 				break;
 			case 2:
-				result = "Fantabulous, wonderful friend! With this delicate specimen, I may mix the most amazing dyes " + Main.worldName + " has ever seen! You may take this one right away!";
+				result = "이 믿을 수 없을 만큼 훌룡하고 멋진 친구야! 이 표본이라면, 이 세상," + Main.worldName + "에서 본적도 없는 염색약을 만들 수 있겠어! 예전에 만들어 둿던걸 줄게!";
 				break;
 			}
 		}
@@ -16742,13 +16738,13 @@ public class LN
 			switch (Main.rand.Next(3))
 			{
 			case 0:
-				result = "Oh no no, this will not do.  For these money is no good, you must return to me with a rare specimen of a plant!";
+				result = "아니아니, 그건 안돼. 이 염색약들은 돈으로 가치를 매길 수 없어, 희귀한 식물 표본이라면 모를까!";
 				break;
 			case 1:
-				result = "You think you can pull a fast one on " + str + ", I don't think so! I only take the rarest of flowers for these special bottles!";
+				result = "넌 네가 " + str + " 을(를)속일 수 있을거 같아? 물론 못하지! 이 특별한 병들은 희귀한 식물이랑만 바꾼다고!";
 				break;
 			case 2:
-				result = "These dye bottles? Sorry dear friend, these don't take coin. I only take the most precious and rare of flora in exchange for one of this!";
+				result = "이 염색약들? 미안해 친구, 돈은 안받아. 귀중하고 희귀한 식물들만 받는다고!";
 				break;
 			}
 		}
